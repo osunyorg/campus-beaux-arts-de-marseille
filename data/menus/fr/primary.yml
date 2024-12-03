@@ -41,4 +41,9 @@ items:
   kind: page
   children: []
   file: content/fr/locations/_index.html
+- title: Test
+  target: "/test/"
+  kind: page
+  children: []
+  file: content/fr/pages/test/_index.html
 
