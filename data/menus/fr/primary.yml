@@ -57,11 +57,4 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
-- title: Test
-  target: "/test/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/test"
-  file: content/fr/pages/test/_index.html
 
