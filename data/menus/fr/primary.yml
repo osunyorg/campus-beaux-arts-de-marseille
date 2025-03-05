@@ -10,7 +10,14 @@ items:
     target: "/lecole-ses-engagements/nous-connaitre/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Présentation
+      target: "/lecole-ses-engagements/nous-connaitre/presentation/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/presentation"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/presentation/_index.html
     path: "/pages/lecole-ses-engagements/nous-connaitre"
     file: content/fr/pages/lecole-ses-engagements/nous-connaitre/_index.html
   path: "/pages/lecole-ses-engagements"
