@@ -17,6 +17,8 @@ fr:
     projects_categories: /projets/:slug/
     posts: /magazine/:year-:month-:day-:slug/
     posts_categories: /magazine/:slug/
+    programs_categories: /formations/categories/:slug/
+    programs: /formations/:slug/
   taxonomies:
     administrator: administrators
     author: authors
