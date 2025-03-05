@@ -43,4 +43,11 @@ items:
     file: content/fr/projects/_index.html
   path: "/pages/reseaux-internationaux-recherche"
   file: content/fr/pages/reseaux-internationaux-recherche/_index.html
+- title: Admissions
+  target: "/admissions/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/admissions"
+  file: content/fr/pages/admissions/_index.html
 
