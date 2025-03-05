@@ -17,6 +17,7 @@ fr:
     projects_categories: /projets/:slug/
     posts: /magazine/:year-:month-:day-:slug/
     posts_categories: /magazine/:slug/
+    diplomas: /diplomes/:slug/
     programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
   taxonomies:
