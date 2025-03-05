@@ -36,6 +36,13 @@ items:
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
+- title: Etudes & Professionnalisation
+  target: "/etudes-professionnalisation/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/etudes-professionnalisation"
+  file: content/fr/pages/etudes-professionnalisation/_index.html
 - title: Organisations
   target: "/organisations/"
   kind: page
@@ -71,11 +78,4 @@ items:
   children: []
   path: "/pages/relations-internationales"
   file: content/fr/pages/relations-internationales/_index.html
-- title: Etudes & Professionnalisation
-  target: "/etudes-professionnalisation/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/etudes-professionnalisation"
-  file: content/fr/pages/etudes-professionnalisation/_index.html
 
