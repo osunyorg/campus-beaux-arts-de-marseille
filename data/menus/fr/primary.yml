@@ -78,4 +78,11 @@ items:
   children: []
   path: "/pages/relations-internationales"
   file: content/fr/pages/relations-internationales/_index.html
+- title: Réseaux internationaux & recherche
+  target: "/reseaux-internationaux-recherche/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/reseaux-internationaux-recherche"
+  file: content/fr/pages/reseaux-internationaux-recherche/_index.html
 
