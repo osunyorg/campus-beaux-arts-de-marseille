@@ -4,6 +4,16 @@ items:
 - title: Espace PISOURD.E
   target: ''
   kind: url
-  new_tab: false
+  new_tab: true
+  children: []
+- title: Alumni
+  target: ''
+  kind: url
+  new_tab: true
+  children: []
+- title: Catalogue de la bibliothèque
+  target: ''
+  kind: url
+  new_tab: true
   children: []
 
