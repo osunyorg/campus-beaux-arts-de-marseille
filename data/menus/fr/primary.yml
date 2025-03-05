@@ -33,7 +33,14 @@ items:
   target: "/reseaux-internationaux-recherche/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: La recherche
+    target: "/reseaux-internationaux-recherche/la-recherche/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/projects"
+    file: content/fr/projects/_index.html
   path: "/pages/reseaux-internationaux-recherche"
   file: content/fr/pages/reseaux-internationaux-recherche/_index.html
 - title: Magazine
@@ -50,13 +57,6 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: La recherche
-  target: "/la-recherche/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/projects"
-  file: content/fr/projects/_index.html
 - title: Personnes
   target: "/personnes/"
   kind: page
