@@ -92,11 +92,4 @@ items:
   children: []
   path: "/locations"
   file: content/fr/locations/_index.html
-- title: Relations Internationales
-  target: "/relations-internationales/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/relations-internationales"
-  file: content/fr/pages/relations-internationales/_index.html
 
