@@ -165,6 +165,20 @@ items:
       children: []
       path: "/locations"
       file: content/fr/locations/_index.html
+    - title: Bourses, aides, CVEC
+      target: "/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/_index.html
+    - title: Se loger & vivre à Marseille
+      target: "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
