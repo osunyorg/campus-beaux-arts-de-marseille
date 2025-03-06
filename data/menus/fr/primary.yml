@@ -193,6 +193,20 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/_index.html
+    - title: Vie associative
+      target: "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative/_index.html
+    - title: Instances étudiantes
+      target: "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
