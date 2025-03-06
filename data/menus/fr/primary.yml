@@ -270,6 +270,13 @@ items:
       children: []
       path: "/pages/reseaux-internationaux-recherche/linternational/international-students"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/international-students/_index.html
+    - title: Mobilité internationale
+      target: "/reseaux-internationaux-recherche/linternational/mobilite-internationale/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale"
+      file: content/fr/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale/_index.html
     path: "/pages/reseaux-internationaux-recherche/linternational"
     file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
   path: "/pages/reseaux-internationaux-recherche"
