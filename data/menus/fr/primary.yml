@@ -125,7 +125,7 @@ items:
     children: []
     path: "/pages/etudes-professionnalisation/les-formations"
     file: content/fr/pages/etudes-professionnalisation/les-formations/_index.html
-  - title: La vie étudiantes
+  - title: La vie étudiante
     target: "/etudes-professionnalisation/la-vie-etudiante/"
     kind: page
     new_tab: false
