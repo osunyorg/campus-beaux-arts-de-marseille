@@ -23,6 +23,7 @@ fr:
     persons: /personnes/:slug/
     persons_categories: /personnes/categories/:slug/
     administrators: /personnes/:slug/roles/
+    authors: /personnes/:slug/magazine/
   taxonomies:
     administrator: administrators
     author: authors
