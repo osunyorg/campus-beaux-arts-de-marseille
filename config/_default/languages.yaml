@@ -13,13 +13,16 @@ fr:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
-    projects: /la-recherche/:year-:slug/
-    projects_categories: /la-recherche/:slug/
+    projects: /reseaux-internationaux-recherche/la-recherche/:year-:slug/
+    projects_categories: /reseaux-internationaux-recherche/la-recherche/:slug/
     posts: /magazine/:year-:month-:day-:slug/
     posts_categories: /magazine/:slug/
     diplomas: /diplomes/:slug/
     programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
+    persons: /personnes/:slug/
+    persons_categories: /personnes/categories/:slug/
+    administrators: /personnes/:slug/roles/
   taxonomies:
     administrator: administrators
     author: authors
