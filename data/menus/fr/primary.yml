@@ -113,7 +113,7 @@ items:
     file: content/fr/pages/lecole-ses-engagements/nos-ressources/_index.html
   path: "/pages/lecole-ses-engagements"
   file: content/fr/pages/lecole-ses-engagements/_index.html
-- title: Etudes & Professionnalisation
+- title: Études & Professionnalisation
   target: "/etudes-professionnalisation/"
   kind: page
   new_tab: false
