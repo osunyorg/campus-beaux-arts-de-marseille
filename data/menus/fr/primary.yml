@@ -130,13 +130,6 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes"
       file: content/fr/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes/_index.html
-    - title: Option art
-      target: "/formations/option-art/"
-      kind: program
-      new_tab: false
-      children: []
-      path: "/programs/option-art"
-      file: content/fr/programs/option-art/_index.html
     - title: Classe préparatoire
       target: "/formations/classe-preparatoire/"
       kind: program
@@ -144,13 +137,34 @@ items:
       children: []
       path: "/programs/classe-preparatoire"
       file: content/fr/programs/classe-preparatoire/_index.html
+    - title: Option art
+      target: "/formations/option-art/"
+      kind: program
+      new_tab: false
+      children: []
+      path: "/programs/option-art"
+      file: content/fr/programs/option-art/_index.html
+    - title: Option design
+      target: "/formations/option-design/"
+      kind: program
+      new_tab: false
+      children: []
+      path: "/programs/option-design"
+      file: content/fr/programs/option-design/_index.html
     path: "/pages/etudes-professionnalisation/les-formations"
     file: content/fr/pages/etudes-professionnalisation/les-formations/_index.html
   - title: La vie étudiante
     target: "/etudes-professionnalisation/la-vie-etudiante/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Le campus
+      target: "/campus/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/locations"
+      file: content/fr/locations/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
