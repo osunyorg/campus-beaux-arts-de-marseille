@@ -117,7 +117,14 @@ items:
   target: "/etudes-professionnalisation/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: Les formations
+    target: "/etudes-professionnalisation/les-formations/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/etudes-professionnalisation/les-formations"
+    file: content/fr/pages/etudes-professionnalisation/les-formations/_index.html
   path: "/pages/etudes-professionnalisation"
   file: content/fr/pages/etudes-professionnalisation/_index.html
 - title: Réseaux internationaux & recherche
