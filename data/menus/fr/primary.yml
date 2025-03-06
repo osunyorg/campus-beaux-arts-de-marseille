@@ -137,6 +137,13 @@ items:
       children: []
       path: "/programs/classe-preparatoire"
       file: content/fr/programs/classe-preparatoire/_index.html
+    - title: Année 1
+      target: "/formations/annee-1/"
+      kind: program
+      new_tab: false
+      children: []
+      path: "/"
+      file: 
     - title: Option art
       target: "/formations/option-art/"
       kind: program
@@ -151,13 +158,6 @@ items:
       children: []
       path: "/programs/option-design"
       file: content/fr/programs/option-design/_index.html
-    - title: Année 1
-      target: "/formations/annee-1/"
-      kind: program
-      new_tab: false
-      children: []
-      path: "/"
-      file: 
     path: "/pages/etudes-professionnalisation/les-formations"
     file: content/fr/pages/etudes-professionnalisation/les-formations/_index.html
   - title: La vie étudiante
