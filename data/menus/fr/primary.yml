@@ -67,6 +67,13 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/partenaires"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/partenaires/_index.html
+    - title: Sites satellites
+      target: "/lecole-ses-engagements/nous-connaitre/sites-satellites/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/sites-satellites"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/sites-satellites/_index.html
     path: "/pages/lecole-ses-engagements/nous-connaitre"
     file: content/fr/pages/lecole-ses-engagements/nous-connaitre/_index.html
   - title: Nos ressources
