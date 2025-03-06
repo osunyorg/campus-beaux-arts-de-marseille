@@ -284,6 +284,13 @@ items:
       children: []
       path: "/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale/_index.html
+    - title: Écoles partenaires
+      target: "/reseaux-internationaux-recherche/linternational/ecoles-partenaires/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/reseaux-internationaux-recherche/linternational/ecoles-partenaires"
+      file: content/fr/pages/reseaux-internationaux-recherche/linternational/ecoles-partenaires/_index.html
     path: "/pages/reseaux-internationaux-recherche/linternational"
     file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
   path: "/pages/reseaux-internationaux-recherche"
