@@ -251,6 +251,13 @@ items:
     children: []
     path: "/projects"
     file: content/fr/projects/_index.html
+  - title: Les relations internationales
+    target: "/reseaux-internationaux-recherche/linternational/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/reseaux-internationaux-recherche/linternational"
+    file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
   path: "/pages/reseaux-internationaux-recherche"
   file: content/fr/pages/reseaux-internationaux-recherche/_index.html
 - title: Admissions
