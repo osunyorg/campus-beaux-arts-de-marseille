@@ -81,6 +81,13 @@ items:
     kind: page
     new_tab: false
     children:
+    - title: Ateliers & ressources
+      target: "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources"
+      file: content/fr/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources/_index.html
     - title: Publications
       target: "/lecole-ses-engagements/nos-ressources/publications/"
       kind: page
@@ -95,13 +102,6 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nos-ressources/bibliotheque"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/bibliotheque/_index.html
-    - title: Ateliers & ressources
-      target: "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources"
-      file: content/fr/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources/_index.html
     path: "/pages/lecole-ses-engagements/nos-ressources"
     file: content/fr/pages/lecole-ses-engagements/nos-ressources/_index.html
   path: "/pages/lecole-ses-engagements"
