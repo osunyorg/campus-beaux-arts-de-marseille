@@ -255,7 +255,14 @@ items:
     target: "/reseaux-internationaux-recherche/linternational/"
     kind: page
     new_tab: false
-    children: []
+    children:
+    - title: Programmes & initiatives
+      target: "/reseaux-internationaux-recherche/linternational/programmes-initiatives/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/reseaux-internationaux-recherche/linternational/programmes-initiatives"
+      file: content/fr/pages/reseaux-internationaux-recherche/linternational/programmes-initiatives/_index.html
     path: "/pages/reseaux-internationaux-recherche/linternational"
     file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
   path: "/pages/reseaux-internationaux-recherche"
