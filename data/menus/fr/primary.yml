@@ -130,13 +130,6 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes"
       file: content/fr/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes/_index.html
-    - title: Option Art
-      target: "/formations/option-art/"
-      kind: program
-      new_tab: false
-      children: []
-      path: "/programs/option-art"
-      file: content/fr/programs/option-art/_index.html
     - title: Option art
       target: "/formations/option-art/"
       kind: program
