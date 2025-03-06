@@ -102,6 +102,13 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nos-ressources/bibliotheque"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/bibliotheque/_index.html
+    - title: Initiatives étudiantes
+      target: "/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes"
+      file: content/fr/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/_index.html
     path: "/pages/lecole-ses-engagements/nos-ressources"
     file: content/fr/pages/lecole-ses-engagements/nos-ressources/_index.html
   path: "/pages/lecole-ses-engagements"
