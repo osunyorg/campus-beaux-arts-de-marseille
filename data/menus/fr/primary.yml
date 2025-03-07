@@ -166,7 +166,7 @@ items:
     new_tab: false
     children:
     - title: Le campus
-      target: "/campus/"
+      target: "/etudes-professionnalisation/la-vie-etudiante/campus/"
       kind: page
       new_tab: false
       children: []
