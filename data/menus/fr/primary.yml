@@ -215,12 +215,12 @@ items:
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     - title: Tutorat inter-étudiant·e·s
-      target: "/etudes-professionnalisation/la-vie-etudiante/tutorat-inter-etudiantes/"
+      target: "/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorat-inter-etudiantes"
-      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorat-inter-etudiantes/_index.html
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
