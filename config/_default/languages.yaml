@@ -13,8 +13,8 @@ fr:
     events: /agenda/:year-:month-:day-:slug/
     events_categories: /agenda/:slug/
     pages_categories: /:slug/
-    projects: /reseaux-internationaux-recherche/projets/:year-:slug/
-    projects_categories: /reseaux-internationaux-recherche/projets/:slug/
+    projects: /projets/:year-:slug/
+    projects_categories: /projets/:slug/
     posts: /magazine/:year-:month-:day-:slug/
     posts_categories: /magazine/:slug/
     diplomas: /diplomes/:slug/
