@@ -245,7 +245,7 @@ items:
   new_tab: false
   children:
   - title: La recherche
-    target: "/reseaux-internationaux-recherche/la-recherche/"
+    target: "/reseaux-internationaux-recherche/projets/"
     kind: page
     new_tab: false
     children:
