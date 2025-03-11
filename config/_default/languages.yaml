@@ -20,10 +20,10 @@ fr:
     diplomas: /diplomes/:slug/
     programs_categories: /formations/categories/:slug/
     programs: /formations/:slug/
-    persons: /lecole-ses-engagements/nous-connaitre/personnes/:slug/
-    persons_categories: /lecole-ses-engagements/nous-connaitre/personnes/categories/:slug/
-    administrators: /lecole-ses-engagements/nous-connaitre/personnes/:slug/roles/
-    authors: /lecole-ses-engagements/nous-connaitre/personnes/:slug/magazine/
+    persons: /personnes/:slug/
+    persons_categories: /personnes/categories/:slug/
+    administrators: /personnes/:slug/roles/
+    authors: /personnes/:slug/magazine/
   taxonomies:
     administrator: administrators
     author: authors
