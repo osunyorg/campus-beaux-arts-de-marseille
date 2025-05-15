@@ -1,8 +1,8 @@
 ---
-name: "Beaux-Arts de Marseille"
+name: "Conservatoire Pierre Barbizet"
 address: >-
-  184 Av. de Luminy
-zipcode: "13288"
+  2 Pl. Auguste et François Carli
+zipcode: "13001"
 city: "Marseille"
 country: "France"
 phone: ""
@@ -13,11 +13,11 @@ contact_details:
       address_name: >-
         
       address: >-
-        184 Av. de Luminy
+        2 Pl. Auguste et François Carli
       address_additional: >-
         
       zipcode: >-
-        13288
+        13001
       city: >-
         Marseille
       country:
@@ -31,21 +31,9 @@ contact_details:
       latitude: 
       longitude: 
     text: >-
-      184 Av. de Luminy 13288 Marseille FRANCE
+      2 Pl. Auguste et François Carli 13001 Marseille FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Av. de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">2 Pl. Auguste et François Carli</span> <span itemprop="postalCode">13001</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
 
-administrators:
-  - "aure-de-thieulloy"
-administrators_description:
-  "aure-de-thieulloy": >-
-    Service du parcours d'entrée
-roles:
-  - title: >-
-      Service du parcours d'entrée
-    persons:
-      - permalink: "/personnes/aure-de-thieulloy/"
-        path: "/persons/aure-de-thieulloy"
-        slug: "aure-de-thieulloy"
-        file: "content/fr/persons/aure-de-thieulloy.html"
+roles: []
 ---
