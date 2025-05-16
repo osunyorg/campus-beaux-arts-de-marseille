@@ -10,22 +10,67 @@ $color-border: rgba(0, 0, 0, 0.30) !default
 $color-selection: $color-background !default
 $color-selection-background: rgba($color-text, .7) !default
     
-// Typography
+// TYPOGRAPHY
 $heading-font-family: "Practical Grotesk", sans-serif
 $body-font-family: $heading-font-family
-$h1-size-desktop: pxToRem(64)
-$h1-weight: normal
-$h1-line-height: 100%
-$h3-weight: normal
+$heading-font-weight: normal
 
-// Components
-$header-background: none
+// h1
+$h1-size-desktop: pxToRem(64)
+$h1-size: pxToRem(32)
+$h1-line-height: 100%
+$h1-weight: $heading-font-weight
+// h2
+$h2-size: pxToRem(25)
+$h2-line-height: 100%
+$h2-weight: $heading-font-weight
+// h3
+$h3-size-desktop: pxToRem(30)
+$h3-size: pxToRem(25)
+$h3-line-height: 110%
+$h3-weight: $heading-font-weight
+$h3-letter-spacing: -1px
+
+// Body
+$body-size-desktop: pxToRem(20)
+$body-size: pxToRem(20)
+$body-line-height: 125%
+$body-line-height-desktop: 100%
+
+// Meta
+$meta-size: pxToRem(16)
+$meta-line-height: 140%
+
+// Quote
+$quote-size-desktop-short: pxToRem(64)
+// $quote-size-desktop-long: pxToRem(40)
+$quote-size-desktop: pxToRem(64)
+$quote-size: pxToRem(32)
+$quote-line-height: 115%
+$quote-line-height-desktop: 97%
+$block-testimonials-xl-line-height: $quote-line-height-desktop
+
+// Signature
+$signature-size-desktop: pxToRem(16)
+$signature-size: pxToRem(16)
+$signature-line-height: 100%
+
+// HEADER
+$header-background: var(--color-background)
 $header-dropdown-full: true
 $header-border-bottom-width: 0
 $header-logo-height: 32px
 $header-logo-height-desktop: 106px
-$hero-background-color: none
-$footer-background-color: none
 
-// Blocks
+// HERO
+$hero-background-color: none
+
+// FOOTER
+$footer-background-color: var(--color-background)
+
+// BLOCKS
+// cta | call to action
 $block-call-to-action-accent-color: $color-text
+
+// testimonials
+$block-testimonials-color: var(--color-text)
