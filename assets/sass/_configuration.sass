@@ -10,7 +10,7 @@ $color-accent: $color-text
 $color-border: rgba(0, 0, 0, 0.30) !default
 $color-selection: $color-background !default
 $color-selection-background: rgba($color-text, .7) !default
-    
+
 // TYPOGRAPHY
 $heading-font-family: "Practical Grotesk", sans-serif
 $body-font-family: $heading-font-family
@@ -22,6 +22,7 @@ $h1-size: pxToRem(32)
 $h1-line-height: 100%
 $h1-weight: $heading-font-weight
 // h2
+$h2-size-desktop: pxToRem(40)
 $h2-size: pxToRem(25)
 $h2-line-height: 100%
 $h2-weight: $heading-font-weight
@@ -60,7 +61,7 @@ $signature-line-height: 100%
 $btn-font-size-desktop: pxToRem(30)
 $btn-line-height: pxToRem(30)
 $btn-border-radius: pxToRem(50)
-$btn-padding-desktop: pxToRem(6) pxToRem(25)
+$btn-padding-desktop: pxToRem(11) pxToRem(25) pxToRem(14)
 $btn-small-font-size-desktop: pxToRem(20)
 $btn-small-line-height: pxToRem(20)
 $btn-small-padding-desktop: pxToRem(6) pxToRem(25)
@@ -72,8 +73,9 @@ $btn-large-padding-desktop: $btn-padding-desktop
 $header-background: var(--color-background)
 $header-dropdown-full: true
 $header-border-bottom-width: 0
-$header-logo-height: 32px
-$header-logo-height-desktop: 106px
+$header-logo-height: pxToRem(32)
+$header-logo-height-desktop: pxToRem(106)
+$header-upper-menu-padding-y: 0
 
 // HERO
 $hero-background-color: none
