@@ -1,0 +1,74 @@
+footer#document-footer
+    .container
+        gap: var(--grid-gutter)
+    .footer-site,
+    .footer-nav a
+        @include h3
+    .footer-presentation,
+    .footer-switchboard
+        p
+            @include meta
+        img + p,
+        p + p
+            margin-top: space(5)
+    .footer-presentation
+        a
+            display: block
+            &, &:hover
+                text-decoration: none
+            &:hover span
+                text-decoration: underline
+            &::after
+                content: '→'
+                margin-left: space()
+    .footer-social
+        order: 0
+        .site-links
+            display: flex
+            gap: space(5)
+            li + li
+                margin-top: 0
+            li::after
+                font-size: pxToRem(32)
+                margin-left: 0
+        @include media-breakpoint-up(desktop)
+            width: columns(3)
+    @include media-breakpoint-down(desktop)
+        padding-bottom: var(--grid-gutter)
+        .container
+            display: flex
+            flex-direction: column
+            gap: pxToRem(50)
+            + .container
+                margin-top: pxToRem(50)
+        .footer-nav,
+        .footer-switchboard,
+        .footer-presentation
+            margin-top: 0
+        .footer-site
+            order: -3
+        .footer-switchboard
+            order: -2
+        .footer-presentation
+            order: -1
+            img
+                width: 100%
+        .footer-legals
+            order: -1
+            margin-top: 0
+    @include media-breakpoint-up(desktop)
+        .footer-site,
+        .footer-nav
+            width: columns(3)
+        .footer-switchboard
+            width: columns(2)
+        .footer-presentation
+            flex: 1
+            margin-left: var(--grid-gutter-negative)
+        .footer-legals 
+            flex: 1
+            .nav-legal
+                display: flex
+                justify-content: space-between
+                li + li
+                    margin-top: 0

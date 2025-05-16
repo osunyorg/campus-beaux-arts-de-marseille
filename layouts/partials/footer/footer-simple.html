@@ -1,0 +1,53 @@
+<div class="container">
+  <div class="footer-site">
+    {{ partial "footer/site.html" }}
+    {{ $file_cta := partial "GetMenu" "CTA footer" }}
+    {{ if $file_cta }}
+      {{ partial "commons/menu.html" (dict
+          "kind" "primary"
+          "level" 1
+          "stop" 1
+          "context" .
+        )}}
+    {{ end }}
+  </div>
+
+  {{ $footer_menu := partial "GetMenu" "footer" }}
+  {{ if $footer_menu }}
+    {{ partial "commons/menu.html" (dict
+        "kind" "footer"
+        "level" 1
+        "stop" 1
+        "context" .
+        "class" "footer-nav"
+      )}}
+  {{ end }}
+
+  <div class="footer-presentation">
+    <img src="/assets/images/campus-logo.svg" alt="{{ i18n "commons.footer.logo_alt" }}">
+    <p>{{ i18n "commons.footer.campus.text" }}</p>
+    <p>
+      <a href="/todo"><span>{{ i18n "commons.footer.campus.sites.campus" }}</span></a>
+      <a href="/todo"><span>{{ i18n "commons.footer.campus.sites.conservatory" }}</span></a>
+    </p>
+  </div>
+  <div class="footer-switchboard">
+    <img src="/assets/images/deaf.png" alt="">
+    <p>{{ safeHTML (i18n "commons.footer.switchboard") }}</p>
+  </div>
+    
+</div>
+
+<div class="container">
+  <div class="footer-social">
+    {{ partial "footer/social.html" . }}
+  </div>
+  <div class="footer-legals">
+    {{ partial "footer/legals.html" . }}
+    {{ if and site.Params.search.active (in site.Params.search.positions "footer") }}
+      <div class="footer-search">
+        {{ partial "commons/search/button.html" "footer" }}
+      </div>
+    {{ end }}
+  </div>
+</div>
