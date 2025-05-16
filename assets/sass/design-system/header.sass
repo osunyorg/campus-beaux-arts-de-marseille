@@ -20,6 +20,9 @@ header#document-header
             > li
                 > a, > span
                     @include h3
+                &:first-child
+                    > a
+                        padding-left: 0
                 &:last-child
                     a
                         @extend .btn
