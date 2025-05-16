@@ -1,0 +1,25 @@
+.page__home
+    .hero
+        .content
+            @include media-breakpoint-up(desktop)
+                flex-direction: column
+                .hero-text
+                    align-items: flex-end
+                    display: flex
+                    width: 100%
+                    justify-content: space-between
+                    gap: var(--grid-gutter)
+                    > h1, hgroup
+                        width: columns(9)
+                    .hero-actions
+                        .btn
+                            @include button-reset
+                            @include h3
+                            padding: 0
+                            min-width: unset
+                            text-align: right
+                            &::before
+                                content: '→'
+                figure
+                    margin-top: $spacing-5
+                    width: 100%
