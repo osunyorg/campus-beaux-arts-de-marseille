@@ -1,0 +1,38 @@
+.block-call_to_action
+    .call_to_action
+        .top
+            .block-title
+                text-transform: none
+            .block-title,
+            .description p
+                    @include h3
+    @include in-page-without-sidebar
+        .call_to_action--without-image:not(.call_to_action--without-text) > div
+            display: flex
+            gap: var(--grid-gutter)
+            .top
+                display: flex
+                gap: var(--grid-gutter)
+                width: columns(8)
+            .block-title
+                width: columns(3)
+            .description
+                flex: 1
+            .actions
+                flex: 1
+                display: flex
+                flex-direction: column
+                align-items: flex-end
+                a
+                    padding: 0
+                    min-width: unset
+                    width: unset
+                    position: absolute
+                    &::before
+                        content: '→'
+                        position: absolute
+                        left: -#{space(2)}
+                        transform: translateX(-100%)
+                        transition: transform 0.2s ease
+                    &:hover::before
+                        transform: translateX(-70%)
