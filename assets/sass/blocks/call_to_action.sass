@@ -1,8 +1,11 @@
 .block-call_to_action
-    .all_to_action
-        .description
-            p
-                @include h3
+    .call_to_action
+        .top
+            .block-title
+                text-transform: none
+            .block-title,
+            .description p
+                    @include h3
     @include in-page-without-sidebar
         .call_to_action--without-image:not(.call_to_action--without-text) > div
             display: flex
