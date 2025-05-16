@@ -1,6 +1,16 @@
 footer#document-footer
     .container
         gap: var(--grid-gutter)
+    .footer-site
+        text-align: left
+        .footer-cta a
+            @extend .button
+            @extend .button--small
+            text-align: left
+            font-size: $body-size
+            &::after
+                content: '→'
+                margin-left: space()
     .footer-site,
     .footer-nav a
         @include h3
@@ -47,6 +57,9 @@ footer#document-footer
             margin-top: 0
         .footer-site
             order: -3
+            .footer-cta a
+                width: 100%
+                text-align: center
         .footer-switchboard
             order: -2
         .footer-presentation

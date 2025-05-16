@@ -1,13 +1,13 @@
 <div class="container">
   <div class="footer-site">
     {{ partial "footer/site.html" }}
-    {{ $file_cta := partial "GetMenu" "CTA footer" }}
+    {{ $file_cta := partial "GetMenu" "cta-footer" }}
     {{ if $file_cta }}
       {{ partial "commons/menu.html" (dict
-          "kind" "primary"
+          "kind" "cta-footer"
           "level" 1
-          "stop" 1
           "context" .
+          "class" "footer-cta"
         )}}
     {{ end }}
   </div>
