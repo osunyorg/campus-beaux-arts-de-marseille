@@ -7,6 +7,9 @@
             .description p
                     @include h3
     @include in-page-without-sidebar
+        .block-content
+            padding-bottom: pxToRem(30)
+            padding-top: pxToRem(20)
         .call_to_action--without-image:not(.call_to_action--without-text) > div
             display: flex
             gap: var(--grid-gutter)
