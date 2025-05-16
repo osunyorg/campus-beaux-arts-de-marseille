@@ -1,11 +1,12 @@
 // Colors
 $color-linen: #E5E5D1
 $color-dark: #221D20
-$color-accent: #FFFFFF
 $color-text: $color-dark
 $color-text-alt: $color-dark
 $color-background: $color-linen
 $color-background-alt: $color-linen
+$color-background-white: white
+$color-accent: $color-text
 $color-border: rgba(0, 0, 0, 0.30) !default
 $color-selection: $color-background !default
 $color-selection-background: rgba($color-text, .7) !default
@@ -84,6 +85,15 @@ $footer-text-hidden: true
 // BLOCKS
 // cta | call to action
 $block-call-to-action-accent-color: $color-text
+
+$block-call-to-action-accent-background: $color-background-white
+$block-call-to-action-accent-color: var(--color-text)
+$block-call-to-action-accent-button-background: $color-background-white
+$block-call-to-action-accent-button-border: none
+$block-call-to-action-accent-button-color: var(--color-text)
+$block-call-to-action-accent-button-hover-background: $block-call-to-action-accent-button-background
+$block-call-to-action-accent-button-hover-border: none
+$block-call-to-action-accent-button-hover-color: $block-call-to-action-accent-button-color
 
 // testimonials
 $block-testimonials-color: var(--color-text)
