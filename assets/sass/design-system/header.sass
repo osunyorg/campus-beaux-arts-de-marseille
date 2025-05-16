@@ -20,6 +20,10 @@ header#document-header
             > li
                 > a, > span
                     @include h3
+                &:last-child
+                    a
+                        @extend .btn
+                        white-space: nowrap
     @include media-breakpoint-up(desktop)
         .upper-menu
             position: absolute
@@ -30,9 +34,10 @@ header#document-header
             align-items: end
             > .container
                 width: auto
-                max-width: columns(7)
+                max-width: calc(100vw - #{pxToRem(600)})
                 > ul
                     gap: $spacing-2
                     flex-wrap: wrap
+                    justify-content: end
         .menu
             padding-top: $spacing-4
