@@ -9,6 +9,22 @@ fr:
   buildFuture: true
   params:
     contact_details:
+      social_networks:
+        facebook:
+          label: >-
+            beauxartsdemarseille
+          value: >-
+            https://www.facebook.com/beauxartsdemarseille
+        instagram:
+          label: >-
+            beauxartsdemarseille
+          value: >-
+            https://instagram.com/beauxartsdemarseille
+        x:
+          label: >-
+            BeauxArtsMars
+          value: >-
+            https://x.com/BeauxArtsMars
 
   permalinks:
     events: /agenda/:year/:slug/
