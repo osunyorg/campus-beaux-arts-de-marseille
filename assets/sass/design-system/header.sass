@@ -23,16 +23,16 @@ header#document-header
     @include media-breakpoint-up(desktop)
         .upper-menu
             position: absolute
-            top: $spacing-3
+            top: $spacing-4
             right: 0
             background: transparent
-            left: auto
-            width: auto
             display: flex
             align-items: end
             > .container
                 width: auto
+                max-width: columns(7)
                 > ul
                     gap: $spacing-2
+                    flex-wrap: wrap
         .menu
             padding-top: $spacing-4
