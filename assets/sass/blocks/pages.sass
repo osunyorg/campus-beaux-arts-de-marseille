@@ -1,0 +1,13 @@
+.block-pages
+    &--list
+        .list.title-only
+            display: block !important
+            li
+                @include h1
+                a
+                    &::before
+                        content: '->'
+                        font-family: inherit
+    @include media-breakpoint-up(desktop)
+        .top
+            margin-bottom: $spacing-3

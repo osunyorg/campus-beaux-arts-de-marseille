@@ -1,0 +1,33 @@
+.block-gallery
+    &.block-gallery--carousel
+        figure
+            display: flex
+            align-items: center
+            gap: $spacing-1
+            margin-right: 0
+            > * + *
+                margin-right: $spacing-1
+            > *:only-child
+                margin-right: var(--grid-gutter)
+            figcaption
+                writing-mode: sideways-lr
+                text-orientation: mixed
+                margin-top: 0
+                margin-right: pxToRem(35)
+                max-height: $block-gallery-carousel-height
+                @include media-breakpoint-up(desktop)
+                    max-height: $block-gallery-carousel-height-desktop
+                > * 
+                    display: inline
+                p
+                    display: inline
+                    margin-left: 0
+                    margin-right: 0
+        .slider
+            figure
+                &.image-landscape
+                    figcaption,
+                    picture img
+                        height: calc(#{$block-gallery-carousel-height} - 5rem)
+                        @include media-breakpoint-up(desktop)
+                            height: calc(#{$block-gallery-carousel-height-desktop} - 5rem)
