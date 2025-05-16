@@ -3,12 +3,14 @@
         .content
             @include media-breakpoint-up(desktop)
                 flex-direction: column
+                padding-top: 0
                 .hero-text
                     align-items: flex-end
                     display: flex
                     width: 100%
                     justify-content: space-between
                     gap: var(--grid-gutter)
+                    margin-top: $spacing-3
                     > h1, hgroup
                         width: columns(9)
                     .hero-actions
