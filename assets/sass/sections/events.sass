@@ -1,0 +1,24 @@
+.events--grid
+    @include in-page-without-sidebar
+        @include grid(2, desktop)
+        .event
+            .media
+                img
+                    aspect-ratio: 3/2
+    .event-content
+        display: flex
+        flex-direction: column
+        .event-categories
+            order: -1
+        hgroup,
+        .event-title
+            order: -2
+    .event-schedule
+        display: flex
+        .event-dates,
+        .event-time
+            @include h3
+        .event-time::before
+            content: ', '
+            margin-right: $spacing-1
+    

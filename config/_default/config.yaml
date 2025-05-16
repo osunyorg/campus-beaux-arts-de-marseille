@@ -8,3 +8,13 @@ params:
   logo:
     header: '/assets/images/logo.svg'
     footer: ''
+  image_sizes:
+    sections:
+      home:
+        hero:
+          tablet:   1200
+          desktop:  1792
+    blocks:
+      events:
+        grid:
+          desktop:  864
