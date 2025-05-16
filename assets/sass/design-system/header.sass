@@ -1,0 +1,17 @@
+header#document-header
+    .logo
+        display: flex
+        gap: pxToRem(25)
+        p
+            @include h1
+            line-height: 90%
+            max-width: pxToRem(400)
+            margin-top: pxToRem(-6)
+    .logo-container
+        .tagline
+            @include meta
+            margin-left: pxToRem(253)
+            margin-top: pxToRem(5)
+            a
+                &::after
+                    display: none
