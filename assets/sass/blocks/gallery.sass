@@ -24,6 +24,33 @@
                     margin-left: 0
                     margin-right: 0
         .slider
+            display: flex
+            flex-direction: column
+            .slider-arrows
+                gap: $spacing-2
+                order: -1
+                margin-bottom: $spacing-3
+                .slider-progression
+                    @extend .sr-only
+                .slider-arrow
+                    align-items: center
+                    aspect-ratio: 1
+                    display: flex
+                    justify-content: center
+                    border: 1px solid var(--color-text)
+                    border-radius: 100%
+                    height: space(16)
+                    width: space(16)
+                    &::before
+                        font-size: pxToRem(35)
+                    &-next::before
+                        content: '→' / ""
+                        font-family: $body-font-family
+                    &-previous
+                        margin-left: 0
+                        &::before
+                            content: '←' / ""
+                            font-family: $body-font-family
             figure
                 &.image-landscape
                     figcaption,
@@ -31,3 +58,5 @@
                         height: calc(#{$block-gallery-carousel-height} - 5rem)
                         @include media-breakpoint-up(desktop)
                             height: calc(#{$block-gallery-carousel-height-desktop} - 5rem)
+                &.is-previous
+                    opacity: 1
