@@ -1,0 +1,27 @@
+.block-siblings-navigation
+    background: var(--color-background)
+    @include in-page-with-sidebar
+        .container
+            .block-content
+                padding-left: 0
+    .siblings-navigation
+        ul 
+            justify-content: space-between
+            li
+                flex: unset
+                width: columns(5)
+            a, span
+                @include h3
+            span
+                margin-bottom: 0
+                &::before,
+                &::after
+                    display: block
+                    font-family: $body-font-family
+            .previous span::before
+                content: '←' / ""
+            .next span
+                display: flex
+                flex-direction: column-reverse
+                &::after
+                    content: '→' / ""
