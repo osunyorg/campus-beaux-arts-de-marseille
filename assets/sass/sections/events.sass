@@ -13,12 +13,12 @@
             .event-title
                 order: -2
     &--grid
+        .event
+            .media
+                img
+                    aspect-ratio: 3/2
         @include in-page-without-sidebar
             @include grid(2, desktop)
-            .event
-                .media
-                    img
-                        aspect-ratio: 3/2
         .event-schedule
             display: flex
             .event-dates,
