@@ -3,14 +3,22 @@ footer#document-footer
         gap: var(--grid-gutter)
     .footer-site
         text-align: left
-        .footer-cta a
-            @extend .button
-            @extend .button--small
-            text-align: left
-            font-size: $body-size
-            &::after
-                content: '→'
-                margin-left: space()
+        [itemprop="name"],
+        [itemprop="addressCountry"],
+        [itemprop="postalCode"]
+            @extend .sr-only
+        [itemprop="address"] + p::before
+            content: "T : "
+        .footer-cta
+            margin-top: $spacing-3
+            a
+                @extend .button
+                @extend .button--small
+                text-align: left
+                font-size: $body-size
+                &::after
+                    content: '→'
+                    margin-left: space()
     .footer-site,
     .footer-nav a
         @include h3
