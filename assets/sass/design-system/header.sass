@@ -41,6 +41,10 @@ header#document-header
                         @extend .btn
                         min-width: 0
                         white-space: nowrap
+        .nav-level-2
+            > li
+                > a, > span
+                    @include h4
     @include media-breakpoint-up(desktop)
         .upper-menu
             position: absolute
