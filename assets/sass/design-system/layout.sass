@@ -1,22 +1,30 @@
-// blocks with "tous les ..." with right alignment
-.block
-    &.block-class-right-title
+.block-class
+    // blocks with "tous les ..." with right alignment
+    &-right-title
         .block-title
-            a
-                &::after
-                    content: none
-                &::before
-                    content: '→'
-                    display: inline-block
-                    transform: translateX(-35%)
-                    transition: transform 0.2s ease
-                &:hover::before
-                    transform: translateX(-5%)
+            &::after
+                content: none
+            &::before
+                content: '→'
+                display: inline-block
+                transform: translateX(-35%)
+                transition: transform 0.2s ease
+            &:hover::before
+                transform: translateX(-5%)
             @include media-breakpoint-up(desktop)
                 @include h3
                 margin-left: auto
                 max-width: columns(8)
                 text-align: right
+    // add fake link to block title
+    &-description-link-stretched
+        .top
+            position: relative
+            &:hover .block-title::before
+                transform: translateX(-5%)
+        .description p > a
+            @include stretched-link
+            text-decoration: none
 
 .block,
 .events--agenda

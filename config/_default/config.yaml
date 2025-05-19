@@ -24,3 +24,9 @@ params:
     single:
       taxonomies:
         position: hero
+  programs:
+    single:
+      options:
+        diploma_certification: false
+        logo: false
+        website_link: false
