@@ -1,11 +1,11 @@
 ---
-name: "Beaux-Arts de Marseille"
+name: "Conservatoire Pierre Barbizet"
 address: >-
-  184 Avenue de Luminy
-zipcode: "13288"
-city: "Marseille cedex 9"
+  2 Pl. Auguste et François Carli
+zipcode: "13001"
+city: "Marseille"
 country: "France"
-phone: "04 91 82 83 10"
+phone: ""
 url: ""
 contact_details:
   postal_address:
@@ -13,13 +13,13 @@ contact_details:
       address_name: >-
         
       address: >-
-        184 Avenue de Luminy
+        2 Pl. Auguste et François Carli
       address_additional: >-
         
       zipcode: >-
-        13288
+        13001
       city: >-
-        Marseille cedex 9
+        Marseille
       country:
         name: >-
           France
@@ -31,27 +31,9 @@ contact_details:
       latitude: 
       longitude: 
     text: >-
-      184 Avenue de Luminy 13288 Marseille cedex 9 FRANCE
+      2 Pl. Auguste et François Carli 13001 Marseille FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Avenue de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille cedex 9</span> <span itemprop="addressCountry">FRANCE</span></address>
-  phone_numbers:
-    phone:
-      label: >-
-        04 91 82 83 10
-      value: >-
-        tel:0491828310
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">2 Pl. Auguste et François Carli</span> <span itemprop="postalCode">13001</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
 
-administrators:
-  - "aure-de-thieulloy"
-administrators_description:
-  "aure-de-thieulloy": >-
-    Service du parcours d'entrée
-roles:
-  - title: >-
-      Service du parcours d'entrée
-    persons:
-      - permalink: "/personnes/aure-de-thieulloy/"
-        path: "/persons/aure-de-thieulloy"
-        slug: "aure-de-thieulloy"
-        file: "content/fr/persons/aure-de-thieulloy.html"
+roles: []
 ---
