@@ -7,10 +7,11 @@
                     content: none
                 &::before
                     content: '→'
-                    padding-right: $spacing-1
-                    transition: padding 0.2s ease
+                    display: inline-block
+                    transform: translateX(-35%)
+                    transition: transform 0.2s ease
                 &:hover::before
-                    padding: space()
+                    transform: translateX(-5%)
             @include media-breakpoint-up(desktop)
                 @include h3
                 margin-left: auto
