@@ -44,14 +44,25 @@
             &:not(.event--child) 
                 .event-hours
                     bottom: unset
+                    &,
+                    html:not(.is-scrolling-down) &
+                        span
+                            position: relative
+                            top: unset
 
         @include in-page-without-sidebar
             .event:not(.event--child)
-                margin-left: offset(2)
+                margin-left: 0
                 padding-left: 0
+                .event-hours
+                    width: columns(2)
+                    time + time
+                        display: block
+                        &::before
+                            margin-left: 0
                 .media
+                    margin-left: columns(2)
                     width: offset(4)
-                    margin-left: calc(-1 * (var(--grid-gutter)))
                     img
                         padding-right: var(--column-width)
             .event--child
