@@ -3,9 +3,9 @@ name: "Beaux-Arts de Marseille"
 address: >-
   184 Avenue de Luminy
 zipcode: "13288"
-city: "Marseille"
+city: "Marseille cedex 9"
 country: "France"
-phone: ""
+phone: "04 91 82 83 10"
 url: ""
 contact_details:
   postal_address:
@@ -19,7 +19,7 @@ contact_details:
       zipcode: >-
         13288
       city: >-
-        Marseille
+        Marseille cedex 9
       country:
         name: >-
           France
@@ -31,9 +31,15 @@ contact_details:
       latitude: 
       longitude: 
     text: >-
-      184 Avenue de Luminy 13288 Marseille FRANCE
+      184 Avenue de Luminy 13288 Marseille cedex 9 FRANCE
     html: >-
-      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Avenue de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille</span> <span itemprop="addressCountry">FRANCE</span></address>
+      <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress"> <span itemprop="streetAddress">184 Avenue de Luminy</span> <span itemprop="postalCode">13288</span> <span itemprop="addressLocality">Marseille cedex 9</span> <span itemprop="addressCountry">FRANCE</span></address>
+  phone_numbers:
+    phone:
+      label: >-
+        04 91 82 83 10
+      value: >-
+        tel:0491828310
 
 administrators:
   - "aure-de-thieulloy"

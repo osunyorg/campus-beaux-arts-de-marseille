@@ -25,6 +25,11 @@ fr:
             BeauxArtsMars
           value: >-
             https://x.com/BeauxArtsMars
+        youtube:
+          label: >-
+            beaux-artsdemarseille3203
+          value: >-
+            https://www.youtube.com/@beaux-artsdemarseille3203
 
   permalinks:
     events: /agenda/:year/:slug/
