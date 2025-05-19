@@ -1,5 +1,7 @@
 .block-siblings-navigation
     background: var(--color-background)
+    position: relative
+    z-index: $zindex-toc-cta
     @include in-page-with-sidebar
         .container
             .block-content
@@ -7,9 +9,6 @@
     .siblings-navigation
         ul 
             justify-content: space-between
-            li
-                flex: unset
-                width: columns(5)
             a, span
                 @include h3
             span
@@ -25,3 +24,11 @@
                 flex-direction: column-reverse
                 &::after
                     content: '→' / ""
+            li
+                @include media-breakpoint-down(desktop)
+                    &::after,
+                    &::before
+                        content: none
+                @include media-breakpoint-up(desktop)
+                    flex: unset
+                    width: columns(5)
