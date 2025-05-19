@@ -1,0 +1,18 @@
+// blocks with "tous les ..." with right alignment
+.block
+    &.block-class-right-title
+        .block-title
+            a
+                &::after
+                    content: none
+                &::before
+                    content: '→'
+                    padding-right: $spacing-1
+                    transition: padding 0.2s ease
+                &:hover::before
+                    padding: space()
+            @include media-breakpoint-up(desktop)
+                @include h3
+                margin-left: auto
+                max-width: columns(8)
+                text-align: right

@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2024-12-03T10:33:41+01:00
-lastmod: 2025-05-16T18:17:28+02:00
+lastmod: 2025-05-19T10:18:36+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-12-03T10:33:41+01:00
-    updated_at: 2025-05-16T18:17:28+02:00
+    updated_at: 2025-05-19T10:18:36+02:00
     published_at: 2024-12-03T10:33:41+01:00
 search:
   id: "2e68c5d9-f6cd-4376-a5ff-be023ade6809"
@@ -29,7 +29,7 @@ search:
   summary: >-
     
   body: >-
-    <p>Le recrutement est ouvert !  <br>Les candidatures pour la classe préparatoire sont désormais ouvertes, vous avez jusqu'au 11 avril 2025 pour postuler.</p>  <p>En savoir plus <br>#</p>  <p> Événements </p>  <p> Newsletter  <br>Ne manquez rien de l'actualité des Beaux Arts de Marseille en vous abonnant à notre newsletter.</p>  <p>S’inscrire à la newsletter <br>#</p>  <p> Magazine </p>  <p> Accès directs </p>
+    <p>Le recrutement est ouvert !  <br>Les candidatures pour la classe préparatoire sont désormais ouvertes, vous avez jusqu'au 11 avril 2025 pour postuler.</p>  <p>En savoir plus <br>#</p>  <p> Événements  <br> Tous les événements  </p>  <p> Newsletter  <br>Ne manquez rien de l'actualité des Beaux Arts de Marseille en vous abonnant à notre newsletter.</p>  <p>S’inscrire à la newsletter <br>#</p>  <p> Magazine  <br> Tous les articles </p>  <p> Accès directs </p>
 
 breadcrumbs:
   - title: >-
@@ -38,7 +38,7 @@ breadcrumbs:
 design:
   full_width: true
   toc:
-    present: false
+    present: true
     offcanvas: true
 
 position: 1
@@ -83,9 +83,9 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 14
+  seconds: 15
   text: >-
-    moins d'une minute
+    moins d&#39;une minute
 contents:
   - kind: block
     template: call_to_action
@@ -127,7 +127,7 @@ contents:
 
 
   - kind: block
-    template: agenda
+    template: title
     title: >-
       Événements
     slug: >-
@@ -135,13 +135,34 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
+    html_class: "block-class-is-absolute"
     top:
       active: true
       title: 
         value: >-
           Événements
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: agenda
+    title: >-
+      Tous les événements
+    slug: >-
+      tous-les-evenements
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    html_class: "block-class-right-title"
+    top:
+      active: true
+      title: 
+        value: >-
+          Tous les événements
+        heading: 3
         link: "/agenda/"
     data:
       mode: all
@@ -184,14 +205,14 @@ contents:
     slug: >-
       newsletter
     ranks:
-      base: 2
-      self: 2
+      base: 3
+      self: 3
     top:
       active: true
       title: 
         value: >-
           Newsletter
-        heading: 2
+        heading: 3
       description: >-
         <p>Ne manquez rien de l'actualité des Beaux Arts de Marseille en vous abonnant à notre newsletter.</p>
     data:
@@ -217,7 +238,7 @@ contents:
 
 
   - kind: block
-    template: posts
+    template: title
     title: >-
       Magazine
     slug: >-
@@ -225,13 +246,34 @@ contents:
     ranks:
       base: 2
       self: 2
-      children: 3
+    html_class: "block-class-is-absolute"
     top:
       active: true
       title: 
         value: >-
           Magazine
         heading: 2
+    data:
+      layout: classic
+
+
+  - kind: block
+    template: posts
+    title: >-
+      Tous les articles
+    slug: >-
+      tous-les-articles
+    ranks:
+      base: 3
+      self: 3
+      children: 4
+    html_class: "block-class-right-title"
+    top:
+      active: true
+      title: 
+        value: >-
+          Tous les articles
+        heading: 3
         link: "/magazine/"
     data:
       mode: all
@@ -277,15 +319,15 @@ contents:
     slug: >-
       acces-directs
     ranks:
-      base: 2
-      self: 2
-      children: 3
+      base: 3
+      self: 3
+      children: 4
     top:
       active: true
       title: 
         value: >-
           Accès directs
-        heading: 2
+        heading: 3
     data:
       options:
         image: false
