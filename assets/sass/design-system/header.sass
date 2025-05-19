@@ -16,7 +16,6 @@ header#document-header
                 &::after
                     display: none
     .menu
-        width: 100%
         .nav-level-1
             justify-content: space-between
             > li
@@ -25,7 +24,6 @@ header#document-header
                         display: none
                     > strong
                         font-weight: inherit
-                        display: block
                         &::before
                             font-size: pxToRem(20)
                             content: url(/assets/images/menu-picto.svg)
@@ -63,10 +61,13 @@ header#document-header
         &:not(.is-sticky)
             .menu
                 padding-top: $spacing-4
+                width: 100%
                 .nav-level-1
                     > li
                         > a, > span
                             @include h3
+                            > strong
+                                display: block
         &.is-sticky
             .upper-menu
                 display: none
@@ -75,12 +76,24 @@ header#document-header
                 .tagline
                     display: none
                 .logo img
-                    width: columns(1.5)
+                    width: pxToRem(94)
                     height: auto
+            .primary-menu
+                padding-bottom: pxToRem(20)
+                padding-top:  pxToRem(15)
+                > .container
+                    align-items: center
+                    gap: var(--grid-gutter)
             .menu
+                flex: 1
                 .nav-level-1
+                    align-items: center // old browser support
+                    align-items: baseline
+                    justify-content: start
+                    gap: $spacing-2
                     > li
                         &:last-child
+                            margin-left: auto
                             a
                                 --btn-font-size: var(--meta-size)
                                 --btn-padding: var(--btn-small-padding)
