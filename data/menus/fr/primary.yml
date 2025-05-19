@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: L’École & ses engagements
+- title: L’École **ses engagements**
   target: "/lecole-ses-engagements/"
   kind: page
   new_tab: false
@@ -106,7 +106,7 @@ items:
     file: content/fr/pages/lecole-ses-engagements/nos-ressources/_index.html
   path: "/pages/lecole-ses-engagements"
   file: content/fr/pages/lecole-ses-engagements/_index.html
-- title: Études & Professionnalisation
+- title: Études **Professionnalisation**
   target: "/etudes-professionnalisation/"
   kind: page
   new_tab: false
@@ -239,7 +239,7 @@ items:
     file: content/fr/pages/etudes-professionnalisation/la-professionalisation/_index.html
   path: "/pages/etudes-professionnalisation"
   file: content/fr/pages/etudes-professionnalisation/_index.html
-- title: Réseaux internationaux & recherche
+- title: Réseaux internationaux **recherche**
   target: "/reseaux-internationaux-recherche/"
   kind: page
   new_tab: false

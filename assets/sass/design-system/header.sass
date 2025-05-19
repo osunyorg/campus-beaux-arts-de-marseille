@@ -16,8 +16,23 @@ header#document-header
                 &::after
                     display: none
     .menu
+        width: 100%
         .nav-level-1
+            justify-content: space-between
             > li
+                > a, > span
+                    &::after
+                        display: none
+                    > strong
+                        font-weight: inherit
+                        display: block
+                        &::before
+                            font-size: pxToRem(20)
+                            content: url(/assets/images/menu-picto.svg)
+                            display: inline-block
+                            padding-right: pxToRem(5)
+                        &::after
+                            content: ' ↓'
                 &:first-child
                     > a
                         padding-left: 0
