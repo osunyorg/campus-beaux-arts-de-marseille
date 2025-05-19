@@ -1,24 +1,75 @@
-.events--grid
-    @include in-page-without-sidebar
-        @include grid(2, desktop)
+.events
+    .event
+        .event-content
+            display: flex
+            flex-direction: column
+            .event-categories
+                order: -1
+            hgroup,
+            .event-title
+                order: -2
+    &--grid
+        @include in-page-without-sidebar
+            @include grid(2, desktop)
+            .event
+                .media
+                    img
+                        aspect-ratio: 3/2
+        .event-schedule
+            display: flex
+            .event-dates,
+            .event-time
+                @include h3
+            .event-time::before
+                content: ', '
+                margin-right: $spacing-1
+    &--agenda 
+        .events-date
+            border: none
+            span
+                padding-top: $spacing-3
+            @include media-breakpoint-up(desktop)
+                .events-date-title
+                    margin-bottom: $spacing-4
+        .events-date-title
+            &,
+            html:not(.is-scrolling-down) &
+                position: relative
+                top: 0
+                max-width: unset
         .event
-            .media
-                img
-                    aspect-ratio: 3/2
-    .event-content
-        display: flex
-        flex-direction: column
-        .event-categories
-            order: -1
-        hgroup,
-        .event-title
-            order: -2
-    .event-schedule
-        display: flex
-        .event-dates,
-        .event-time
-            @include h3
-        .event-time::before
-            content: ', '
-            margin-right: $spacing-1
-    
+            + .event
+                border: none
+                padding-top: 0
+            &:not(.event--child) 
+                .event-hours
+                    bottom: unset
+
+        @include in-page-without-sidebar
+            .event:not(.event--child)
+                margin-left: offset(2)
+                padding-left: 0
+                .media
+                    width: offset(4)
+                    margin-left: calc(-1 * (var(--grid-gutter)))
+                    img
+                        padding-right: var(--column-width)
+            .event--child
+                margin-left: columns(2)
+                padding-left: calc(#{offset(1)} + var(--grid-gutter))
+                .event-hours
+                    margin-top: 0
+                .media
+                    width: calc(#{columns(2)} + var(--grid-gutter))
+            .event-content
+                width: columns(5)
+                flex: unset
+        @include media-breakpoint-down(desktop)
+            .event--parent
+                .media
+                    margin-left: 0
+                    margin-right: 0
+            .event--child
+                flex-direction: column
+                .media
+                    order: -1
