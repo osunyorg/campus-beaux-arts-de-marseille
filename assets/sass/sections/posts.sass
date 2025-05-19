@@ -8,3 +8,22 @@
             .media
                 padding-left: $spacing-5
                 padding-right: $spacing-5
+
+.posts__page
+    .hero
+        .taxonomies-single
+            .taxonomy-title
+                @extend .sr-only
+            .taxonomy-children a
+                @include body-text
+                text-decoration: none
+                &:hover
+                    @include link
+        @include media-breakpoint-up(desktop)
+            .content
+                align-items: stretch
+            .hero-text
+                display: flex
+                flex-direction: column
+                justify-content: space-between
+                height: auto

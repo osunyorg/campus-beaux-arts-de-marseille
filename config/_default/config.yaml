@@ -20,3 +20,7 @@ params:
       events:
         grid:
           desktop:  864
+  posts:
+    single:
+      taxonomies:
+        position: hero
