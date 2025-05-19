@@ -6,6 +6,23 @@
             .block-title,
             .description p
                     @include h3
+        .actions a
+            &::before
+                content: '→' / ""
+                padding-left: $spacing-1
+                display: inline-block
+                transition: all 0.2 ease
+                transform: translate(-50%)
+            &::after
+                content: none
+            &:hover::before
+                transform: translate(-20%)
+    @include in-page-with-sidebar
+        .call_to_action 
+            > div
+                padding: space(5)
+        .actions a:first-child
+            padding: 0
     @include in-page-without-sidebar
         .block-content
             padding-bottom: pxToRem(30)
@@ -31,11 +48,3 @@
                     min-width: unset
                     width: unset
                     position: absolute
-                    &::before
-                        content: '→'
-                        position: absolute
-                        left: -#{space(2)}
-                        transform: translateX(-100%)
-                        transition: transform 0.2s ease
-                    &:hover::before
-                        transform: translateX(-70%)
