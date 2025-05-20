@@ -11,7 +11,7 @@
                 content: '→' / ""
                 padding-left: $spacing-1
                 display: inline-block
-                transition: all 0.2 ease
+                transition: all 0.2s ease
                 transform: translate(-50%)
             &::after
                 content: none
@@ -48,3 +48,10 @@
                     min-width: unset
                     width: unset
                     position: absolute
+    .page-research &
+        .call_to_action
+            justify-content: flex-end
+            div
+                padding: 0 !important
+            .actions a
+                margin: 0
