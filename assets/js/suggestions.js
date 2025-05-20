@@ -87,8 +87,3 @@ osuny.Suggestions.prototype.getPanel = function (tab) {
 (function () {
     osuny.utils.instanciateAll('.suggestions', osuny.Suggestions);
 }());
-
-// Selectors
-window.addEventListener('DOMContentLoaded', function () {
-    window.osuny.search.toggle(true);
-});
