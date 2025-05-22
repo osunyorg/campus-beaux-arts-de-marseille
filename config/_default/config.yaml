@@ -20,10 +20,16 @@ params:
       events:
         grid:
           desktop:  864
+  default:
+    index:
+      taxonomies:
+        layout: inline
   posts:
     single:
       taxonomies:
         position: hero
+    index:
+      layout: grid
   programs:
     single:
       options:
