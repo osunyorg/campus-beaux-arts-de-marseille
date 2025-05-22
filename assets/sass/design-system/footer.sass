@@ -1,4 +1,17 @@
 footer#document-footer
+    > .container:first-of-type
+        padding-bottom: 0
+        + .container
+            padding-top: space(10)
+            margin-top: 0
+            @include media-breakpoint-down(desktop)
+                padding-top: $spacing-4
+    .footer-shapes
+        @include grid(3)
+        column-gap: $spacing-3
+        width: 100%
+        img
+            width: 100%
     .container
         gap: var(--grid-gutter)
     .footer-site
