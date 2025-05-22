@@ -31,3 +31,15 @@
     .event-categories,
     .post-categories
         @include body-text
+
+.slider
+    .slider-arrows
+        .slider-arrow
+            &-next::before
+                content: '→' / ""
+                font-family: $body-font-family
+            &-previous
+                margin-left: 0
+                &::before
+                    content: '←' / ""
+                    font-family: $body-font-family

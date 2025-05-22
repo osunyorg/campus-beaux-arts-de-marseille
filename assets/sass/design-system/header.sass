@@ -31,6 +31,10 @@ header#document-header
                             padding-right: pxToRem(5)
                         &::after
                             content: ' ↓'
+                            display: inline-block
+                            transition: transform 0.2s ease
+                    &[aria-expanded="true"] > strong::after
+                        transform: rotate(-180deg) translateX(-#{space()})
                 &:first-child
                     > a
                         padding-left: 0
