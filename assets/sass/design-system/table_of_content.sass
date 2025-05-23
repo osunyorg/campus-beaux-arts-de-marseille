@@ -2,3 +2,32 @@
     .toc-pages
         li
             @include meta
+            a.active
+                &::after
+                    display: inline-block
+                    margin-left: $spacing-1
+                    font-size: pxToRem(21) !important
+            &:nth-child(4n + 1)
+                a.active::after
+                    @include icon-site('icon-shape-01')
+            &:nth-child(4n + 2)
+                a.active::after
+                    @include icon-site('icon-shape-02')
+            &:nth-child(4n + 3)
+                a.active::after
+                    @include icon-site('icon-shape-03')
+            &:nth-child(4n + 4)
+                a.active::after
+                    @include icon-site('icon-shape-04')
+
+body.offcanvas-toc
+    @include media-breakpoint-up(desktop)
+        .toc-container 
+            button,
+            .toc-title
+                line-height: $body-line-height
+            .toc-title
+                padding-bottom: pxToRem(20)
+                padding-top:  pxToRem(15)
+            button
+                top: pxToRem(3)
