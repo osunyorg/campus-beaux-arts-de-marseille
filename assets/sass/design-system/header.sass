@@ -14,7 +14,6 @@ header#document-header
                 margin-top: pxToRem(-6)
                 max-width: pxToRem(400)
     .logo-container
-        flex: 1
         .tagline
             @include meta
             a
@@ -77,6 +76,8 @@ header#document-header
         span:first-of-type
             @extend .sr-only
     @include media-breakpoint-down(desktop)
+        .logo-container
+            flex: 1
         .logo svg
             height: $header-logo-height
             width: auto
