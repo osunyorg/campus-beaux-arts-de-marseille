@@ -21,7 +21,17 @@
                     margin-top: 0
             &:first-of-type section h3
                 margin-top: space(7)
-        ol.programs
+        .diplomas-select
+            --dropdown-background: var(--color-text)
+            --dropdown-color: var(--color-background)
+            --dropdown-hover-background: var(--color-background)
+            --dropdown-hover-color: var(--color-text)
+            @include media-breakpoint-up(desktop)
+                .dropdown-menu
+                    border: 1px solid var(--color-text)
+                    border-radius: 4px
+                    overflow: hidden
+        ol.programs--light
             li
                 border: none
                 a

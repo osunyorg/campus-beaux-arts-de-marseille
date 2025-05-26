@@ -61,11 +61,20 @@ footer#document-footer
         .site-links
             display: flex
             gap: space(5)
-            li + li
-                margin-top: 0
-            li::after
-                font-size: pxToRem(32)
-                margin-left: 0
+            li 
+                + li
+                    margin-top: 0
+                &.instagram::after
+                    @include icon-site('icon-instagram')
+                &.linkedin::after
+                    @include icon-site('icon-linkedin')
+                &.youtube
+                    order: -1
+                    &::after
+                        @include icon-site('icon-youtube')
+                &::after
+                    font-size: pxToRem(32) !important
+                    margin-left: 0
         @include media-breakpoint-up(desktop)
             width: columns(3)
     @include media-breakpoint-down(desktop)
