@@ -24,6 +24,9 @@ params:
     index:
       taxonomies:
         layout: inline
+  blocks:
+    key_figures:
+      animated: false
   posts:
     single:
       taxonomies:
