@@ -54,3 +54,11 @@
                 padding: 0 !important
             .actions a
                 margin: 0
+                &::before
+                    content: none
+                &::after
+                    content: '→' / ""
+                    margin-left: space()
+                    transition: all 0.2s ease
+                &:hover::after
+                    margin-left: space(3)
