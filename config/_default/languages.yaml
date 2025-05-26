@@ -2,7 +2,7 @@
 
 fr:
   title: >-
-    Beaux-Arts de Marseille
+    Beaux-Arts de Marseille
   contentDir: content/fr
   languageCode: fr
   languageName: Français
@@ -10,21 +10,16 @@ fr:
   params:
     contact_details:
       social_networks:
-        facebook:
-          label: >-
-            beauxartsdemarseille
-          value: >-
-            https://www.facebook.com/beauxartsdemarseille
         instagram:
           label: >-
             beauxartsdemarseille
           value: >-
             https://instagram.com/beauxartsdemarseille
-        x:
+        linkedin:
           label: >-
-            BeauxArtsMars
+            beaux-arts-de-marseille
           value: >-
-            https://x.com/BeauxArtsMars
+            https://www.linkedin.com/company/beaux-arts-de-marseille/
         youtube:
           label: >-
             beaux-artsdemarseille3203
