@@ -1,3 +1,3 @@
 import './theme/';
-import './suggestions';
+import './osuny-suggestions';
 import './footer';
