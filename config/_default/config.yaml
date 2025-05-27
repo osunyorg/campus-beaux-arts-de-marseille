@@ -23,6 +23,7 @@ params:
   default:
     index:
       taxonomies:
+        show_name: false
         layout: inline
   blocks:
     key_figures:
