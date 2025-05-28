@@ -42,3 +42,9 @@ params:
         diploma_certification: false
         logo: false
         website_link: false
+  organizations:
+    single:
+      backlinks: true
+  persons:
+    single:
+      backlinks: true
