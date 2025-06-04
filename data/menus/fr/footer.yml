@@ -8,13 +8,13 @@ items:
   children: []
   path: "/pages/lecole-ses-engagements/nous-connaitre/contact"
   file: content/fr/pages/lecole-ses-engagements/nous-connaitre/contact/_index.html
-- title: FAQ
-  target: "/faq/"
+- title: Documents utiles & FAQ
+  target: "/documents-utiles/"
   kind: page
   new_tab: false
   children: []
-  path: "/pages/faq"
-  file: content/fr/pages/faq/_index.html
+  path: "/pages/documents-utiles"
+  file: content/fr/pages/documents-utiles/_index.html
 - title: Magazine
   target: "/magazine/"
   kind: page
