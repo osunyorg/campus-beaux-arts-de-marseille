@@ -11,3 +11,6 @@ commons:
     switchboard: "L’École met en place un accueil téléphonique (standard : <a href='tel:04 91 82 83 10'>04 91 82 83 10</a>) pour les personnes sourdes et malentendantes"
 programs:
   children: En cursus
+agenda:
+  access:
+    partical_informations: "Infos pratiques :"

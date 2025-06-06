@@ -1,0 +1,7 @@
+{{ if or .Params.text .Params.notes .Params.header_cta.display .Params.time_slots .Params.children .Params.dates }}
+  <div class="container event-access">
+    {{ if or .Params.time_slots .Params.children .Params.dates }}
+      {{ partial "commons/agenda/dates.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

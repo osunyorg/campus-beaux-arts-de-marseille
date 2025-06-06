@@ -129,19 +129,23 @@ header#document-header
                 width: 1px !important
                 white-space: nowrap !important
         .upper-menu
-            position: absolute
-            top: $spacing-4
-            right: 0
+            align-items: end
             background: transparent
             display: flex
-            align-items: end
+            position: absolute
+            right: 0
+            top: $spacing-4
             > .container
                 width: auto
                 max-width: calc(100vw - #{pxToRem(600)})
                 > ul
-                    gap: pxToRem(45)
+                    column-gap: pxToRem(45)
                     flex-wrap: wrap
                     justify-content: end
+                    row-gap: $spacing-2
+                    width: columns(5)
+                    @include media-breakpoint-up(xxl)
+                        width: columns(8)
         &:not(.is-sticky)
             .menu
                 padding-top: $spacing-4

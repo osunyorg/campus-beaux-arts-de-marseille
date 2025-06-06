@@ -30,6 +30,10 @@ params:
   blocks:
     key_figures:
       animated: false
+  events:
+    single:
+      time_slots:
+        date_format: "Monday 2 January 2006"
   posts:
     single:
       taxonomies:
