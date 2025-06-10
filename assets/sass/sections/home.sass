@@ -17,11 +17,15 @@
                         .btn
                             @include button-reset
                             @include h3
-                            padding: 0
                             min-width: unset
+                            padding: 0
                             text-align: right
                             &::before
                                 content: '→'
+                                display: inline-block
+                                transition: transform 0.2s ease
+                            &:hover::before
+                                transform: translateX(space())
                 figure
                     margin-top: $spacing-5
                     width: 100%

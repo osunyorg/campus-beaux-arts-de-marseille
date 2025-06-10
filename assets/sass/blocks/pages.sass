@@ -8,6 +8,10 @@
                     &::before
                         content: '→'
                         font-family: inherit
+            @include in-page-with-sidebar
+                li a
+                    @include h2
+                    text-underline-offset: 3px
     @include media-breakpoint-up(desktop)
         .top
             margin-bottom: $spacing-3

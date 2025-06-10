@@ -1,6 +1,11 @@
 .block-title
     &.block-class-is-absolute
         @include media-breakpoint-up(desktop)
+            position: relative
             h2
                 @include h3
+                left: var(--grid-gutter)
                 position: absolute
+                padding-left: 0
+                @include in-page-with-or-without-sidebar
+                    width: columns(4)
