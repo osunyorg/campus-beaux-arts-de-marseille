@@ -1,8 +1,21 @@
 .hero
     @include media-breakpoint-up(desktop)
+        margin-bottom: 0
+        padding-bottom: space(20)
         &:not(.hero--with-image)
             .hero-text
                 width: columns(10)
-
-        margin-bottom: 0
-        padding-bottom: space(20)
+    .dropdown-share 
+        --btn-min-width: 0
+        --btn-padding: 0
+        --btn-border: 0
+        --btn-border-radius: 0
+        --btn-hover-border: 0
+        button
+            @include body-text
+            justify-content: flex-start
+            @include media-breakpoint-up(desktop)
+                justify-content: flex-end
+            &::after
+                content: '↗' / ""
+                font-family: $heading-font-family
