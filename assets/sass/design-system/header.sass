@@ -135,7 +135,9 @@ header#document-header
             position: absolute
             right: var(--grid-gutter)
             top: $header-nav-padding-y-desktop
-            width: columns(6)
+            width: columns(5)
+            @include media-breakpoint-up(xxl)
+                width: columns(6)
             > .container
                 flex: 1
                 padding: 0
