@@ -25,12 +25,18 @@ params:
   default:
     index:
       taxonomies:
-        show_name: false
+        display: true
         layout: inline
+        show_name: false
   blocks:
     key_figures:
       animated: false
   events:
+    index:
+      taxonomies:
+        display: true
+        show_name: true
+        layout: dropdown
     single:
       time_slots:
         date_format: "Monday 2 January 2006"
