@@ -79,11 +79,11 @@ footer#document-footer
             width: columns(3)
     @include media-breakpoint-down(desktop)
         padding-bottom: var(--grid-gutter)
-        .container:nth-child(2)
+        .container
             display: flex
             flex-direction: column
             gap: pxToRem(50)
-            + .container
+            &:nth-child(2) + .container
                 margin-top: pxToRem(50)
         .footer-nav,
         .footer-switchboard,
@@ -102,7 +102,7 @@ footer#document-footer
                 width: 100%
         .footer-legals
             order: -1
-            margin-top: $spacing-4
+            margin-top: 0
     @include media-breakpoint-up(desktop)
         .footer-site,
         .footer-nav

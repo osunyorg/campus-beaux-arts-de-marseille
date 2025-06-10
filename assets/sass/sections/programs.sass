@@ -4,23 +4,24 @@
             .hero-text
                 width: 100%
     .document-content
-        > section
-            .content > h2
-                @include meta
-                position: relative
-                top: unset !important
-        .content > div 
+        @include media-breakpoint-up(desktop)
             > section
-                &:first-of-type
-                    margin-top: 0 !important
-                > h3
-                    position: absolute
-                    margin-top: 0
-                    left: 0 
-                > p:first-of-type
-                    margin-top: 0
-            &:first-of-type section h3
-                margin-top: space(7)
+                .content > h2
+                    @include meta
+                    position: relative
+                    top: unset !important
+            .content > div 
+                > section
+                    &:first-of-type
+                        margin-top: 0 !important
+                    > h3
+                        position: absolute
+                        margin-top: 0
+                        left: 0 
+                    > p:first-of-type
+                        margin-top: 0
+                &:first-of-type section h3
+                    margin-top: space(7)
         .diplomas-select
             --dropdown-background: var(--color-text)
             --dropdown-color: var(--color-background)
