@@ -26,24 +26,6 @@ fr:
           value: >-
             https://www.youtube.com/@beaux-artsdemarseille3203
 
-  permalinks:
-    events: /agenda/:year/:slug/
-    exhibitions: /expositions/:year-:month-:day-:slug/
-    events_categories: /agenda/:slug/
-    pages_categories: /:slug/
-    projects: /projets/:year-:slug/
-    projects_categories: /projets/:slug/
-    posts: /magazine/:year-:month-:day-:slug/
-    posts_categories: /magazine/:slug/
-    diplomas: /diplomes/:slug/
-    programs_categories: /formations/categories/:slug/
-    programs: /formations/:slug/
-    organizations: /organisations/:slug/
-    organizations_categories: /organisations/categories/:slug/
-    persons: /personnes/:slug/
-    persons_categories: /personnes/categories/:slug/
-    administrators: /personnes/:slug/roles/
-    authors: /personnes/:slug/magazine/
   taxonomies:
     administrator: administrators
     author: authors
