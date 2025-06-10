@@ -1,3 +1,13 @@
+// icons instead of round markers
+$icons: (1: 'icon-shape-05', 2: 'icon-shape-07', 3: 'icon-shape-06')
+@mixin timeline-icons
+    background: none
+    border-radius: none
+    height: auto
+    font-size: pxToRem(21) !important
+    top: 0
+    width: auto
+
 .block-timeline
     &--horizontal
         .slider-arrows
@@ -17,21 +27,20 @@
                     padding-right: space(4)
                     &::before
                         conten: ''
-    .timeline-event
+    // icons
+    &--horizontal .timeline-event
         .line::before
-            background: none
-            border-radius: none
-            height: auto
-            font-size: pxToRem(21) !important
-            top: 0
+            @include timeline-icons
             transform: translateY(-50%)
-            width: auto
-        &:nth-child(3n + 1)
-            .line::before
-                @include icon-site('icon-shape-05')
-        &:nth-child(3n + 2)
-            .line::before
-                @include icon-site('icon-shape-07')
-        &:nth-child(3n + 3)
-            .line::before
-                @include icon-site('icon-shape-06')
+        @each $i, $icon in $icons
+            &:nth-child(3n + #{$i})
+                .line::before
+                    @include icon-site($icon)
+
+    &--vertical .timeline-event
+        &::before
+            @include timeline-icons
+            transform: translate(-25%, -25%)
+        @each $i, $icon in $icons
+            &:nth-child(3n + #{$i})::before
+                @include icon-site($icon)
