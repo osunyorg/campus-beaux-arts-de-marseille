@@ -43,3 +43,12 @@
                     padding-top: 0
         .featured-image
             display: none
+    @include media-breakpoint-up(desktop)
+        .block-gallery--carousel
+            overflow: visible
+            .slider-track
+                overflow: hidden
+                margin-right: var(--grid-gutter-negative)
+                // negative offset(4)
+                margin-left: calc(-1 * calc((var(--column-width) * 5) + var(--grid-gutter) * ( 5 - 1 )) - var(--grid-gutter))
+                padding-left: offset(5)
