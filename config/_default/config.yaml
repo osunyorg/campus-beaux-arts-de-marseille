@@ -49,9 +49,7 @@ params:
   programs:
     single:
       options:
-        diploma_certification: false
-        logo: false
-        website_link: false
+        diploma_certification: true
   organizations:
     single:
       backlinks: true
