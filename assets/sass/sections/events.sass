@@ -92,6 +92,14 @@
                 .media
                     order: -1
 
+.events__section
+    // TODO : nettoyer
+    .agenda-exhibitions
+        --color-background-alt: var(--color-accent)
+        --color-text: var(--color-background)
+        &, a, p
+            color: var(--color-background) !important
+
 .events__page,
 .exhibitions__page
     .hero
@@ -105,6 +113,11 @@
             order: 2
         .hero-actions
             padding-bottom: $spacing-3
+        @include media-breakpoint-up(desktop)
+            .hero-text
+                row-gap: $spacing-4
+                .taxonomies-single
+                    margin-top: 0
         @include media-breakpoint-down(desktop)
             &--with-image .hero-text
                 margin-bottom: 0
@@ -134,10 +147,3 @@
             @extend .button--accent
         * + .btn
             margin-top: $spacing-4
-
-// TODO : nettoyer
-.agenda-exhibitions
-    --color-background-alt: black
-    --color-text: var(--color-background)
-    * 
-        color: var(--color-background) !important

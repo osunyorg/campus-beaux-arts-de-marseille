@@ -22,29 +22,25 @@ params:
       events:
         grid:
           desktop:  864
-  default:
-    index:
-      taxonomies:
-        display: true
-        layout: inline
-        show_name: false
   blocks:
     key_figures:
       animated: false
   events:
     index:
-      taxonomies:
-        display: true
-        show_name: true
-        layout: dropdown
       highlight_exhibitions:
         future:
           options:
             image: true
+            categories: false
     single:
       time_slots:
         date_format: "Monday 2 January 2006"
   posts:
+    index:
+      taxonomies:
+        display: true
+        show_name: true
+        layout: inline
     single:
       taxonomies:
         position: hero

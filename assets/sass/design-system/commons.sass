@@ -1,0 +1,12 @@
+// random icon for categories
+.post-categories, 
+.event-categories, 
+.taxonomies-section, 
+.taxonomies-single
+    @for $i from 1 through 9
+        $num: if($i < 10, '0#{$i}', '#{$i}')
+        $class-name: 'icon-shape-#{$num}'
+        .#{$class-name}::before
+            @include icon-site('#{$class-name}')
+            display: inline-block
+            padding-right: $spacing-1
