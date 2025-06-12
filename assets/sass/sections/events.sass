@@ -153,6 +153,32 @@
                 content: '→'
                 font-family: inherit
 
+// federated content (sections only for now)
+.events__section,
+.exhibitions__section
+    [class$="-agenda"]
+        .event,
+        .exhibition
+            [class$="-content"]
+                align-items: flex-start
+            &.is-federated
+                border: 2px solid $color-background-white
+                border-radius: pxToRem(10)
+                padding-bottom: space(5)
+                padding-top: space(5)
+                .event-federation
+                    background: $color-background-white
+                    padding: space() space(2)
+                    order: -3
+                    margin-bottom: $spacing-1
+                @include media-breakpoint-down(desktop)
+                    margin-left: calc(var(--grid-gutter-negative) / 2)
+                    margin-right: calc(var(--grid-gutter-negative) / 2)
+                    padding-left: calc(var(--grid-gutter) / 2)
+                    padding-right: calc(var(--grid-gutter) / 2)
+                    .event-federation
+                        margin-bottom: space(5)
+
 .agenda-filters
     .dropdown
         > span[role="button"]

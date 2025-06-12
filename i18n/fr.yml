@@ -14,3 +14,9 @@ programs:
 agenda:
   access:
     partical_informations: "Infos pratiques :"
+events:
+  item:
+    federated: "Événement du <span>{{ . }}</span>"
+exhibitions:
+  item:
+    federated: "Événement du <span>{{ . }}</span>"
