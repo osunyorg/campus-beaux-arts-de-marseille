@@ -1,3 +1,4 @@
+// global
 .events
     .event
         .event-categories a
@@ -92,14 +93,7 @@
                 .media
                     order: -1
 
-.events__section
-    // TODO : nettoyer
-    .agenda-exhibitions
-        --color-background-alt: var(--color-accent)
-        --color-text: var(--color-background)
-        &, a, p
-            color: var(--color-background) !important
-
+// single page
 .events__page,
 .exhibitions__page
     .hero
@@ -146,3 +140,31 @@
             @extend .button--accent
         * + .btn
             margin-top: $spacing-4
+
+// sections
+.events__section
+    .agenda-exhibitions
+        --color-background-alt: var(--color-accent)
+        --color-text: var(--color-background)
+        &, a, p
+            color: var(--color-background) !important
+        .exhibitions--agenda
+            .more::after
+                content: '→'
+                font-family: inherit
+
+.agenda-filters
+    .dropdown
+        > span[role="button"]
+        > button
+            &::after
+                content: '↓'
+                font-family: inherit
+            &[aria-expanded="true"]::after
+                content: '↑'
+                font-family: inherit
+        .calendar-month tbody a
+            @include meta
+            display: inline-flex
+            align-items: center
+            justify-content: center
