@@ -37,6 +37,10 @@ params:
         display: true
         show_name: true
         layout: dropdown
+      highlight_exhibitions:
+        future:
+          options:
+            image: true
     single:
       time_slots:
         date_format: "Monday 2 January 2006"
