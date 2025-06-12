@@ -108,7 +108,10 @@
             padding-bottom: $spacing-3
         @include media-breakpoint-up(desktop)
             .hero-text
-                row-gap: $spacing-4
+                > h1, > hgroup
+                    margin-bottom: $spacing-3
+                hgroup h1
+                    margin-bottom: $spacing-3
                 .taxonomies-single
                     margin-top: 0
         @include media-breakpoint-down(desktop)
@@ -178,6 +181,10 @@
                     padding-right: calc(var(--grid-gutter) / 2)
                     .event-federation
                         margin-bottom: space(5)
+    .events-archives-years
+        ol li::after
+            content: '→'
+            font-family: inherit
 
 .agenda-filters
     .dropdown
