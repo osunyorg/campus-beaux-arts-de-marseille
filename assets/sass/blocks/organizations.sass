@@ -1,22 +1,14 @@
 .block-organizations
     &--map
+        .map
+            background-color: var(--color-background)
         .leaflet-popup-content
             .media--logo
                 background-color: $color-background-white
-        .leaflet-tile-pane::before
-            background-color: var(--color-background)
-            content: ''
-            height: 600px
-            left: 0
+        .leaflet-tile
+            filter: grayscale(100%)
+            opacity: 60% !important
             pointer-events: none
-            position: absolute
-            mix-blend-mode: multiply
-            top: 0
-            width: columns(8)
-        .leaflet-layer
-            background-color: var(--color-background)
-            filter: grayscale(1)
-            mix-blend-mode: multiply
     &--grid
         .organizations
             .organization-title a
