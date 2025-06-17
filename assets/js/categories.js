@@ -1,6 +1,6 @@
 class CategoriesIcons {
     constructor () {
-        this.containers = document.querySelectorAll('.post-categories, .event-categories, .posts__section .taxonomies-section, .taxonomies-single');
+        this.containers = document.querySelectorAll('.post-categories, .event-categories, .project-categories, .posts__section .taxonomies-section, .taxonomies-single');
         if (!this.containers) {
             return;
         }

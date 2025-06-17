@@ -1,0 +1,22 @@
+.project
+    .project-categories a
+        text-decoration: none
+    .project-title
+        @include h3
+        a::after
+            content: '→'
+            font-family: inherit
+            opacity: 1
+
+.block-projects
+    &--list
+        li
+            border: none !important
+            padding: 0
+            + li
+                margin-top: space(5)
+        @include in-page-with-or-without-sidebar
+            article.project
+                .project-subtitle
+                    @include body-text
+                    margin-top: $spacing-1

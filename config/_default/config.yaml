@@ -45,6 +45,15 @@ params:
     single:
       taxonomies:
         position: hero
+  projects:
+    index:
+      layout: list
+      options:
+        categories: false
+        image: false
+        subtitle: false
+        summary: false
+        year: false
   programs:
     single:
       options:
