@@ -37,15 +37,14 @@ params:
         date_format: "Monday 2 January 2006"
   posts:
     index:
+      layout: grid
       taxonomies:
         display: true
-        show_name: true
+        show_name: false
         layout: inline
     single:
       taxonomies:
         position: hero
-    index:
-      layout: grid
   programs:
     single:
       options:

@@ -11,13 +11,29 @@
             pointer-events: none
     &--grid
         .organizations
-            .organization-title a
-                @include h4
-                &::after
-                    display: inline
-                    content: '→' / ""
-                    padding-left: $spacing-1
-            .organization-summary
-                margin-top: space(4)
-            @include in-page-with-sidebar
-                @include grid(2)
+            &,
+            &.with-summaries
+                .organization-content
+                    display: flex
+                    flex-direction: column
+                    .organization-title
+                        @include h4
+                        a::after
+                            display: inline
+                            content: '→' / ""
+                            padding-left: $spacing-1
+                    address [itemprop="name"]
+                        display: none
+                    @include media-breakpoint-down(desktop)
+                        .organization-title
+                            @include h5
+                        address
+                            @include meta
+                .organization-summary
+                    order: 2
+                    + address
+                        margin-bottom: space(4)
+                address
+                    margin-top: space(4)
+                @include in-page-with-sidebar
+                    @include grid(2)
