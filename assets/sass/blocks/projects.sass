@@ -12,14 +12,16 @@
 
 .block-projects
     .top
-        .block-title a 
-            &::after
-                content: '→'
-                font-family: inherit
-                margin-left: space()
-                opacity: 0
-            &:hover::after 
-                opacity: 1
+        .block-title
+            .projects__section &
+                @include body-text
+            a 
+                &::after
+                    content: '→'
+                    font-family: inherit
+                    opacity: 0
+                &:hover::after 
+                    opacity: 1
     &--list
         li
             border: none !important
