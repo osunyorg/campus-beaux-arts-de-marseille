@@ -1,0 +1,21 @@
+.block-agenda
+    &--list
+        .event
+            .event-time,
+            .event-subtitle
+                @include body-text
+            @include in-page-without-sidebar
+                .event-content
+                    @include grid(9)
+                    flex: 1
+                    row-gap: $spacing-1
+                    > .event-title,
+                    hgroup,
+                    .event-categories
+                        grid-column: 5 / 10
+                        margin-top: 0
+                        margin-bottom: 0
+                    .event-subtitle
+                        margin-top: $spacing-1
+                .media
+                    width: columns(3)
