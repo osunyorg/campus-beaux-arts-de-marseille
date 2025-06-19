@@ -17,9 +17,10 @@
             &:hover::before
                 transform: translate(-20%)
     @include in-page-with-sidebar
-        .call_to_action 
-            > div
-                padding: space(5)
+        &--accent-background
+            .call_to_action 
+                > div
+                    padding: space(5)
         .actions a:first-child
             padding: 0
     @include in-page-without-sidebar
