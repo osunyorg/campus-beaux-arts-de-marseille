@@ -2,6 +2,10 @@
     &--map
         .map
             background-color: var(--color-background)
+            .organization
+                @include in-page-without-sidebar
+                    .organization-title
+                        @include body-text
         .leaflet-popup-content
             .media--logo
                 background-color: $color-background-white
@@ -9,6 +13,14 @@
             filter: grayscale(100%)
             opacity: 60% !important
             pointer-events: none
+        @include media-breakpoint-up(desktop)
+            .page-partner_schools &
+                position: relative
+                z-index: $zindex-footer
+                .block-content
+                    padding-left: 0 !important
+                .top
+                    padding-left: offset(4)
     &--grid
         .organizations
             &,
