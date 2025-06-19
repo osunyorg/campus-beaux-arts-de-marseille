@@ -46,11 +46,13 @@ header#document-header
                             margin-left: pxToRem(2)
                             padding-right: pxToRem(5)
                         &::after
-                            content: ' ↓'
+                            content: ' ↓' / ""
                             display: inline-block
                             transition: transform 0.2s ease
                     &[aria-expanded="true"] > strong::after
-                        content: ' ↑'
+                        content: ' ←' / ""
+                        @include media-breakpoint-up(desktop)
+                            content: ' ↑' / ""
                 &:first-child
                     > a
                         padding-left: 0

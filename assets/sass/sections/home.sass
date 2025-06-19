@@ -13,19 +13,21 @@
                     margin-top: $spacing-3
                     > h1, hgroup
                         width: columns(9)
-                    .hero-actions
-                        .btn
-                            @include button-reset
-                            @include h3
-                            min-width: unset
-                            padding: 0
-                            text-align: right
-                            &::before
-                                content: '→'
-                                display: inline-block
-                                transition: transform 0.2s ease
-                            &:hover::before
-                                transform: translateX(space())
                 figure
                     margin-top: $spacing-5
                     width: 100%
+            .hero-actions
+                .btn
+                    @include button-reset
+                    @include body-text
+                    min-width: unset
+                    padding: 0
+                    text-align: right
+                    &::before
+                        content: '→'
+                        display: inline-block
+                        transition: transform 0.2s ease
+                    &:hover::before
+                        transform: translateX(space())
+                    @include media-breakpoint-up(desktop)
+                        @include h3
