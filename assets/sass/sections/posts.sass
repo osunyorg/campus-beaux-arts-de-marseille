@@ -32,3 +32,5 @@
     &.full-width
         .posts--grid
             @include grid(3, desktop)
+            @include media-breakpoint-down(desktop)
+                row-gap: $spacing-4
