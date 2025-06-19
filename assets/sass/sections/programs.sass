@@ -16,16 +16,19 @@
                         position: absolute
                         margin-top: 0
                         left: 0 
+                        width: columns(4)
                     > p:first-of-type
                         margin-top: 0
                     &:first-of-type
                         margin-top: 0 !important
-                        h3
-                            margin-top: space(7)
                 > figure + section:first-of-type
                     margin-top: $spacing-4 !important
                     h3
-                        margin-top: 0
+                        margin-top: 0 !important
+            .content > div:first-of-type
+                > section:first-of-type
+                    > h3
+                        margin-top: space(7)
         .diplomas-select
             --dropdown-background: var(--color-text)
             --dropdown-color: var(--color-background)
