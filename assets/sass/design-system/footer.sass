@@ -17,20 +17,24 @@ footer#document-footer
         gap: var(--grid-gutter)
     .footer-site
         text-align: left
+        [itemprop="extendedAddress"]
+            display: block
         [itemprop="address"]
             margin-top: 0
         [itemprop="name"],
         [itemprop="addressCountry"],
         [itemprop="postalCode"]
             @extend .sr-only
-        [itemprop="address"] + p::before
-            content: "T : "
-        > div + .footer-cta
+        .phone-numbers span
+            display: block
+        > * + .footer-cta
             margin-top: $spacing-3
         .footer-cta
             a
                 @extend .button
                 @extend .button--small
+                padding-top: pxToRem(5)
+                padding-bottom: pxToRem(5)
                 text-align: left
                 font-size: $body-size
                 &::after
@@ -111,7 +115,8 @@ footer#document-footer
             width: columns(2)
         .footer-presentation
             flex: 1
-            margin-left: var(--grid-gutter-negative)
+            @include media-breakpoint-up(xxl)
+                margin-left: var(--grid-gutter-negative)
         .footer-legals 
             flex: 1
             margin-left: var(--grid-gutter-negative)

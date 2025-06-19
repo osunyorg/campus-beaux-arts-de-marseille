@@ -155,12 +155,17 @@ header#document-header
                 padding-top: $spacing-4
                 width: 100%
                 .nav-level-1
+                    align-items: flex-start
                     > li
                         > a, > span
                             @include h3
                             > strong
                                 display: block
+                        &.has-children
+                            > a, > span
+                                padding: 0
         &.is-sticky
+            border-bottom: 1px solid var(--color-text)
             .upper-menu
                 display: none
             .logo-container
@@ -176,6 +181,8 @@ header#document-header
                 > .container
                     align-items: center
                     gap: var(--grid-gutter)
+                .nav-level-1 > li > a > strong::before
+                    font-size: pxToRem(17)
             .menu
                 flex: 1
                 .nav-level-1
