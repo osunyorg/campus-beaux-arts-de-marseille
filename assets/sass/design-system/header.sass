@@ -97,6 +97,12 @@ header#document-header
                     display: block
             &:last-child
                 margin-top: space(8)
+        .nav-level-2
+            > li + li 
+                margin-top: space(10)
+        .dropdown-menu .nav-level-2 
+            > .has-children > a
+                @include h3
         html.has-menu-opened &
             --btn-color: var(--color-background)
             --btn-border: var(--border-width) solid var(--color-background)
