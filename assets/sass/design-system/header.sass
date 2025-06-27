@@ -61,9 +61,12 @@ header#document-header
                         @extend .btn
                         min-width: 0
                         white-space: nowrap
+                        line-height: 1
                         @include media-breakpoint-down(desktop)
                             @include h3
                             padding: pxToRem(8) pxToRem(25) pxToRem(10)
+                        @supports (-moz-appearance:none)
+                            padding-bottom: pxToRem(5)
         .nav-level-2
             > li
                 > a, > span
