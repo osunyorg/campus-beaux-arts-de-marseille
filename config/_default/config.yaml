@@ -12,6 +12,9 @@ params:
     active: true
     positions:
       - upper-menu
+  home:
+    head:
+      title: site
   image_sizes:
     sections:
       home:
