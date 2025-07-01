@@ -46,7 +46,14 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/_index.html
-    - title: Équipes
+    - title: Équipe enseignante
+      target: "/lecole-ses-engagements/nous-connaitre/equipe-enseignante/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante/_index.html
+    - title: Équipe administrative
       target: "/lecole-ses-engagements/nous-connaitre/equipes/"
       kind: page
       new_tab: false
