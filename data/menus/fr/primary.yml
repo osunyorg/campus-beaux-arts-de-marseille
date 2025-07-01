@@ -46,6 +46,20 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/_index.html
+    - title: Équipe enseignante
+      target: "/lecole-ses-engagements/nous-connaitre/equipe-enseignante/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante/_index.html
+    - title: Équipe administrative
+      target: "/lecole-ses-engagements/nous-connaitre/equipes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/equipes"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipes/_index.html
     - title: Gouvernance de l'établissement
       target: "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
       kind: page
@@ -208,12 +222,12 @@ items:
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     - title: Tutorat inter-étudiant·e·s
-      target: "/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/"
+      target: "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
       kind: page
       new_tab: false
       children: []
-      path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes"
-      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/_index.html
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
@@ -245,7 +259,7 @@ items:
   new_tab: false
   children:
   - title: La recherche
-    target: "/la-recherche/"
+    target: "/reseaux-internationaux-recherche/la-recherche/"
     kind: page
     new_tab: false
     children:
