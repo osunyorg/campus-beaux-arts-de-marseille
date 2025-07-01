@@ -46,6 +46,13 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/_index.html
+    - title: Équipes
+      target: "/lecole-ses-engagements/nous-connaitre/equipes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/equipes"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipes/_index.html
     - title: Gouvernance de l'établissement
       target: "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
       kind: page
