@@ -8,7 +8,7 @@ bodyclass: >-
 url: "/"
 slug: ""
 date: 2024-12-03T10:33:41+01:00
-lastmod: 2025-07-01T17:37:34+02:00
+lastmod: 2025-07-09T11:03:49+02:00
 meta:
   hugo:
     permalink: "/"
@@ -17,7 +17,7 @@ meta:
     slug: ""
   dates:
     created_at: 2024-12-03T10:33:41+01:00
-    updated_at: 2025-07-01T17:37:34+02:00
+    updated_at: 2025-07-09T11:03:49+02:00
     published_at: 2024-12-03T10:33:41+01:00
 search:
   id: "2e68c5d9-f6cd-4376-a5ff-be023ade6809"
@@ -30,7 +30,7 @@ search:
   summary: >-
     
   body: >-
-    <p>Événements  <br> Tous les événements  </p>  <p>Aucun événement de prévu.</p>  <p> Magazine  <br> Tous les articles </p>  <p> Accès directs </p>
+    <p>Événements  <br> Tous les événements  </p>  <p> Magazine  <br> Tous les articles </p>  <p> Accès directs </p>
 
 breadcrumbs:
   - title: >-
@@ -89,7 +89,7 @@ header_cta:
   external: false
 
 contents_reading_time:
-  seconds: 5
+  seconds: 3
   text: >-
     moins d'une minute
 contents:
@@ -114,30 +114,20 @@ contents:
 
 
   - kind: block
-    template: agenda
+    template: exhibitions
     title: >-
-      Tous les événements
+      
     slug: >-
-      tous-les-evenements
+      
     ranks:
       base: 3
-      self: 3
-    html_class: "block-class-right-title"
+      children: 3
     top:
-      active: true
-      title: 
-        value: >-
-          Tous les événements
-        heading: 3
-        link: "/agenda/"
+      active: false
     data:
       mode: all
-      kinds:
-        parent: false
-        child: true
-        recurring: true
       options:
-        categories: true
+        categories: false
         dates: true
         image: true
         subtitle: true
@@ -148,13 +138,20 @@ contents:
       description: >-
         
 
-      no_event_message: >-
-        Aucun événement de prévu.
+      no_exhibition_message: >-
+        
 
-      title_link: "/agenda/"
-      events:
+      title_link: ""
+      exhibitions:
+        - permalink: "/expositions/2025-08-29-exposition-des-diplomees-2025/"
+          path: "/exhibitions/2025-08-29-exposition-des-diplomees-2025"
+          slug: "exposition-des-diplomees-2025"
+          file: "content/fr/exhibitions/2025-08-29-exposition-des-diplomees-2025.html"
+          name: >-
+            Exposition des diplômé·es 2025
 
-      quantity: 0
+      quantity: 1
+
 
   - kind: block
     template: title
