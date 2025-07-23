@@ -81,6 +81,14 @@ footer#document-footer
                     margin-left: 0
         @include media-breakpoint-up(desktop)
             width: columns(3)
+    .footer__supports ul
+        align-items: flex-start
+        display: flex
+        gap: $spacing-4
+        li + li
+            margin-top: 0
+        img
+            height: pxToRem(50)
     @include media-breakpoint-down(desktop)
         padding-bottom: var(--grid-gutter)
         .container
@@ -96,15 +104,18 @@ footer#document-footer
         .footer-site
             order: -3
             width: 100%
-            .footer-cta a
-                width: 100%
-                text-align: center
+            @include media-breakpoint-down(sm)
+                .footer-cta a
+                    width: 100%
+                    text-align: center
         .footer-switchboard
             order: -2
         .footer-presentation
             order: -1
             img
                 width: 100%
+                @include media-breakpoint-up(sm)
+                    max-width: columns(4)
         .footer-legals
             order: -1
             margin-top: 0
