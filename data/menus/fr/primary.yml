@@ -193,20 +193,6 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/_index.html
-    - title: Vie culturelle & sportive
-      target: "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive"
-      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/_index.html
-    - title: Vie associative
-      target: "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative"
-      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative/_index.html
     - title: Santé
       target: "/etudes-professionnalisation/la-vie-etudiante/sante/"
       kind: page
@@ -221,13 +207,6 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/handicap"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/handicap/_index.html
-    - title: Instances étudiantes
-      target: "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
-      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     - title: Tutorat inter-étudiant·e·s
       target: "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
       kind: page
@@ -235,6 +214,27 @@ items:
       children: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/_index.html
+    - title: Vie culturelle & sportive
+      target: "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/_index.html
+    - title: Vie associative
+      target: "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative/_index.html
+    - title: Instances étudiantes
+      target: "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
+      file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
