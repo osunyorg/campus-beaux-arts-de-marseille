@@ -260,7 +260,7 @@ items:
     file: content/fr/pages/etudes-professionnalisation/la-professionalisation/_index.html
   path: "/pages/etudes-professionnalisation"
   file: content/fr/pages/etudes-professionnalisation/_index.html
-- title: Réseaux internationaux **recherche**
+- title: Réseaux internationaux **Recherche**
   target: "/reseaux-internationaux-recherche/"
   kind: page
   new_tab: false
@@ -269,12 +269,7 @@ items:
     target: "/reseaux-internationaux-recherche/la-recherche/"
     kind: page
     new_tab: false
-    children:
-    - title: Les milieux associés
-      target: "/reseaux-internationaux-recherche/la-recherche/2022-les-milieux-associes/"
-      kind: url
-      new_tab: false
-      children: []
+    children: []
     path: "/projects"
     file: content/fr/projects/_index.html
   - title: Les relations internationales
