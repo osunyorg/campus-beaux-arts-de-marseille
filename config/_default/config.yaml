@@ -1,5 +1,6 @@
 theme: 
   - osuny-suggestions
+  - osuny-campus-art-mediterrannee-footer
   - osuny
 _merge: deep
 params:
