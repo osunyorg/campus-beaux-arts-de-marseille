@@ -73,10 +73,15 @@ header#document-header
                     @include h4
     .upper-menu
         li:first-child
-            a::after
-                @include icon-site('icon-pisourde')
-                font-size: pxToRem(21)
-                margin-left: space()
+            a, a.active
+                &::after
+                    @include icon-site('icon-pisourde')
+                    font-size: pxToRem(21)
+                    margin-left: space()
+                    position: relative
+                    height: auto
+                    width: auto
+                    background: transparent
     .header-button
         font-size: pxToRem(28)
         span:first-of-type
