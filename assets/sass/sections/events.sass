@@ -1,22 +1,24 @@
 // global
-.events
-    .event
-        .event-categories a
+.events,
+.exhibitions
+    .event,
+    .exhibition
+        [class$="-categories"] a
             text-decoration: none
-        .event-description
+        [class$="-description"]
             @include body-text
-        .event-content
+        [class$="-content"]
             display: flex
             flex-direction: column
-            .event-categories
+            [class$="-categories"]
                 order: -1
             hgroup,
-            .event-title
+            [class$="-title"]
                 order: -2
             .event-parent
                 order: -3
-        .event-time,
-        .event-hours
+        [class$="-time"],
+        [class$="-hours"]
             time + time,
             span + span
                 &::before
@@ -29,12 +31,12 @@
                     aspect-ratio: 3/2
         @include in-page-without-sidebar
             @include grid(2, desktop)
-        .event-schedule
+        [class$="-schedule"]
             display: flex
-            .event-dates,
-            .event-time
+            [class$="-dates"],
+            [class$="-time"]
                 @include h3
-            .event-time::before
+            [class$="-time"]::before
                 content: ', '
                 margin-right: $spacing-1
     &--agenda 
@@ -89,7 +91,7 @@
                     margin-top: 0
                 .media
                     width: calc(#{columns(2)} + var(--grid-gutter))
-            .event-content
+            [class$="-content"]
                 width: columns(5)
                 flex: unset
         @include media-breakpoint-down(desktop)
