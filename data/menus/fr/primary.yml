@@ -1,7 +1,7 @@
 ---
 title: Menu principal
 items:
-- title: L’École **ses engagements**
+- title: L’école **ses engagements**
   target: "/lecole-ses-engagements/"
   kind: page
   new_tab: false
