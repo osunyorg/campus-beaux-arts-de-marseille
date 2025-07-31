@@ -162,6 +162,10 @@
         --color-text: var(--color-background)
         &, a, p
             color: var(--color-background) !important
+        .exhibition-schedule
+            position: relative
+            order: -3
+            margin-bottom: $spacing-1
         .exhibitions--agenda
             .more::after
                 content: '→'
@@ -180,11 +184,14 @@
                 border-radius: pxToRem(10)
                 padding-bottom: space(5)
                 padding-top: space(5)
+                margin-left: space(-4) !important
                 .event-federation
                     background: $color-background-white
                     padding: space() space(2)
                     order: -3
                     margin-bottom: $spacing-1
+                .event-hours
+                    left: space(4)
                 @include media-breakpoint-down(desktop)
                     margin-left: calc(var(--grid-gutter-negative) / 2)
                     margin-right: calc(var(--grid-gutter-negative) / 2)
