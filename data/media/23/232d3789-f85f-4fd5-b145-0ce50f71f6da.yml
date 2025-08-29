@@ -1,7 +1,10 @@
 ---
 name: logo.svg
 size: 29143
-format: square
+width: 306
+height: 143
+ratio: 2.13986013986014
+format: landscape
 url: https://campus.osuny.org/media/eyJfcmFpbHMiOnsiZGF0YSI6IjIzMmQzNzg5LWY4NWYtNGZkNS1iMTQ1LTBjZTUwZjcxZjZkYSIsInB1ciI6ImJsb2JfaWQifX0=--32de292281a569c4451a2d12bb2f645e2cc8e1ba/logo.svg
 direct_url: https://osuny.s3.fr-par.scw.cloud/q8374rxvhyng3t4o0hu4tcyc06fg
 download_url: https://campus.osuny.org/media/download/eyJfcmFpbHMiOnsiZGF0YSI6IjIzMmQzNzg5LWY4NWYtNGZkNS1iMTQ1LTBjZTUwZjcxZjZkYSIsInB1ciI6ImJsb2JfaWQifX0=--32de292281a569c4451a2d12bb2f645e2cc8e1ba
