@@ -170,6 +170,11 @@
             .more::after
                 content: '→'
                 font-family: inherit
+    @include media-breakpoint-up(desktop)
+        .container.events-archives-latest
+            margin-top: $spacing-6
+            h2
+                margin-bottom: $spacing-2
 
 // federated content (sections only for now)
 .events__section,

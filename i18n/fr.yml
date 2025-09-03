@@ -19,6 +19,8 @@ agenda:
   access:
     partical_informations: "Infos pratiques :"
 events:
+  archives:
+    latest: Événements passés
   item:
     federated: "Événement du <span>{{ . }}</span>"
 exhibitions:
