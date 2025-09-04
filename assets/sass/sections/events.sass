@@ -170,6 +170,12 @@
             .more::after
                 content: '→'
                 font-family: inherit
+    &-year
+        .calendar-month tbody a
+            @include meta
+            line-height: space(7)
+            @include media-breakpoint-up(md)
+                line-height: space(9)
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6
