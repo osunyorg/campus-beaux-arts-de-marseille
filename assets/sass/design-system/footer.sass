@@ -45,6 +45,7 @@ footer#document-footer
     .footer-nav a
         @include h3
     .footer-presentation,
+    .ecosystem-list,
     .footer-switchboard
         p
             @include meta
@@ -52,15 +53,19 @@ footer#document-footer
         p + p
             margin-top: space(5)
     .footer-presentation
-        a
-            display: block
-            &, &:hover
-                text-decoration: none
-            &:hover span
-                text-decoration: underline
-            &::after
-                content: '→'
-                margin-left: space()
+        ul
+            margin-top: $spacing-3
+            li + li
+                margin-top: 0
+            a
+                display: block
+                &, &:hover
+                    text-decoration: none
+                &:hover span
+                    text-decoration: underline
+                &::after
+                    content: '→'
+                    margin-left: space()
     .footer-social
         order: 0
         .site-links
