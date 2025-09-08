@@ -1,17 +1,17 @@
 ---
 title: Écosystème (footer)
 items:
-- title: Site du Campus art Méditerranée
+- title: Campus art Méditerranée
   target: https://www.campusartmediterranee.fr/
   kind: url
   new_tab: true
   children: []
-- title: Site du conservatoire de Marseille Pierre Barbizet
+- title: Le Conservatoire de Marseille Pierre Barbizet
   target: https://www.conservatoiredemarseille.fr/
   kind: url
   new_tab: true
   children: []
-- title: Site de l'institut de formation artistique Marseille Méditerranée (IFAMM)
+- title: L'institut de formation artistique Marseille Méditerranée (IFAMM)
   target: https://www.campusartmediterranee.fr/letablissement/lifamm/
   kind: url
   new_tab: true
