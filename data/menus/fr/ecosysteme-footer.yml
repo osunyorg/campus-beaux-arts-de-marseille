@@ -1,0 +1,14 @@
+---
+title: Écosystème (footer)
+items:
+- title: Site du conservatoire de Marseille Pierre Barbizet
+  target: https://www.conservatoiredemarseille.fr/
+  kind: url
+  new_tab: true
+  children: []
+- title: Site du Campus art Méditerranée
+  target: https://www.campusartmediterranee.fr/
+  kind: url
+  new_tab: true
+  children: []
+
