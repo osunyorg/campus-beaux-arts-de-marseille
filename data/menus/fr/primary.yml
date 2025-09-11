@@ -260,7 +260,7 @@ items:
     file: content/fr/pages/etudes-professionnalisation/la-professionalisation/_index.html
   path: "/pages/etudes-professionnalisation"
   file: content/fr/pages/etudes-professionnalisation/_index.html
-- title: Réseaux internationaux **Recherche**
+- title: Recherche **Réseaux internationaux**
   target: "/reseaux-internationaux-recherche/"
   kind: page
   new_tab: false
