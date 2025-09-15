@@ -14,7 +14,7 @@ items:
   new_tab: true
   children: []
 - title: Catalogue de la bibliothèque
-  target: ''
+  target: https://catalogue.esadmm.fr/
   kind: url
   new_tab: true
   children: []
