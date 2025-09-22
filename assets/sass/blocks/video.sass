@@ -1,0 +1,11 @@
+.block-video
+    &.block-class-pisourde,
+    &.block-class-pisourd
+        button.btn
+            span
+                display: none
+            &::before
+                content: 'Lancer la vidéo Pisourde'
+            &::after
+                @include icon-site('icon-pisourde')
+                font-size: inherit
