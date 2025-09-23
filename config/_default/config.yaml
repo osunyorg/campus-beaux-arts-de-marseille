@@ -31,6 +31,7 @@ params:
       animated: false
   events:
     index:
+      sticky_dates: false
       highlight_exhibitions:
         future:
           options:
