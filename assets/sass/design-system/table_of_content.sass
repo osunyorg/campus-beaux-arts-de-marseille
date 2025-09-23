@@ -2,11 +2,14 @@
     .toc-pages
         li
             @include meta
-            a.active
-                &::after
-                    display: inline-block
-                    margin-left: $spacing-1
-                    font-size: pxToRem(21) !important
+            a::after
+                @include icon-site('icon-shape-01')
+                display: inline-block
+                font-size: pxToRem(21) !important
+                margin-left: $spacing-1
+                opacity: 0
+            a.active::after
+                opacity: 1
             &:nth-child(4n + 1)
                 a.active::after
                     @include icon-site('icon-shape-01')
@@ -19,6 +22,9 @@
             &:nth-child(4n + 4)
                 a.active::after
                     @include icon-site('icon-shape-04')
+            @include media-breakpoint-up(desktop)
+                &, a
+                    line-height: pxToRem(21)
 
 body.offcanvas-toc
     @include media-breakpoint-up(desktop)
