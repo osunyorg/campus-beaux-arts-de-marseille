@@ -9,7 +9,7 @@ items:
   path: "/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde"
   file: content/fr/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde/_index.html
 - title: Alumni
-  target: ''
+  target: https://alumni.beauxartsdemarseille.fr/
   kind: url
   new_tab: true
   children: []
