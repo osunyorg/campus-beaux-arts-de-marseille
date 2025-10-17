@@ -1,18 +1,20 @@
 ---
 title: Menu haut
 items:
-- title: Espace PiSourd·e
+- title: 20 ans PiSourd·e
   target: "/lecole-ses-engagements/nous-connaitre/programme-pisourde/"
   kind: page
   new_tab: false
   children: []
   path: "/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde"
   file: content/fr/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde/_index.html
-- title: Alumni
-  target: ''
-  kind: url
-  new_tab: true
+- title: Taxe d'apprentissage
+  target: "/taxe-dapprentissage/"
+  kind: page
+  new_tab: false
   children: []
+  path: "/pages/taxe-dapprentissage"
+  file: content/fr/pages/taxe-dapprentissage/_index.html
 - title: Catalogue de la bibliothèque
   target: https://catalogue.esadmm.fr/
   kind: url
