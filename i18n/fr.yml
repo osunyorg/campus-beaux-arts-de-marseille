@@ -4,7 +4,7 @@ commons:
   footer:
     campus:
       logo_alt: Campus art Méditerranée
-    switchboard: "L’École met en place un accueil téléphonique (standard : <a href='tel:04 91 82 83 10'>04 91 82 83 10</a>) pour les personnes sourdes et malentendantes"
+    switchboard: "Les personnes Sourdes et malentendantes peuvent contacter l'école via <a href='https://app.acce-o.fr/service/banque-de-france/1556910' target='_blank'>la plateforme ACCEO</a> Ce service est disponible du lundi au vendredi de 9h à 17h30."
   search:
     placeholder: Tapez votre recherche
 programs:
