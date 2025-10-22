@@ -1,38 +1,40 @@
 .block-links
-    .links
-        row-gap: space(5)
-        li
-            border-bottom-left-radius: 10px
-            border-bottom-right-radius: 10px
-            .link-content
-                padding: space(4)
-                min-height: unset
-                a
-                    @include h3
-                    &::after
-                        content: none
-                    span:first-of-type::after
-                        bottom: unset
-                        content: ' →' / ""
-                        display: inline
-                        position: relative
-                        right: unset
-                        transition: padding 0.2s ease
-                p
-                    @include body-text
-                    margin-top: 0
-            &:hover a span::after
-                padding-left: space(2)
-            &:not(.with-image)
-                &, &:hover
-                    background-color: transparent
-                &:hover a
-                    color: var(--color-text)
+    &--cards
+        .links
+            row-gap: space(5)
+            li
+                border-bottom-left-radius: 10px
+                border-bottom-right-radius: 10px
                 .link-content
-                    padding: 0
-            .media:not(.media--icon) img
-                margin: 0
-                max-width: unset
-                width: 100%
-            &:hover picture
-                filter: none
+                    padding: space(4)
+                    min-height: unset
+                    a
+                        @include h3
+                        &::after
+                            content: none
+                        span:first-of-type::after
+                            bottom: unset
+                            content: ' →' / ""
+                            display: inline
+                            position: relative
+                            right: unset
+                            transition: padding 0.2s ease
+                    p
+                        @include body-text
+                        margin-top: 0
+                &:hover a span::after
+                    padding-left: space(2)
+                &:not(.with-image)
+                    &, &:hover
+                        background-color: transparent
+                    &:hover 
+                        &, a
+                            color: var(--color-text)
+                    .link-content
+                        padding: 0
+                .media:not(.media--icon) img
+                    margin: 0
+                    max-width: unset
+                    width: 100%
+                &:hover picture
+                    filter: none
