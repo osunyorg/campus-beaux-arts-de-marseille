@@ -15,8 +15,6 @@
             hgroup,
             [class$="-title"]
                 order: -2
-                a::after
-                    content: none
             .event-parent
                 order: -3
         [class$="-time"],
@@ -149,6 +147,8 @@
                     right: var(--grid-gutter)
                     width: calc(100vw - (var(--grid-gutter) * 2)) !important
     [class$="-sidebar"]
+        .event-practicals
+            @include meta
         h2
             @include meta
             margin-bottom: space()
@@ -156,6 +156,15 @@
             @extend .button--accent
         * + .btn
             margin-top: $spacing-4
+
+// exhibitions
+.exhibitions__page
+    [class$="-access"]
+        .event-summary
+            @include h3
+        @include media-breakpoint-up(md)
+            .event-slots
+                display: block !important
 
 // sections
 .events__section
