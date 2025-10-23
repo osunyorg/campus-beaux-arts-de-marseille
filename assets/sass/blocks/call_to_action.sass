@@ -7,22 +7,25 @@
             .description p
                     @include h3
         .actions a
+            margin-left: space(2)
             &::before
                 content: '→' / ""
                 display: inline-block
                 transition: all 0.2s ease
-                transform: translate(-50%)
+                transform: translate(space(-2))
             &::after
                 content: none
             &:hover::before
-                transform: translate(-20%)
+                transform: translate(space(-1))
+            &:first-child
+                padding: 0
+                min-width: unset
+                width: unset
     @include in-page-with-sidebar
         &--accent-background
             .call_to_action 
                 > div
                     padding: space(5)
-        .actions a:first-child
-            padding: 0
     @include in-page-without-sidebar
         .block-content
             padding-bottom: pxToRem(30)
@@ -44,10 +47,9 @@
                 flex-direction: column
                 align-items: flex-end
                 a
-                    padding: 0
-                    min-width: unset
-                    width: unset
                     position: absolute
+                    &:first-child
+                        margin-left: 0
     .page-research &
         .call_to_action--without-image.call_to_action--without-text
             div
