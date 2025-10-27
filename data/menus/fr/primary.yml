@@ -32,13 +32,6 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/engagements"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/engagements/_index.html
-    - title: Programme Pisourd·e
-      target: "/lecole-ses-engagements/nous-connaitre/programme-pisourde/"
-      kind: page
-      new_tab: false
-      children: []
-      path: "/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde"
-      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/programme-pisourde/_index.html
     - title: Campus art Méditerranée
       target: "/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/"
       kind: page
@@ -109,6 +102,13 @@ items:
       children: []
       path: "/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/_index.html
+    - title: Programme PiSourd·e
+      target: "/lecole-ses-engagements/nous-connaitre/pisourde/"
+      kind: page
+      new_tab: false
+      children: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/pisourde"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/pisourde/_index.html
     - title: Sites satellites
       target: "/lecole-ses-engagements/nos-ressources/sites-satellites/"
       kind: page
