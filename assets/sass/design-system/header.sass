@@ -82,10 +82,14 @@ header#document-header
                     height: auto
                     width: auto
                     background: transparent
+        .nav-level-1>li a.active:after
+            content: none
+    
     .header-button
         font-size: pxToRem(28)
         span:first-of-type
             @extend .sr-only
+    
     @include media-breakpoint-down(desktop)
         .logo-container
             flex: 1
