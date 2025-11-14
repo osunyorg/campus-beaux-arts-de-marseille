@@ -1,17 +1,4 @@
 .hero
-    @include media-breakpoint-up(desktop)
-        margin-bottom: 0
-        padding-bottom: space(20)
-        &:not(.hero--with-image)
-            .hero-text
-                width: columns(10)
-        .content
-            .hero-text
-                margin-top: space(5)
-    @include media-breakpoint-up(desktop)
-        .content
-            .hero-text
-                margin-top: $spacing-1
     .dropdown-share 
         --btn-min-width: 0
         --btn-padding: 0
@@ -26,7 +13,18 @@
             &::after
                 content: '↗' / ""
                 font-family: $heading-font-family
+    
     .essential-container
         .buttons
             .dropdown-share 
                 --btn-min-width: 0
+    
+    @include media-breakpoint-up(desktop)
+        margin-bottom: 0
+        padding-bottom: space(20)
+        &:not(.hero--with-image)
+            .hero-text
+                width: columns(10)
+        .content
+            .hero-text
+                margin-top: $spacing-1

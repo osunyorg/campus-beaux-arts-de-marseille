@@ -46,13 +46,15 @@
                 padding-top: $spacing-3
             @include media-breakpoint-up(desktop)
                 .events-date-title
-                    margin-bottom: $spacing-4
+                    margin-bottom: $spacing-2
+        
         .events-date-title
             &,
             html:not(.is-scrolling-down) &
                 position: relative
                 top: 0
                 max-width: unset
+        
         .event
             + .event
                 border: none
@@ -65,15 +67,18 @@
                         span
                             position: relative
                             top: unset
+        
         .media img
             aspect-ratio: 3/2
             object-fit: cover
+
         @include in-page-without-sidebar
             .event:not(.event--child)
                 gap: 0 !important
                 margin-left: 0
                 padding-left: 0
                 .event-hours
+                    margin-top: $spacing-3
                     width: columns(2)
                     time + time
                         display: block
@@ -84,6 +89,7 @@
                     width: offset(4)
                     img
                         padding-right: var(--column-width)
+            
             .event--child
                 margin-left: columns(2)
                 padding-left: calc(#{offset(1)} + var(--grid-gutter))
@@ -91,14 +97,17 @@
                     margin-top: 0
                 .media
                     width: calc(#{columns(2)} + var(--grid-gutter))
+            
             [class$="-content"]
                 width: columns(5)
                 flex: unset
+        
         @include media-breakpoint-down(desktop)
             .event--parent
                 .media
                     margin-left: 0
                     margin-right: 0
+        
             .event--child
                 flex-direction: column
                 .media
@@ -187,11 +196,10 @@
             line-height: space(7)
             @include media-breakpoint-up(md)
                 line-height: space(9)
+    
     @include media-breakpoint-up(desktop)
         .container.events-archives-latest
             margin-top: $spacing-6
-            h2
-                margin-bottom: $spacing-2
 
 // federated content (sections only for now)
 .events__section,
