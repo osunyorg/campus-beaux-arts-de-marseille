@@ -72,13 +72,6 @@ section_taxonomies:
     slug: ""
     path: ""
     categories:
-      - permalink: "/magazine/international/miramar/"
-        path: "/posts_categories/international/miramar"
-        slug: "international/miramar"
-        file: "content/fr/posts_categories/international/miramar/_index.html"
-        name: >-
-          Résidences Miramar
-        count: 1
       - permalink: "/magazine/international/"
         path: "/posts_categories/international"
         slug: "international"
@@ -86,6 +79,16 @@ section_taxonomies:
         name: >-
           International
         count: 1
+        children:
+          - permalink: "/magazine/international/miramar/"
+            path: "/posts_categories/international/miramar"
+            slug: "international/miramar"
+            file: "content/fr/posts_categories/international/miramar/_index.html"
+            name: >-
+              Résidences Miramar
+            count: 1
+
+
       - permalink: "/magazine/alumni/"
         path: "/posts_categories/alumni"
         slug: "alumni"
