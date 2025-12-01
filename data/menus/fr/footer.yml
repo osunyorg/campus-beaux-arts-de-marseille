@@ -29,4 +29,11 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
+- title: Charte graphique des Beaux-Arts de Marseille
+  target: "/charte-graphique-des-beaux-arts-de-marseille/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/charte-graphique-des-beaux-arts-de-marseille"
+  file: content/fr/pages/charte-graphique-des-beaux-arts-de-marseille/_index.html
 

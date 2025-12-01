@@ -78,7 +78,7 @@ section_taxonomies:
         file: "content/fr/events_categories/concerts/_index.html"
         name: >-
           Concerts
-        count: 1
+        count: 2
       - permalink: "/agenda/rencontres/"
         path: "/events_categories/rencontres"
         slug: "rencontres"
@@ -92,7 +92,7 @@ section_taxonomies:
         file: "content/fr/events_categories/jpo/_index.html"
         name: >-
           JPO
-        count: 1
+        count: 2
       - permalink: "/agenda/exposition/"
         path: "/events_categories/exposition"
         slug: "exposition"
@@ -205,26 +205,19 @@ section_taxonomies:
         name: >-
           Alumni
         count: 2
+      - permalink: "/agenda/les-clochers-de-tourmente/"
+        path: "/events_categories/les-clochers-de-tourmente"
+        slug: "les-clochers-de-tourmente"
+        file: "content/fr/events_categories/les-clochers-de-tourmente/_index.html"
+        name: >-
+          Les Clochers de tourmente
+        count: 1
 
   - name: >-
       Offre de formation
     slug: "offre-de-formation"
     path: "/events_categories/offre-de-formation"
     categories:
-      - permalink: "/agenda/offre-de-formation/option-art/option-art-cycle-2-master/"
-        path: "/events_categories/offre-de-formation/option-art/option-art-cycle-2-master"
-        slug: "offre-de-formation/option-art/option-art-cycle-2-master"
-        file: "content/fr/events_categories/offre-de-formation/option-art/option-art-cycle-2-master/_index.html"
-        name: >-
-          Option art Cycle 2 (master)
-        count: 2
-      - permalink: "/agenda/offre-de-formation/option-design/option-design-cycle-2-master/"
-        path: "/events_categories/offre-de-formation/option-design/option-design-cycle-2-master"
-        slug: "offre-de-formation/option-design/option-design-cycle-2-master"
-        file: "content/fr/events_categories/offre-de-formation/option-design/option-design-cycle-2-master/_index.html"
-        name: >-
-          Option design Cycle 2 (Master)
-        count: 2
       - permalink: "/agenda/offre-de-formation/option-art/"
         path: "/events_categories/offre-de-formation/option-art"
         slug: "offre-de-formation/option-art"
@@ -232,6 +225,16 @@ section_taxonomies:
         name: >-
           Option art
         count: 2
+        children:
+          - permalink: "/agenda/offre-de-formation/option-art/option-art-cycle-2-master/"
+            path: "/events_categories/offre-de-formation/option-art/option-art-cycle-2-master"
+            slug: "offre-de-formation/option-art/option-art-cycle-2-master"
+            file: "content/fr/events_categories/offre-de-formation/option-art/option-art-cycle-2-master/_index.html"
+            name: >-
+              Option art Cycle 2 (master)
+            count: 2
+
+
       - permalink: "/agenda/offre-de-formation/option-design/"
         path: "/events_categories/offre-de-formation/option-design"
         slug: "offre-de-formation/option-design"
@@ -239,6 +242,16 @@ section_taxonomies:
         name: >-
           Option design
         count: 2
+        children:
+
+          - permalink: "/agenda/offre-de-formation/option-design/option-design-cycle-2-master/"
+            path: "/events_categories/offre-de-formation/option-design/option-design-cycle-2-master"
+            slug: "offre-de-formation/option-design/option-design-cycle-2-master"
+            file: "content/fr/events_categories/offre-de-formation/option-design/option-design-cycle-2-master/_index.html"
+            name: >-
+              Option design Cycle 2 (Master)
+            count: 2
+
 
 contents_reading_time:
   seconds: 1
