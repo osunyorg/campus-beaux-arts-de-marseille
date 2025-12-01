@@ -1,14 +1,39 @@
 .taxonomies-list
     &--inline
-        .taxonomy-categories:first-child
-            grid-column: 1/12
-            ul
-                display: flex
-                flex-wrap: wrap
-                gap: space(4)
-                li a
-                    @include h3
-                    text-decoration-color: inherit
-                    text-decoration-thickness: 2px
-                @include media-breakpoint-up(desktop)
-                    gap: space(8)
+        display: block
+        .taxonomy-categories-list
+            display: flex
+            gap: space(4)
+            // .taxonomy-categories:first-child
+            //     grid-column: 1/12
+            //     > ul
+            //         display: flex
+            //         flex-wrap: wrap
+            //         gap: space(4)
+            //         ul
+            //             padding-left: 0
+            //         @include media-breakpoint-up(desktop)
+            //             gap: space(8)
+            //             // > li 
+            //             //     width: columns(4)
+                
+            > li > a,
+            .extendable-button
+                @include h3
+                text-decoration-color: inherit
+                text-decoration-thickness: 2px
+            .extendable
+                // position: absolute
+                background: var(--color-background)
+                z-index: $zindex-dropdown
+                padding: $spacing-2
+                margin-left: -$spacing-2
+                ul
+                    margin-top: 0
+                    padding-top: 0
+                    border-top: 0
+                    padding-left: 0
+                    li
+                        a
+                            &::before
+                                display: none

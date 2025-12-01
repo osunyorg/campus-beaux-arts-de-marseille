@@ -16,16 +16,6 @@ params:
   home:
     head:
       title: site
-  image_sizes:
-    sections:
-      home:
-        hero:
-          tablet:   1200
-          desktop:  1792
-    blocks:
-      events:
-        grid:
-          desktop:  864
   blocks:
     key_figures:
       animated: false
@@ -69,3 +59,21 @@ params:
   persons:
     single:
       backlinks: true
+  image_sizes:
+    sections:
+      home:
+        hero:
+          tablet:   1200
+          desktop:  1792
+      events:
+        layouts:
+          agenda:
+            tablet:   539
+            desktop:  539
+          parent:
+            tablet:   539
+            desktop:  539
+          grid:
+            desktop:  864
+          list:
+            desktop: 539
