@@ -1,20 +1,6 @@
 ---
 title: Footer
 items:
-- title: Contact
-  target: "/lecole-ses-engagements/nous-connaitre/contact/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/lecole-ses-engagements/nous-connaitre/contact"
-  file: content/fr/pages/lecole-ses-engagements/nous-connaitre/contact/_index.html
-- title: Documents utiles & FAQ
-  target: "/documents-utiles/"
-  kind: page
-  new_tab: false
-  children: []
-  path: "/pages/documents-utiles"
-  file: content/fr/pages/documents-utiles/_index.html
 - title: Magazine
   target: "/magazine/"
   kind: page
@@ -29,11 +15,30 @@ items:
   children: []
   path: "/events"
   file: content/fr/events/_index.html
-- title: Charte graphique des Beaux-Arts de Marseille
+- title: Documents utiles & FAQ
+  target: "/documents-utiles/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/documents-utiles"
+  file: content/fr/pages/documents-utiles/_index.html
+- title: 'Charte graphique '
   target: "/charte-graphique-des-beaux-arts-de-marseille/"
   kind: page
   new_tab: false
   children: []
   path: "/pages/charte-graphique-des-beaux-arts-de-marseille"
   file: content/fr/pages/charte-graphique-des-beaux-arts-de-marseille/_index.html
+- title: Délibérations des C.A.
+  target: https://inseamm-actes.digitechcloud.fr/webdelibplus/jsp/seances.jsp?role=usager
+  kind: url
+  new_tab: true
+  children: []
+- title: Contact
+  target: "/lecole-ses-engagements/nous-connaitre/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  path: "/pages/lecole-ses-engagements/nous-connaitre/contact"
+  file: content/fr/pages/lecole-ses-engagements/nous-connaitre/contact/_index.html
 
