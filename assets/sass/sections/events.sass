@@ -165,6 +165,9 @@
             @extend .button--accent
         * + .btn
             margin-top: $spacing-4
+        @include media-breakpoint-up(desktop)
+            .event-practicals ~ .toc-container
+                margin-top: $spacing-4
 
 // exhibitions
 .exhibitions__page
