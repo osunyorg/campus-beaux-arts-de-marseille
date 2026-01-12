@@ -53,6 +53,7 @@ params:
     single:
       options:
         diploma_certification: true
+        registration_link: true
   organizations:
     single:
       backlinks: true
