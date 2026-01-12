@@ -8,16 +8,32 @@
         button
             @include body-text
             justify-content: flex-start
-            @include media-breakpoint-up(desktop)
-                justify-content: flex-end
             &::after
                 content: '↗' / ""
                 font-family: $heading-font-family
     
     .essential-container
         .buttons
+            align-items: flex-start
+            &,
             .dropdown-share 
                 --btn-min-width: 0
+            a.website::after
+                content: '↗' / ""
+                font-family: $heading-font-family
+        .essential + .buttons
+            align-items: flex-end
+
+        @include media-breakpoint-down(desktop)
+            .buttons
+                align-items: baseline
+                .registration-url
+                    width: columns(6)
+                .website
+                    width: columns(7)
+                    + .registration-url
+                        width: columns(5)
+                
     
     @include media-breakpoint-up(desktop)
         margin-bottom: 0
@@ -28,3 +44,7 @@
         .content
             .hero-text
                 margin-top: $spacing-1
+        
+        .projects__page &
+            .dropdown-share button
+                justify-content: flex-end
