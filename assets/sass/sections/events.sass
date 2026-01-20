@@ -24,11 +24,18 @@
                 &::before
                     content: '→'
                     font-family: inherit
+        .event-federation, .exhibition-federation
+            background: $color-background-white
+            padding: space() space(2)
+            order: -3
+            margin-bottom: $spacing-1
+            width: fit-content
     &--grid
         .event
             .media
                 img
                     aspect-ratio: 3/2
+
         @include in-page-without-sidebar
             @include grid(2, desktop)
         [class$="-schedule"]
@@ -218,11 +225,6 @@
                 padding-bottom: space(5)
                 padding-top: space(5)
                 margin-left: space(-4) !important
-                .event-federation
-                    background: $color-background-white
-                    padding: space() space(2)
-                    order: -3
-                    margin-bottom: $spacing-1
                 .event-hours
                     left: space(4)
                 @include media-breakpoint-down(desktop)
