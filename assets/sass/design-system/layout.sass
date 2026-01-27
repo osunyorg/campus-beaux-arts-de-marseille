@@ -47,3 +47,17 @@
                 &::before
                     content: '←' / ""
                     font-family: $body-font-family
+
+.event,
+.exhibition,
+.post
+    &.is-federated
+        [class$="content"]
+            display: flex
+            flex-direction: column
+        [class*="-federation"]        
+            background: $color-background-white
+            padding: space() space(2)
+            order: -3 !important
+            margin-bottom: $spacing-1
+            width: fit-content

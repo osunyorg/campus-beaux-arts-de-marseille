@@ -24,12 +24,12 @@
                 &::before
                     content: '→'
                     font-family: inherit
-        .event-federation, .exhibition-federation
-            background: $color-background-white
-            padding: space() space(2)
-            order: -3
-            margin-bottom: $spacing-1
-            width: fit-content
+
+        .more::after
+            content: '→'
+            font-family: inherit
+            margin-left: space()
+    
     &--grid
         .event
             .media
@@ -46,6 +46,7 @@
             [class$="-time"]::before
                 content: ', '
                 margin-right: $spacing-1
+    
     &--agenda 
         .events-date
             border: none
@@ -74,18 +75,23 @@
                         span
                             position: relative
                             top: unset
-        
+
         .media img
             aspect-ratio: 3/2
             object-fit: cover
 
         @include in-page-without-sidebar
-            .event:not(.event--child)
-                gap: 0 !important
+            [class$="-content"]
+                width: columns(5)
+                flex: unset
+
+            .event:where(:not(.event--child, .exhibition))
+                gap: var(--grid-gutter)
                 margin-left: 0
                 padding-left: 0
+                .event-timeslot
+                    width: columns(2)
                 .event-hours
-                    margin-top: $spacing-3
                     width: columns(2)
                     time + time
                         display: block
@@ -93,9 +99,13 @@
                             margin-left: 0
                 .media
                     margin-left: columns(2)
-                    width: offset(4)
-                    img
-                        padding-right: var(--column-width)
+                    width: columns(4)
+            
+                &:not(.exhibition)
+                    .more
+                        margin-top: 0
+                        position: absolute
+                        right: $spacing-2
             
             .event--child
                 margin-left: columns(2)
@@ -104,10 +114,6 @@
                     margin-top: 0
                 .media
                     width: calc(#{columns(2)} + var(--grid-gutter))
-            
-            [class$="-content"]
-                width: columns(5)
-                flex: unset
         
         @include media-breakpoint-down(desktop)
             .event--parent
@@ -211,6 +217,11 @@
         .container.events-archives-latest
             margin-top: $spacing-6
 
+        .exhibition--with-image
+            padding-left: columns(2)
+            .media
+                width: columns(4)
+
 // federated content (sections only for now)
 .events__section,
 .exhibitions__section
@@ -222,18 +233,25 @@
             &.is-federated
                 border: 2px solid $color-background-white
                 border-radius: pxToRem(10)
-                padding-bottom: space(5)
-                padding-top: space(5)
-                margin-left: space(-4) !important
+                margin: 0 space(-4) !important
                 .event-hours
                     left: space(4)
+
                 @include media-breakpoint-down(desktop)
-                    margin-left: calc(var(--grid-gutter-negative) / 2)
-                    margin-right: calc(var(--grid-gutter-negative) / 2)
-                    padding-left: calc(var(--grid-gutter) / 2)
-                    padding-right: calc(var(--grid-gutter) / 2)
+                    margin: 0 calc(var(--grid-gutter-negative) / 2)
+                    padding: calc(var(--grid-gutter) / 2)
                     .event-federation
                         margin-bottom: space(5)
+        
+        @include media-breakpoint-up(desktop)
+            .event.is-federated
+                padding: space(5) 0
+                .event-timeslot
+                    padding-top: $spacing-2
+                    padding-left: $spacing-2
+                .media
+                    margin-left: calc(#{columns(2)} + #{$spacing-2}) // add federation padding to align
+                
     .events-archives-years
         ol li::after
             content: '→'

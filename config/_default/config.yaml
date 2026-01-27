@@ -27,6 +27,10 @@ params:
           options:
             image: true
             categories: false
+      options:
+        place: true
+    list:
+      with_more: true
     single:
       time_slots:
         date_format: "Monday 2 January 2006"
