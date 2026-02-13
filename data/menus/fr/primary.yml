@@ -2,339 +2,516 @@
 title: Menu principal
 items:
 - title: L’école **ses engagements**
+  slug: l-ecole-ses-engagements
   target: "/lecole-ses-engagements/"
   kind: page
   new_tab: false
   children:
   - title: Nous connaître
+    slug: nous-connaitre
     target: "/lecole-ses-engagements/nous-connaitre/"
     kind: page
     new_tab: false
     children:
     - title: Présentation
+      slug: presentation
       target: "/lecole-ses-engagements/nous-connaitre/presentation/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/presentation"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/presentation/_index.html
     - title: Histoire & patrimoine
+      slug: histoire-patrimoine
       target: "/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/histoire-patrimoine"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/_index.html
     - title: Engagements
+      slug: engagements
       target: "/lecole-ses-engagements/nous-connaitre/engagements/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/engagements"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/engagements/_index.html
     - title: Campus art Méditerranée
+      slug: campus-art-mediterranee
       target: "/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/_index.html
     - title: Équipe enseignante
+      slug: equipe-enseignante
       target: "/lecole-ses-engagements/nous-connaitre/equipe-enseignante/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipe-enseignante/_index.html
     - title: Équipe administrative
+      slug: equipe-administrative
       target: "/lecole-ses-engagements/nous-connaitre/equipes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/equipes"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/equipes/_index.html
     - title: Gouvernance de l'établissement
+      slug: gouvernance-de-l-etablissement
       target: "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/_index.html
     - title: Partenaires
+      slug: partenaires
       target: "/lecole-ses-engagements/nous-connaitre/partenaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/partenaires"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/partenaires/_index.html
+    descendants_targets:
+    - "/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/"
+    - "/lecole-ses-engagements/nous-connaitre/engagements/"
+    - "/lecole-ses-engagements/nous-connaitre/equipe-enseignante/"
+    - "/lecole-ses-engagements/nous-connaitre/equipes/"
+    - "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
+    - "/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/"
+    - "/lecole-ses-engagements/nous-connaitre/partenaires/"
+    - "/lecole-ses-engagements/nous-connaitre/presentation/"
     path: "/pages/lecole-ses-engagements/nous-connaitre"
     file: content/fr/pages/lecole-ses-engagements/nous-connaitre/_index.html
   - title: Nos ressources
+    slug: nos-ressources
     target: "/lecole-ses-engagements/nos-ressources/"
     kind: page
     new_tab: false
     children:
     - title: Ateliers & ressources
+      slug: ateliers-ressources
       target: "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/ateliers-ressources/_index.html
     - title: Publications
+      slug: publications
       target: "/lecole-ses-engagements/nos-ressources/publications/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nos-ressources/publications"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/publications/_index.html
     - title: Bibliothèque
+      slug: bibliotheque
       target: "/lecole-ses-engagements/nos-ressources/bibliotheque/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nos-ressources/bibliotheque"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/bibliotheque/_index.html
     - title: Initiatives étudiantes
+      slug: initiatives-etudiantes
       target: "/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/_index.html
     - title: Programme PiSourd·e
+      slug: programme-pisourd-e
       target: "/lecole-ses-engagements/nous-connaitre/pisourde/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/pisourde"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/pisourde/_index.html
     - title: Sites satellites
+      slug: sites-satellites
       target: "/lecole-ses-engagements/nos-ressources/sites-satellites/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/lecole-ses-engagements/nos-ressources/sites-satellites"
       file: content/fr/pages/lecole-ses-engagements/nos-ressources/sites-satellites/_index.html
+    descendants_targets:
+    - "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
+    - "/lecole-ses-engagements/nos-ressources/bibliotheque/"
+    - "/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/"
+    - "/lecole-ses-engagements/nos-ressources/publications/"
+    - "/lecole-ses-engagements/nos-ressources/sites-satellites/"
+    - "/lecole-ses-engagements/nous-connaitre/pisourde/"
     path: "/pages/lecole-ses-engagements/nos-ressources"
     file: content/fr/pages/lecole-ses-engagements/nos-ressources/_index.html
+  descendants_targets:
+  - "/lecole-ses-engagements/nos-ressources/"
+  - "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
+  - "/lecole-ses-engagements/nos-ressources/bibliotheque/"
+  - "/lecole-ses-engagements/nos-ressources/initiatives-etudiantes/"
+  - "/lecole-ses-engagements/nos-ressources/publications/"
+  - "/lecole-ses-engagements/nos-ressources/sites-satellites/"
+  - "/lecole-ses-engagements/nous-connaitre/"
+  - "/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/"
+  - "/lecole-ses-engagements/nous-connaitre/engagements/"
+  - "/lecole-ses-engagements/nous-connaitre/equipe-enseignante/"
+  - "/lecole-ses-engagements/nous-connaitre/equipes/"
+  - "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
+  - "/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/"
+  - "/lecole-ses-engagements/nous-connaitre/partenaires/"
+  - "/lecole-ses-engagements/nous-connaitre/pisourde/"
+  - "/lecole-ses-engagements/nous-connaitre/presentation/"
   path: "/pages/lecole-ses-engagements"
   file: content/fr/pages/lecole-ses-engagements/_index.html
 - title: Études **Professionnalisation**
+  slug: etudes-professionnalisation
   target: "/etudes-professionnalisation/"
   kind: page
   new_tab: false
   children:
   - title: Les formations
+    slug: les-formations
     target: "/etudes-professionnalisation/les-formations/"
     kind: page
     new_tab: false
     children:
     - title: Déroulement des études
+      slug: deroulement-des-etudes
       target: "/etudes-professionnalisation/les-formations/deroulement-des-etudes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes"
       file: content/fr/pages/etudes-professionnalisation/les-formations/deroulement-des-etudes/_index.html
     - title: Classe préparatoire
+      slug: classe-preparatoire
       target: "/formations/classe-preparatoire/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/classe-preparatoire"
       file: content/fr/programs/classe-preparatoire/_index.html
     - title: Année 1
+      slug: annee-1
       target: "/formations/annee-1/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/annee-1"
       file: content/fr/programs/annee-1/_index.html
     - title: Option art
+      slug: option-art
       target: "/formations/option-art/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/option-art"
       file: content/fr/programs/option-art/_index.html
     - title: Option design
+      slug: option-design
       target: "/formations/option-design/"
       kind: program
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/programs/option-design"
       file: content/fr/programs/option-design/_index.html
+    descendants_targets:
+    - "/etudes-professionnalisation/les-formations/deroulement-des-etudes/"
+    - "/formations/annee-1/"
+    - "/formations/classe-preparatoire/"
+    - "/formations/option-art/"
+    - "/formations/option-design/"
     path: "/pages/etudes-professionnalisation/les-formations"
     file: content/fr/pages/etudes-professionnalisation/les-formations/_index.html
   - title: La vie étudiante
+    slug: la-vie-etudiante
     target: "/etudes-professionnalisation/la-vie-etudiante/"
     kind: page
     new_tab: false
     children:
     - title: Le campus
+      slug: le-campus
       target: "/etudes-professionnalisation/la-vie-etudiante/le-campus/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/le-campus"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/le-campus/_index.html
     - title: Bourses, aides, CVEC
+      slug: bourses-aides-cvec
       target: "/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/_index.html
     - title: Se loger & vivre à Marseille
+      slug: se-loger-vivre-a-marseille
       target: "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/_index.html
     - title: Santé
+      slug: sante
       target: "/etudes-professionnalisation/la-vie-etudiante/sante/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/sante"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/sante/_index.html
     - title: Handicap
+      slug: handicap
       target: "/etudes-professionnalisation/la-vie-etudiante/handicap/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/handicap"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/handicap/_index.html
     - title: Tutorat inter-étudiant·e·s
+      slug: tutorat-inter-etudiant-e-s
       target: "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/_index.html
     - title: Vie culturelle & sportive
+      slug: vie-culturelle-sportive
       target: "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/_index.html
     - title: Vie associative
+      slug: vie-associative
       target: "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/vie-associative/_index.html
     - title: Instances étudiantes
+      slug: instances-etudiantes
       target: "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/_index.html
     - title: Règlement intérieur de l’école
+      slug: reglement-interieur-de-l-ecole
       target: "/etudes-professionnalisation/la-vie-etudiante/reglement-interieur-de-lecole/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-vie-etudiante/reglement-interieur-de-lecole"
       file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/reglement-interieur-de-lecole/_index.html
+    descendants_targets:
+    - "/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/"
+    - "/etudes-professionnalisation/la-vie-etudiante/handicap/"
+    - "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
+    - "/etudes-professionnalisation/la-vie-etudiante/le-campus/"
+    - "/etudes-professionnalisation/la-vie-etudiante/reglement-interieur-de-lecole/"
+    - "/etudes-professionnalisation/la-vie-etudiante/sante/"
+    - "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
+    - "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
+    - "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
+    - "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
     path: "/pages/etudes-professionnalisation/la-vie-etudiante"
     file: content/fr/pages/etudes-professionnalisation/la-vie-etudiante/_index.html
   - title: La professionalisation
+    slug: la-professionalisation
     target: "/etudes-professionnalisation/la-professionalisation/"
     kind: page
     new_tab: false
     children:
     - title: Insertion des étudiant·e·s
+      slug: insertion-des-etudiant-e-s
       target: "/etudes-professionnalisation/la-professionalisation/insertion-des-etudiantes/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-professionalisation/insertion-des-etudiantes"
       file: content/fr/pages/etudes-professionnalisation/la-professionalisation/insertion-des-etudiantes/_index.html
     - title: Insertions des diplômé·e·s
+      slug: insertions-des-diplome-e-s
       target: "/etudes-professionnalisation/la-professionalisation/insertions-des-diplomees/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-professionalisation/insertions-des-diplomees"
       file: content/fr/pages/etudes-professionnalisation/la-professionalisation/insertions-des-diplomees/_index.html
     - title: Ressources professionnelles
+      slug: ressources-professionnelles
       target: "/etudes-professionnalisation/la-professionalisation/ressources-professionnelles/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/etudes-professionnalisation/la-professionalisation/ressources-professionnelles"
       file: content/fr/pages/etudes-professionnalisation/la-professionalisation/ressources-professionnelles/_index.html
+    descendants_targets:
+    - "/etudes-professionnalisation/la-professionalisation/insertion-des-etudiantes/"
+    - "/etudes-professionnalisation/la-professionalisation/insertions-des-diplomees/"
+    - "/etudes-professionnalisation/la-professionalisation/ressources-professionnelles/"
     path: "/pages/etudes-professionnalisation/la-professionalisation"
     file: content/fr/pages/etudes-professionnalisation/la-professionalisation/_index.html
+  descendants_targets:
+  - "/etudes-professionnalisation/la-professionalisation/"
+  - "/etudes-professionnalisation/la-professionalisation/insertion-des-etudiantes/"
+  - "/etudes-professionnalisation/la-professionalisation/insertions-des-diplomees/"
+  - "/etudes-professionnalisation/la-professionalisation/ressources-professionnelles/"
+  - "/etudes-professionnalisation/la-vie-etudiante/"
+  - "/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/"
+  - "/etudes-professionnalisation/la-vie-etudiante/handicap/"
+  - "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
+  - "/etudes-professionnalisation/la-vie-etudiante/le-campus/"
+  - "/etudes-professionnalisation/la-vie-etudiante/reglement-interieur-de-lecole/"
+  - "/etudes-professionnalisation/la-vie-etudiante/sante/"
+  - "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
+  - "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
+  - "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
+  - "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
+  - "/etudes-professionnalisation/les-formations/"
+  - "/etudes-professionnalisation/les-formations/deroulement-des-etudes/"
+  - "/formations/annee-1/"
+  - "/formations/classe-preparatoire/"
+  - "/formations/option-art/"
+  - "/formations/option-design/"
   path: "/pages/etudes-professionnalisation"
   file: content/fr/pages/etudes-professionnalisation/_index.html
 - title: Recherche **Réseaux internationaux**
+  slug: recherche-reseaux-internationaux
   target: "/reseaux-internationaux-recherche/"
   kind: page
   new_tab: false
   children:
   - title: La recherche
+    slug: la-recherche
     target: "/reseaux-internationaux-recherche/la-recherche/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/reseaux-internationaux-recherche/la-recherche"
     file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/_index.html
   - title: Les relations internationales
+    slug: les-relations-internationales
     target: "/reseaux-internationaux-recherche/linternational/"
     kind: page
     new_tab: false
     children:
     - title: Programmes & initiatives
+      slug: programmes-initiatives
       target: "/reseaux-internationaux-recherche/linternational/programmes-initiatives/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/linternational/programmes-initiatives"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/programmes-initiatives/_index.html
     - title: International students
+      slug: international-students
       target: "/reseaux-internationaux-recherche/linternational/international-students/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/linternational/international-students"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/international-students/_index.html
     - title: Mobilité internationale
+      slug: mobilite-internationale
       target: "/reseaux-internationaux-recherche/linternational/mobilite-internationale/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/mobilite-internationale/_index.html
     - title: Écoles partenaires
+      slug: ecoles-partenaires
       target: "/reseaux-internationaux-recherche/linternational/ecoles-partenaires/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/linternational/ecoles-partenaires"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/ecoles-partenaires/_index.html
     - title: Charte & stratégie Erasmus +
+      slug: charte-strategie-erasmus
       target: "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
       kind: page
       new_tab: false
       children: []
+      descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus"
       file: content/fr/pages/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/_index.html
+    descendants_targets:
+    - "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
+    - "/reseaux-internationaux-recherche/linternational/ecoles-partenaires/"
+    - "/reseaux-internationaux-recherche/linternational/international-students/"
+    - "/reseaux-internationaux-recherche/linternational/mobilite-internationale/"
+    - "/reseaux-internationaux-recherche/linternational/programmes-initiatives/"
     path: "/pages/reseaux-internationaux-recherche/linternational"
     file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
+  descendants_targets:
+  - "/reseaux-internationaux-recherche/la-recherche/"
+  - "/reseaux-internationaux-recherche/linternational/"
+  - "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
+  - "/reseaux-internationaux-recherche/linternational/ecoles-partenaires/"
+  - "/reseaux-internationaux-recherche/linternational/international-students/"
+  - "/reseaux-internationaux-recherche/linternational/mobilite-internationale/"
+  - "/reseaux-internationaux-recherche/linternational/programmes-initiatives/"
   path: "/pages/reseaux-internationaux-recherche"
   file: content/fr/pages/reseaux-internationaux-recherche/_index.html
 - title: Admissions
+  slug: admissions
   target: "/admissions/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/admissions"
   file: content/fr/pages/admissions/_index.html
 

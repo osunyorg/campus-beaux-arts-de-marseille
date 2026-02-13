@@ -2,8 +2,10 @@
 title: CTA footer
 items:
 - title: Télécharger le plan et accès
+  slug: telecharger-le-plan-et-acces
   target: http://esadmm.fr/wp-content/uploads/2023/01/Acces-Beaux-Arts-Marseille-22-23.pdf
   kind: url
   new_tab: true
   children: []
+  descendants_targets: []
 
