@@ -432,18 +432,8 @@ items:
     target: "/reseaux-internationaux-recherche/la-recherche/"
     kind: page
     new_tab: false
-    children:
-    - title: Activités ponctuelles de recherche
-      slug: activites-ponctuelles-de-recherche
-      target: "/reseaux-internationaux-recherche/activites-ponctuelles-de-recherche/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/reseaux-internationaux-recherche/activites-ponctuelles-de-recherche"
-      file: content/fr/pages/reseaux-internationaux-recherche/activites-ponctuelles-de-recherche/_index.html
-    descendants_targets:
-    - "/reseaux-internationaux-recherche/activites-ponctuelles-de-recherche/"
+    children: []
+    descendants_targets: []
     path: "/pages/reseaux-internationaux-recherche/la-recherche"
     file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/_index.html
   - title: Les relations internationales
@@ -506,7 +496,6 @@ items:
     path: "/pages/reseaux-internationaux-recherche/linternational"
     file: content/fr/pages/reseaux-internationaux-recherche/linternational/_index.html
   descendants_targets:
-  - "/reseaux-internationaux-recherche/activites-ponctuelles-de-recherche/"
   - "/reseaux-internationaux-recherche/la-recherche/"
   - "/reseaux-internationaux-recherche/linternational/"
   - "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
