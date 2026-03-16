@@ -8,11 +8,8 @@
     {{ if or .Params.text .Params.notes .Params.header_cta }}
       {{ partial "commons/agenda/practicals.html" . }}
     {{ end }}
-    {{ partial "toc/container.html"
-      (dict
-          "toc" "toc/default.html"
-          "context" .
-      )
-    }}
+    {{ partial "toc/container.html" (dict
+      "context" .
+    ) }}
   </div>
 </div>
