@@ -3,7 +3,10 @@
         display: block
         .taxonomy-categories-list
             display: flex
+            flex-wrap: wrap
             gap: space(4)
+            > li:has(.extendable-button)
+                order: -1
             // .taxonomy-categories:first-child
             //     grid-column: 1/12
             //     > ul
