@@ -15,1022 +15,1022 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/equipe/dennis-tredy/index.html"
+from = "/equipe/dennis-tredy/"
 to = "/personnes/dennis-tredy/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2024-digentart/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2024-digentart/"
 to = "/les-projets/2024-digentart/"
 
 [[redirects]]
-from = "/personnes/categories/professeures/professeures-ifamm/index.html"
+from = "/personnes/categories/professeures/professeures-ifamm/"
 to = "/personnes/categories/professeures-ifamm/"
 
 [[redirects]]
-from = "/projets/2022-les-milieux-associes/index.html"
+from = "/projets/2022-les-milieux-associes/"
 to = "/les-projets/2022-les-milieux-associes/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/"
 to = "/les-projets/offre-de-formation/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2023-programme-art-et-savoir-faire-en-mediterranee/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2023-programme-art-et-savoir-faire-en-mediterranee/"
 to = "/les-projets/2023-programme-art-et-savoir-faire-en-mediterranee/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/"
 to = "/les-projets/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/"
 
 [[redirects]]
-from = "/la-recherche/index.html"
+from = "/la-recherche/"
 to = "/les-projets/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-bibliotheque/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-bibliotheque/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-bibliotheque/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/annee-1/index.html"
+from = "/projets/offre-de-formation/annee-1/"
 to = "/les-projets/offre-de-formation/annee-1/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/vanessa-brito/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/vanessa-brito/"
 to = "/personnes/vanessa-brito/"
 
 [[redirects]]
-from = "/offre-de-formation/option-design-cycle-1-licence/index.html"
+from = "/offre-de-formation/option-design-cycle-1-licence/"
 to = "/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/diane-malatesta/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/diane-malatesta/"
 to = "/personnes/diane-malatesta/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-design/option-design-cycle-2-master/index.html"
+from = "/la-recherche/offre-de-formation/option-design/option-design-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/projets/2024-digentart/index.html"
+from = "/projets/2024-digentart/"
 to = "/les-projets/2024-digentart/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/tutorat-inter-etudiantes/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/tutorat-inter-etudiantes/"
 to = "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/philippe-delahautemaison/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/philippe-delahautemaison/"
 to = "/personnes/philippe-delahautemaison/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/arnaud-jusseaume/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/arnaud-jusseaume/"
 to = "/personnes/arnaud-jusseaume/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/marion-balac/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/marion-balac/"
 to = "/personnes/marion-balac/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/archives/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/archives/"
 to = "/les-projets/archives/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-administrative/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-administrative/"
 to = "/personnes/equipe-administrative/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-vie-etudiante-et-egalite-des-chances/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-vie-etudiante-et-egalite-des-chances/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-vie-etudiante-et-egalite-des-chances/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/eric-pasquiou/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/eric-pasquiou/"
 to = "/personnes/eric-pasquiou/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/remy-marin/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/remy-marin/"
 to = "/personnes/remy-marin/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/cecile-marie-castanet/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/cecile-marie-castanet/"
 to = "/personnes/cecile-marie-castanet/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/ludovica-matarozzo/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/ludovica-matarozzo/"
 to = "/personnes/ludovica-matarozzo/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/holly-manyak/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/holly-manyak/"
 to = "/personnes/holly-manyak/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/laurent-chirie/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/laurent-chirie/"
 to = "/personnes/laurent-chirie/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/presentation-1/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/presentation-1/"
 to = "/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/"
 
 [[redirects]]
-from = "/les-projets/miramar/index.html"
+from = "/les-projets/miramar/"
 to = "/les-projets/relations-internationales/miramar/"
 
 [[redirects]]
-from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/index.html"
+from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/"
 to = "/les-projets/relations-internationales/residences-internationales-pour-les-diplomees-1/"
 
 [[redirects]]
-from = "/equipe/marion-slitine/index.html"
+from = "/equipe/marion-slitine/"
 to = "/personnes/marion-slitine/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/programme-pisourde/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/anna-dezeuze/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/anna-dezeuze/"
 to = "/personnes/anna-dezeuze/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/aure-de-thieulloy/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/aure-de-thieulloy/"
 to = "/personnes/aure-de-thieulloy/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/sites-satellites/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/sites-satellites/"
 to = "/lecole-ses-engagements/nos-ressources/sites-satellites/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/classe-preparatoire/index.html"
+from = "/projets/offre-de-formation/classe-preparatoire/"
 to = "/les-projets/offre-de-formation/classe-preparatoire/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-jiquel/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-jiquel/"
 to = "/personnes/christine-jiquel/"
 
 [[redirects]]
-from = "/suggestion/index.html"
+from = "/suggestion/"
 to = "/suggestions/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/matteo-penza/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/matteo-penza/"
 to = "/personnes/matteo-penza/"
 
 [[redirects]]
-from = "/projets/2015-reseau-cinema-2015-2020/index.html"
+from = "/projets/2015-reseau-cinema-2015-2020/"
 to = "/les-projets/2015-reseau-cinema-2015-2020/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/delphine-canton/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/delphine-canton/"
 to = "/personnes/delphine-canton/"
 
 [[redirects]]
-from = "/offre-de-formation/option-design-cycle-2-master/index.html"
+from = "/offre-de-formation/option-design-cycle-2-master/"
 to = "/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/se-loger-vivre-a-marseille/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/se-loger-vivre-a-marseille/"
 to = "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeures/professeures-ifamm/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeures/professeures-ifamm/"
 to = "/personnes/categories/professeures-ifamm/"
 
 [[redirects]]
-from = "/agenda/2026/projection-echange-au-videodrome2-1/index.html"
+from = "/agenda/2026/projection-echange-au-videodrome2-1/"
 to = "/agenda/2026/l-anatomie-de-la-cloche/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/responsable-3/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/responsable-3/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-programmation-recherche-et-editions/responsable-3/"
 
 [[redirects]]
-from = "/personnes/nathacha-cauvin/index.html"
+from = "/personnes/nathacha-cauvin/"
 to = "/personnes/natacha-cauvin/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/pauline-brun/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/pauline-brun/"
 to = "/personnes/pauline-brun/"
 
 [[redirects]]
-from = "/projets/2023-programme-art-et-savoir-faire-en-mediterranee/index.html"
+from = "/projets/2023-programme-art-et-savoir-faire-en-mediterranee/"
 to = "/les-projets/2023-programme-art-et-savoir-faire-en-mediterranee/"
 
 [[redirects]]
-from = "/personnes/linda-chevalier/index.html"
+from = "/personnes/linda-chevalier/"
 to = "/personnes/linda-chevallier/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/index.html"
+from = "/equipe/equipe-editoriale/"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2015-reseau-cinema-2015-2020/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2015-reseau-cinema-2015-2020/"
 to = "/les-projets/2015-reseau-cinema-2015-2020/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/agathe-bastide/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/agathe-bastide/"
 to = "/personnes/agathe-bastide/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/philosophie-histoire-et-theorie-de-lart-du-design/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/philosophie-histoire-et-theorie-de-lart-du-design/"
 to = "/personnes/categories/professeurs-ba/philosophie-histoire-et-theorie-de-lart-du-design/"
 
 [[redirects]]
-from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/miramar/index.html"
+from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/miramar/"
 to = "/les-projets/relations-internationales/miramar/"
 
 [[redirects]]
-from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/index.html"
+from = "/projets/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/"
 to = "/les-projets/relations-internationales/residences-internationales-pour-les-diplomees-1/les-actions-internationales-en-faveur-des-diplomees/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/projets/index.html"
+from = "/reseaux-internationaux-recherche/projets/"
 to = "/les-projets/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/samuel-gratacap/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/samuel-gratacap/"
 to = "/personnes/samuel-gratacap/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-strategie-internationale/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/franca-trovato/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/franca-trovato/"
 to = "/personnes/franca-trovato/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/la-recherche/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/la-recherche/"
 to = "/les-projets/la-recherche/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/frederic-pradeau/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/frederic-pradeau/"
 to = "/personnes/frederic-pradeau/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/anthony-pillette/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/anthony-pillette/"
 to = "/personnes/anthony-pillette/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-professionnalisation-insertion-professionnelle-alumni/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-professionnalisation-insertion-professionnelle-alumni/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-professionnalisation-insertion-professionnelle-alumni/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/instances-etudiantes/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/instances-etudiantes/"
 to = "/etudes-professionnalisation/la-vie-etudiante/instances-etudiantes/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/alexandra-gadoni/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/alexandra-gadoni/"
 to = "/personnes/alexandra-gadoni/"
 
 [[redirects]]
-from = "/agenda/2026/deuxieme-lancement-de-l-ouvrage-possibles-inacheves-1/index.html"
+from = "/agenda/2026/deuxieme-lancement-de-l-ouvrage-possibles-inacheves-1/"
 to = "/agenda/2026/ed-creaphis-2026/"
 
 [[redirects]]
-from = "/la-recherche/2022-reseau-miramar/index.html"
+from = "/la-recherche/2022-reseau-miramar/"
 to = "/les-projets/2022-reseau-miramar/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/classe-preparatoire/index.html"
+from = "/la-recherche/offre-de-formation/classe-preparatoire/"
 to = "/les-projets/offre-de-formation/classe-preparatoire/"
 
 [[redirects]]
-from = "/equipe/index.html"
+from = "/equipe/"
 to = "/personnes/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/option-design-cycle-2-master/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/option-design-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/option-art-cycle-1-licence/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/option-art-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-1-licence/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/"
 to = "/personnes/categories/agentes-administratifs-ba/"
 
 [[redirects]]
-from = "/la-recherche/2024-digentart/index.html"
+from = "/la-recherche/2024-digentart/"
 to = "/les-projets/2024-digentart/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/vincent-pajot/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/vincent-pajot/"
 to = "/personnes/vincent-pajot/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-art/option-art-cycle-1-licence/index.html"
+from = "/projets/offre-de-formation/option-art/option-art-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-1-licence/"
 
 [[redirects]]
-from = "/la-recherche/2022-les-milieux-associes/index.html"
+from = "/la-recherche/2022-les-milieux-associes/"
 to = "/les-projets/2022-les-milieux-associes/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/olivier-sola/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/olivier-sola/"
 to = "/personnes/olivier-sola/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/karen-oechsner-de-cornink/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/karen-oechsner-de-cornink/"
 to = "/personnes/karen-oechsner-de-coninck/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/karine-santi-weil/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/karine-santi-weil/"
 to = "/personnes/karine-santi-weil/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-ory/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-ory/"
 to = "/personnes/sylvie-ori/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/frederic-fredout/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/frederic-fredout/"
 to = "/personnes/frederic-fredout/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/pisourde/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/pisourde/"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2022-reseau-miramar/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2022-reseau-miramar/"
 to = "/les-projets/2022-reseau-miramar/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-louis-albert/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-louis-albert/"
 to = "/personnes/pierre-louis-albert/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/cecil-serre/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/cecil-serre/"
 to = "/personnes/cecil-serre/"
 
 [[redirects]]
-from = "/equipe/equipe-pedagogique/index.html"
+from = "/equipe/equipe-pedagogique/"
 to = "/personnes/equipe-pedagogique/"
 
 [[redirects]]
-from = "/projets/2017-hors-peindre-reseau-peinture-2017/index.html"
+from = "/projets/2017-hors-peindre-reseau-peinture-2017/"
 to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/responsable-2/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/responsable-2/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-administration-et-ressources-paratgees/service-exploitation-de-site-1/responsable-2/"
 
 [[redirects]]
-from = "/equipe/vanessa-brito/index.html"
+from = "/equipe/vanessa-brito/"
 to = "/personnes/vanessa-brito/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/chargee-de-suivi-pedagogique/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/chargee-de-suivi-pedagogique/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-cursus-pedagogique/chargee-de-suivi-pedagogique/"
 
 [[redirects]]
-from = "/equipe/equipe-de-recherche/index.html"
+from = "/equipe/equipe-de-recherche/"
 to = "/personnes/equipe-de-recherche/"
 
 [[redirects]]
-from = "/projets/relations-internationales/workshops-internationaux/index.html"
+from = "/projets/relations-internationales/workshops-internationaux/"
 to = "/les-projets/relations-internationales/workshops-internationaux/"
 
 [[redirects]]
-from = "/beaux-arts-de-marseille/index.html"
+from = "/beaux-arts-de-marseille/"
 to = "/ecoles/beaux-arts-de-marseille/"
 
 [[redirects]]
-from = "/projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/index.html"
+from = "/projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
 to = "/les-projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
 
 [[redirects]]
-from = "/actualites/index.html"
+from = "/actualites/"
 to = "/magazine/"
 
 [[redirects]]
-from = "/equipe/frederique-entrialgo/index.html"
+from = "/equipe/frederique-entrialgo/"
 to = "/personnes/frederique-entrialgo/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/jean-claude-ruggirello/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/jean-claude-ruggirello/"
 to = "/personnes/jean-claude-ruggirello/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/workshops-internationaux/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/workshops-internationaux/"
 to = "/les-projets/relations-internationales/workshops-internationaux/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-art/index.html"
+from = "/la-recherche/offre-de-formation/option-art/"
 to = "/les-projets/offre-de-formation/option-art/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/direction-bibliotheque-ba/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/direction-bibliotheque-ba/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-bibliotheque/responsable-1/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/option-design-cycle-1-licence/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/option-design-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/agnes-martel/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/agnes-martel/"
 to = "/personnes/agnes-martel/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/annee-1/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/annee-1/"
 to = "/les-projets/offre-de-formation/annee-1/"
 
 [[redirects]]
-from = "/agenda/2024/portes-ouvertes/index.html"
+from = "/agenda/2024/portes-ouvertes/"
 to = "/agenda/2025/portes-ouvertes/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/responsable-1/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/responsable-1/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-bibliotheque/responsable-1/"
 
 [[redirects]]
-from = "/charte-strategie-erasmus/index.html"
+from = "/charte-strategie-erasmus/"
 to = "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
 
 [[redirects]]
-from = "/equipe/lise-guehenneux/index.html"
+from = "/equipe/lise-guehenneux/"
 to = "/personnes/lise-guehenneux/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-programmation-recherche-et-editions/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2022-les-milieux-associes/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2022-les-milieux-associes/"
 to = "/les-projets/2022-les-milieux-associes/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/patrick-sommier/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/patrick-sommier/"
 to = "/personnes/patrick-sommier/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/option-design-cycle-1-licence/index.html"
+from = "/agenda/offre-de-formation/option-design-cycle-1-licence/"
 to = "/agenda/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/digentart/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/digentart/"
 to = "/les-projets/relations-internationales/digentart/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/aure-de-thieulloy/roles/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/aure-de-thieulloy/roles/"
 to = "/personnes/aure-de-thieulloy/roles/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/direction-ba/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/direction-ba/"
 to = "/personnes/categories/agentes-administratifs-ba/direction-ba/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-sgdg/secretariat-general/responsable-du-pole-demarche-qualite-de-vie-et-conditions-de-travail-et-gestion-de-risques/index.html"
+from = "/personnes/categories/agentes-administratifs-sgdg/secretariat-general/responsable-du-pole-demarche-qualite-de-vie-et-conditions-de-travail-et-gestion-de-risques/"
 to = "/personnes/categories/agentes-administratifs-sgdg/secretariat-general/pole-demarche-qualite-de-vie-conditions-de-travail-qvct-gestion-des-risques/responsable-du-pole-demarche-qualite-de-vie-et-conditions-de-travail-et-gestion-de-risques/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-pedagogique/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-pedagogique/"
 to = "/personnes/equipe-pedagogique/"
 
 [[redirects]]
-from = "/equipe/denis-prisset/index.html"
+from = "/equipe/denis-prisset/"
 to = "/personnes/denis-prisset/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2016-le-bureau-des-positions-2016-2021/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2016-le-bureau-des-positions-2016-2021/"
 to = "/les-projets/2016-le-bureau-des-positions-2016-2021/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/alice-orefice/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/alice-orefice/"
 to = "/personnes/alice-orefice/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/anais-deleage/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/anais-deleage/"
 to = "/personnes/anais-deleage/"
 
 [[redirects]]
-from = "/formations/option-design-cycle-2-master/index.html"
+from = "/formations/option-design-cycle-2-master/"
 to = "/formations/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/projets/relations-internationales/internationalisation-du-programme-pisourde/index.html"
+from = "/projets/relations-internationales/internationalisation-du-programme-pisourde/"
 to = "/les-projets/relations-internationales/internationalisation-du-programme-pisourde/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-art/option-art-cycle-1-licence/index.html"
+from = "/la-recherche/offre-de-formation/option-art/option-art-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-1-licence/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-design/index.html"
+from = "/la-recherche/offre-de-formation/option-design/"
 to = "/les-projets/offre-de-formation/option-design/"
 
 [[redirects]]
-from = "/ateliers-ressources/index.html"
+from = "/ateliers-ressources/"
 to = "/lecole-ses-engagements/nos-ressources/ateliers-ressources/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-mahdessian/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-mahdessian/"
 to = "/personnes/christine-mahdessian/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/katharina-schmidt/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/katharina-schmidt/"
 to = "/personnes/katharina-schmidt/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-de-recherche/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-de-recherche/"
 to = "/personnes/equipe-de-recherche/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/bernard-briancon/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/bernard-briancon/"
 to = "/personnes/bernard-briancon/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-art/option-art-cycle-2-master/index.html"
+from = "/la-recherche/offre-de-formation/option-art/option-art-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-2-master/"
 
 [[redirects]]
-from = "/projets/la-recherche/index.html"
+from = "/projets/la-recherche/"
 to = "/les-projets/la-recherche/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-jiquel/roles/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/christine-jiquel/roles/"
 to = "/personnes/christine-jiquel/roles/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-laurent-cassiere/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-laurent-cassiere/"
 to = "/personnes/pierre-laurent-cassiere/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/classe-preparatoire/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/classe-preparatoire/"
 to = "/les-projets/offre-de-formation/classe-preparatoire/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/severine-dardel/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/severine-dardel/"
 to = "/personnes/severine-dardel/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/nadia-slimani/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/nadia-slimani/"
 to = "/personnes/nadia-slimani/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/option-art-cycle-2-master/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/option-art-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-2-master/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/clemence-desbois/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/clemence-desbois/"
 to = "/personnes/clemence-desbois/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/responsable/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/responsable/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-strategie-internationale/responsable/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/linda-chevalier/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/linda-chevalier/"
 to = "/personnes/linda-chevallier/"
 
 [[redirects]]
-from = "/projets/2022-reseau-miramar/index.html"
+from = "/projets/2022-reseau-miramar/"
 to = "/les-projets/2022-reseau-miramar/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
 to = "/les-projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/lise-guehenneux/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/lise-guehenneux/"
 to = "/personnes/lise-guehenneux/"
 
 [[redirects]]
-from = "/agenda/offre-de-formation/option-design-cycle-2-master/index.html"
+from = "/agenda/offre-de-formation/option-design-cycle-2-master/"
 to = "/agenda/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/internationalisation-du-programme-pisourde/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/internationalisation-du-programme-pisourde/"
 to = "/les-projets/relations-internationales/internationalisation-du-programme-pisourde/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/20222-reseau-miramar/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/20222-reseau-miramar/"
 to = "/les-projets/2022-reseau-miramar/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/lia-giraud/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/lia-giraud/"
 to = "/personnes/lia-giraud/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/"
 to = "/personnes/"
 
 [[redirects]]
-from = "/agenda/rencontres/index.html"
+from = "/agenda/rencontres/"
 to = "/agenda/rencontre/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-communication/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-communication/"
 to = "/personnes/categories/agentes-administratifs-ba/service-communication/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-editoriale/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-editoriale/"
 to = "/personnes/equipe-editoriale/"
 
 [[redirects]]
-from = "/projets/2026-le-bureau-des-positions-2016-2021/index.html"
+from = "/projets/2026-le-bureau-des-positions-2016-2021/"
 to = "/les-projets/2016-le-bureau-des-positions-2016-2021/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/gilbert-viale/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/gilbert-viale/"
 to = "/personnes/gilbert-viale/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/miramar/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/miramar/"
 to = "/les-projets/relations-internationales/miramar/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/jerome-duval/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/jerome-duval/"
 to = "/personnes/jerome-duval/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/les-dispositifs-specifiques/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/les-dispositifs-specifiques/"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/les-dispositifs-specifiques/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/denis-prisset/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/denis-prisset/"
 to = "/personnes/denis-prisset/"
 
 [[redirects]]
-from = "/formations/option-design-cycle-1-licence/index.html"
+from = "/formations/option-design-cycle-1-licence/"
 to = "/formations/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-art/"
 to = "/les-projets/offre-de-formation/option-art/"
 
 [[redirects]]
-from = "/equipe/nina-leger/index.html"
+from = "/equipe/nina-leger/"
 to = "/personnes/nina-leger/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-ifamm/professeures-ifamm/index.html"
+from = "/personnes/categories/agentes-ifamm/professeures-ifamm/"
 to = "/personnes/categories/professeures-ifamm/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-art/index.html"
+from = "/projets/offre-de-formation/option-art/"
 to = "/les-projets/offre-de-formation/option-art/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/luc-jeandheur/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/luc-jeandheur/"
 to = "/personnes/luc-jeandheur/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/"
 to = "/etudes-professionnalisation/la-vie-etudiante/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/adresses-generiques-pedagogie-ba/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/adresses-generiques-pedagogie-ba/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-cursus-pedagogique/adresses-generiques-pedagogie-ba/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/projets/2022-reseau-miramar/index.html"
+from = "/reseaux-internationaux-recherche/projets/2022-reseau-miramar/"
 to = "/les-projets/2022-reseau-miramar/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/luisa-ardila-camacho/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/luisa-ardila-camacho/"
 to = "/personnes/luisa-ardila-camacho/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/jean-baptiste-sauvage/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/jean-baptiste-sauvage/"
 to = "/personnes/jean-baptiste-sauvage/"
 
 [[redirects]]
-from = "/espace-pisourde/les-dispositifs-specifiques/index.html"
+from = "/espace-pisourde/les-dispositifs-specifiques/"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/les-dispositifs-specifiques/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/paul-alban-valmary/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/paul-alban-valmary/"
 to = "/personnes/paul-alban-valmary/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvain-deleneuville/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvain-deleneuville/"
 to = "/personnes/sylvain-deleneuville/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/assistante-denseignement/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/assistante-denseignement/"
 to = "/personnes/categories/professeurs-ba/assistante-denseignement/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-strategie-internationale/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-strategie-internationale/"
 
 [[redirects]]
-from = "/projets/relations-internationales/digentart/index.html"
+from = "/projets/relations-internationales/digentart/"
 to = "/les-projets/relations-internationales/digentart/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/frederique-entrialgo/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/frederique-entrialgo/"
 to = "/personnes/frederique-entrialgo/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-vie-etudiante-et-egalite-des-chances/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-vie-etudiante-et-egalite-des-chances/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-vie-etudiante-et-egalite-des-chances/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/denise-deutch/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/denise-deutch/"
 to = "/personnes/denise-deutch/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/chourouk-hriech/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/chourouk-hriech/"
 to = "/personnes/chourouk-hriech/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/option-design/option-design-cycle-1-licence/index.html"
+from = "/la-recherche/offre-de-formation/option-design/option-design-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/la-recherche/offre-de-formation/annee-1/index.html"
+from = "/la-recherche/offre-de-formation/annee-1/"
 to = "/les-projets/offre-de-formation/annee-1/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-bibliotheque/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/laurence-azzopardi/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/laurence-azzopardi/"
 to = "/personnes/laurence-azzopardi/"
 
 [[redirects]]
-from = "/projets/archives/index.html"
+from = "/projets/archives/"
 to = "/les-projets/archives/"
 
 [[redirects]]
-from = "/projets/2016-le-bureau-des-positions-2016-2021/index.html"
+from = "/projets/2016-le-bureau-des-positions-2016-2021/"
 to = "/les-projets/2016-le-bureau-des-positions-2016-2021/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/helene-biesse/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/helene-biesse/"
 to = "/personnes/helene-biesse/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-design/option-design-cycle-2-master/index.html"
+from = "/projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/nina-leger/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/nina-leger/"
 to = "/personnes/nina-leger/"
 
 [[redirects]]
-from = "/equipe/anna-dezeuze/index.html"
+from = "/equipe/anna-dezeuze/"
 to = "/personnes/anna-dezeuze/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/vie-associative/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/vie-associative/"
 to = "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/"
 to = "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/index.html"
+from = "/projets/offre-de-formation/"
 to = "/les-projets/offre-de-formation/"
 
 [[redirects]]
-from = "/projets/2027-hors-peindre-reseau-peinture-2017/index.html"
+from = "/projets/2027-hors-peindre-reseau-peinture-2017/"
 to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
 
 [[redirects]]
-from = "/equipe/alexandra-gadoni/index.html"
+from = "/equipe/alexandra-gadoni/"
 to = "/personnes/alexandra-gadoni/"
 
 [[redirects]]
-from = "/projets/2024-pilab/index.html"
+from = "/projets/2024-pilab/"
 to = "/les-projets/2024-pilab/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-design/index.html"
+from = "/projets/offre-de-formation/option-design/"
 to = "/les-projets/offre-de-formation/option-design/"
 
 [[redirects]]
-from = "/agenda/2025/le-grand-boucan--conservatoire-pierre-barbizet-inseamm-osuny-site/index.html"
+from = "/agenda/2025/le-grand-boucan--conservatoire-pierre-barbizet-inseamm-osuny-site/"
 to = "/agenda/2025/le-grand-boucan--www-conservatoiredemarseille-fr/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/cy-lecerf-maulpoix/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/cy-lecerf-maulpoix/"
 to = "/personnes/cy-lecerf-maulpoix/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/felix-rossi-ljunghorn/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/felix-rossi-ljunghorn/"
 to = "/personnes/felix-rossi-ljunghorn/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/sante/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/sante/"
 to = "/etudes-professionnalisation/la-vie-etudiante/sante/"
 
 [[redirects]]
-from = "/projets/index.html"
+from = "/projets/"
 to = "/les-projets/"
 
 [[redirects]]
-from = "/expositions/2025-09-11-campus-panic-lexposition-des-diplomees-2024/index.html"
+from = "/expositions/2025-09-11-campus-panic-lexposition-des-diplomees-2024/"
 to = "/expositions/2024-08-31-campus-panic-lexposition-des-diplomees-2024/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche-1/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche-1/"
 to = "/reseaux-internationaux-recherche/la-recherche/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/langue-vivante/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/langue-vivante/"
 to = "/personnes/categories/professeurs-ba/langue-vivante/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-adrien-charpy/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/pierre-adrien-charpy/"
 to = "/personnes/pierre-adrien-charpy/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/cecile-braneyre/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/cecile-braneyre/"
 to = "/personnes/cecile-braneyre/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/maxime-guitton/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/maxime-guitton/"
 to = "/personnes/maxime-guitton/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sybille-berger/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sybille-berger/"
 to = "/personnes/sybille-berger/"
 
 [[redirects]]
-from = "/agenda/2025/soiree-de-cloture-du-grand-boucan-du-conservatoire--campus-art-mediterranee-inseamm-osuny-site/index.html"
+from = "/agenda/2025/soiree-de-cloture-du-grand-boucan-du-conservatoire--campus-art-mediterranee-inseamm-osuny-site/"
 to = "/agenda/2025/soiree-de-cloture-du-grand-boucan-du-conservatoire--www-campusartmediterranee-fr/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/residences-internationales-pour-les-diplomees-1/"
 to = "/les-projets/relations-internationales/residences-internationales-pour-les-diplomees-1/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/audrey-ziane/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/audrey-ziane/"
 to = "/personnes/audrey-ziane/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/christophe-perrez/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/christophe-perrez/"
 to = "/personnes/christophe-perrez/"
 
 [[redirects]]
-from = "/personnes/sylvie-ory/index.html"
+from = "/personnes/sylvie-ory/"
 to = "/personnes/sylvie-ori/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/vie-culturelle-sportive/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/vie-culturelle-sportive/"
 to = "/etudes-professionnalisation/la-vie-etudiante/vie-culturelle-sportive/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/"
 to = "/personnes/categories/professeurs-ba/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2022-reseau-hors-peindre/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2022-reseau-hors-peindre/"
 to = "/les-projets/2022-reseau-hors-peindre/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-bertolina/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-bertolina/"
 to = "/personnes/sylvie-bertolina/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/julien-maire/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/julien-maire/"
 to = "/personnes/julien-maire/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/karine-rougier/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/karine-rougier/"
 to = "/personnes/karine-rougier/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/marine-le-thellec/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/marine-le-thellec/"
 to = "/personnes/marine-le-thellec/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/elias-kurdy/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/elias-kurdy/"
 to = "/personnes/elias-kurdy/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/stephanie-cherpin/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/stephanie-cherpin/"
 to = "/personnes/stephanie-cherpin/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-art/option-art-cycle-2-master/index.html"
+from = "/projets/offre-de-formation/option-art/option-art-cycle-2-master/"
 to = "/les-projets/offre-de-formation/option-art/option-art-cycle-2-master/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/inge-linder-guaillard/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/inge-linder-guaillard/"
 to = "/personnes/inge-linder-guaillard/"
 
 [[redirects]]
-from = "/campus/index.html"
+from = "/campus/"
 to = "/etudes-professionnalisation/la-vie-etudiante/campus/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-ifamm/formateurtrices-cfpi/index.html"
+from = "/personnes/categories/agentes-ifamm/formateurtrices-cfpi/"
 to = "/personnes/categories/formateurtrices-cfpi/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/justine-batteux/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/justine-batteux/"
 to = "/personnes/justine-batteux/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/relations-internationales/"
 to = "/les-projets/relations-internationales/"
 
 [[redirects]]
-from = "/projets/2022-reseau-hors-peindre/index.html"
+from = "/projets/2022-reseau-hors-peindre/"
 to = "/les-projets/2022-reseau-hors-peindre/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/julie-durand/magazine/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/julie-durand/magazine/"
 to = "/personnes/julie-durand/magazine/"
 
 [[redirects]]
-from = "/projets/offre-de-formation/option-design/option-design-cycle-1-licence/index.html"
+from = "/projets/offre-de-formation/option-design/option-design-cycle-1-licence/"
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-1-licence/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/professeure-artiste-designer/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/professeure-artiste-designer/"
 to = "/personnes/categories/professeurs-ba/professeure-artiste-designer/"
 
 [[redirects]]
-from = "/projets/relations-internationales/index.html"
+from = "/projets/relations-internationales/"
 to = "/les-projets/relations-internationales/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sabine-lacombe/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sabine-lacombe/"
 to = "/personnes/sabine-lacombe/"
 
 [[redirects]]
-from = "/equipe/philippe-delahautemaison/index.html"
+from = "/equipe/philippe-delahautemaison/"
 to = "/personnes/philippe-delahautemaison/"
 
 [[redirects]]
-from = "/equipe/cy-lecerf-maulpoix/index.html"
+from = "/equipe/cy-lecerf-maulpoix/"
 to = "/personnes/cy-lecerf-maulpoix/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-fajfrowska/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvie-fajfrowska/"
 to = "/personnes/sylvie-fajfrowska/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2024-pilab/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2024-pilab/"
 to = "/les-projets/2024-pilab/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/julie-durand/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/julie-durand/"
 to = "/personnes/julie-durand/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/nicolas-feodoroff/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/nicolas-feodoroff/"
 to = "/personnes/nicolas-feodoroff/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/emile-mold/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/emile-mold/"
 to = "/personnes/emile-mold/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/2017-hors-peindre-reseau-peinture-2017/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/2017-hors-peindre-reseau-peinture-2017/"
 to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/christophe-berdaguer/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/christophe-berdaguer/"
 to = "/personnes/christophe-berdaguer/"
 
 [[redirects]]
-from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/index.html"
+from = "/reseaux-internationaux-recherche/la-recherche/offre-de-formation/option-design/"
 to = "/les-projets/offre-de-formation/option-design/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiante/tutorat-inter-etudiantes/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiante/tutorat-inter-etudiantes/"
 to = "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
 
 [[redirects]]
-from = "/equipe/equipe-administrative/index.html"
+from = "/equipe/equipe-administrative/"
 to = "/personnes/equipe-administrative/"
 
 [[redirects]]
-from = "/personnes/karen-oechsner-de-cornink/index.html"
+from = "/personnes/karen-oechsner-de-cornink/"
 to = "/personnes/karen-oechsner-de-coninck/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-cursus-pedagogique/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-cursus-pedagogique/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-cursus-pedagogique/"
 
 [[redirects]]
-from = "/etudes-professionnalisation/la-vie-etudiantes/bourses-aides-cvec/index.html"
+from = "/etudes-professionnalisation/la-vie-etudiantes/bourses-aides-cvec/"
 to = "/etudes-professionnalisation/la-vie-etudiante/bourses-aides-cvec/"
 
 [[redirects]]
-from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/index.html"
+from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-administration-et-ressources-paratgees/service-exploitation-de-site-1/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/dennis-tredy/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/dennis-tredy/"
 to = "/personnes/dennis-tredy/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/marion-slitine/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/marion-slitine/"
 to = "/personnes/marion-slitine/"
 
 [[redirects]]
-from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/index.html"
+from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-programmation-recherche-et-editions/"
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-programmation-recherche-et-editions/"
 
