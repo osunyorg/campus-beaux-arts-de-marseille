@@ -83,6 +83,10 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/philippe-delahautemaiso
 to = "/personnes/philippe-delahautemaison/"
 
 [[redirects]]
+from = "/agenda/recherche/index.html"
+to = "/agenda/par-type-de-projet/recherche/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/arnaud-jusseaume/index.html"
 to = "/personnes/arnaud-jusseaume/"
 
@@ -93,6 +97,14 @@ to = "/personnes/marion-balac/"
 [[redirects]]
 from = "/reseaux-internationaux-recherche/la-recherche/archives/index.html"
 to = "/les-projets/archives/"
+
+[[redirects]]
+from = "/agenda/seminaire/index.html"
+to = "/agenda/par-type-d-evenement/seminaire/"
+
+[[redirects]]
+from = "/agenda/performance/index.html"
+to = "/agenda/par-type-d-evenement/performance/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/equipe-administrative/index.html"
@@ -119,8 +131,16 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/ludovica-matarozzo/inde
 to = "/personnes/ludovica-matarozzo/"
 
 [[redirects]]
+from = "/agenda/exposition-des-diplomees/index.html"
+to = "/agenda/par-type-d-evenement/exposition-des-diplomees/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/holly-manyak/index.html"
 to = "/personnes/holly-manyak/"
+
+[[redirects]]
+from = "/agenda/exposition/index.html"
+to = "/agenda/par-type-d-evenement/exposition/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/laurent-chirie/index.html"
@@ -147,6 +167,10 @@ from = "/lecole-ses-engagements/nous-connaitre/programme-pisourde/index.html"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/programme-pisourde/"
 
 [[redirects]]
+from = "/agenda/international/index.html"
+to = "/agenda/par-type-de-projet/international/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/anna-dezeuze/index.html"
 to = "/personnes/anna-dezeuze/"
 
@@ -157,6 +181,10 @@ to = "/personnes/aure-de-thieulloy/"
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/sites-satellites/index.html"
 to = "/lecole-ses-engagements/nos-ressources/sites-satellites/"
+
+[[redirects]]
+from = "/agenda/tangible-design-festival/index.html"
+to = "/agenda/par-type-de-projet/tangible-design-festival/"
 
 [[redirects]]
 from = "/projets/offre-de-formation/classe-preparatoire/index.html"
@@ -181,6 +209,10 @@ to = "/les-projets/2015-reseau-cinema-2015-2020/"
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/delphine-canton/index.html"
 to = "/personnes/delphine-canton/"
+
+[[redirects]]
+from = "/agenda/interprete-en-lsf/index.html"
+to = "/agenda/accessibilte/interprete-en-lsf/"
 
 [[redirects]]
 from = "/offre-de-formation/option-design-cycle-2-master/index.html"
@@ -217,6 +249,10 @@ to = "/les-projets/2023-programme-art-et-savoir-faire-en-mediterranee/"
 [[redirects]]
 from = "/personnes/linda-chevalier/index.html"
 to = "/personnes/linda-chevallier/"
+
+[[redirects]]
+from = "/agenda/soiree-speciale/index.html"
+to = "/agenda/par-type-d-evenement/soiree-speciale/"
 
 [[redirects]]
 from = "/equipe/equipe-editoriale/index.html"
@@ -371,6 +407,10 @@ from = "/projets/2017-hors-peindre-reseau-peinture-2017/index.html"
 to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
 
 [[redirects]]
+from = "/agenda/sortie-de-residence/index.html"
+to = "/agenda/par-type-d-evenement/sortie-de-residence/"
+
+[[redirects]]
 from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/responsable-2/index.html"
 to = "/personnes/categories/agentes-administratifs-ba/pole-administration-et-ressources-paratgees/service-exploitation-de-site-1/responsable-2/"
 
@@ -387,6 +427,10 @@ from = "/equipe/equipe-de-recherche/index.html"
 to = "/personnes/equipe-de-recherche/"
 
 [[redirects]]
+from = "/agenda/miramar/index.html"
+to = "/agenda/par-type-de-projet/miramar/"
+
+[[redirects]]
 from = "/projets/relations-internationales/workshops-internationaux/index.html"
 to = "/les-projets/relations-internationales/workshops-internationaux/"
 
@@ -397,6 +441,10 @@ to = "/ecoles/beaux-arts-de-marseille/"
 [[redirects]]
 from = "/projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/index.html"
 to = "/les-projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
+
+[[redirects]]
+from = "/agenda/rencontre/index.html"
+to = "/agenda/par-type-d-evenement/rencontre/"
 
 [[redirects]]
 from = "/actualites/index.html"
@@ -579,6 +627,10 @@ from = "/personnes/categories/agentes-administratifs-ba/service-strategie-intern
 to = "/personnes/categories/agentes-administratifs-ba/pole-projet/service-strategie-internationale/responsable/"
 
 [[redirects]]
+from = "/agenda/lecture/index.html"
+to = "/agenda/par-type-d-evenement/lecture/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/linda-chevalier/index.html"
 to = "/personnes/linda-chevallier/"
 
@@ -616,7 +668,7 @@ to = "/personnes/"
 
 [[redirects]]
 from = "/agenda/rencontres/index.html"
-to = "/agenda/rencontre/"
+to = "/agenda/par-type-d-evenement/rencontre/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/agentes-administratifs-ba/service-communication/index.html"
@@ -695,8 +747,16 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/jean-baptiste-sauvage/i
 to = "/personnes/jean-baptiste-sauvage/"
 
 [[redirects]]
+from = "/agenda/pisourde/index.html"
+to = "/agenda/par-type-de-projet/pisourde/"
+
+[[redirects]]
 from = "/espace-pisourde/les-dispositifs-specifiques/index.html"
 to = "/lecole-ses-engagements/nous-connaitre/pisourde/les-dispositifs-specifiques/"
+
+[[redirects]]
+from = "/agenda/concerts/index.html"
+to = "/agenda/par-type-d-evenement/concerts/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/paul-alban-valmary/index.html"
@@ -705,6 +765,10 @@ to = "/personnes/paul-alban-valmary/"
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/sylvain-deleneuville/index.html"
 to = "/personnes/sylvain-deleneuville/"
+
+[[redirects]]
+from = "/agenda/conference/index.html"
+to = "/agenda/par-type-d-evenement/conference/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeurs-ba/assistante-denseignement/index.html"
@@ -779,6 +843,10 @@ from = "/etudes-professionnalisation/la-vie-etudiantes/vie-associative/index.htm
 to = "/etudes-professionnalisation/la-vie-etudiante/vie-associative/"
 
 [[redirects]]
+from = "/agenda/projection/index.html"
+to = "/agenda/par-type-d-evenement/projection/"
+
+[[redirects]]
 from = "/etudes-professionnalisation/la-vie-etudiante/tutorartdesign-inter-etudiantes/index.html"
 to = "/etudes-professionnalisation/la-vie-etudiante/tutorart-design-inter-etudiantes/"
 
@@ -805,6 +873,10 @@ to = "/les-projets/offre-de-formation/option-design/"
 [[redirects]]
 from = "/agenda/2025/le-grand-boucan--conservatoire-pierre-barbizet-inseamm-osuny-site/index.html"
 to = "/agenda/2025/le-grand-boucan--www-conservatoiredemarseille-fr/"
+
+[[redirects]]
+from = "/agenda/table-ronde/index.html"
+to = "/agenda/par-type-d-evenement/table-ronde/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/cy-lecerf-maulpoix/index.html"
@@ -843,6 +915,10 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/cecile-braneyre/index.h
 to = "/personnes/cecile-braneyre/"
 
 [[redirects]]
+from = "/agenda/20-ans-pisourde/index.html"
+to = "/agenda/par-type-de-projet/20-ans-pisourde/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/maxime-guitton/index.html"
 to = "/personnes/maxime-guitton/"
 
@@ -865,6 +941,10 @@ to = "/personnes/audrey-ziane/"
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/christophe-perrez/index.html"
 to = "/personnes/christophe-perrez/"
+
+[[redirects]]
+from = "/agenda/les-clochers-de-tourmente/index.html"
+to = "/agenda/par-type-de-projet/les-clochers-de-tourmente/"
 
 [[redirects]]
 from = "/personnes/sylvie-ory/index.html"
@@ -935,6 +1015,10 @@ from = "/projets/2022-reseau-hors-peindre/index.html"
 to = "/les-projets/2022-reseau-hors-peindre/"
 
 [[redirects]]
+from = "/agenda/prix/index.html"
+to = "/agenda/par-type-de-projet/prix/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/julie-durand/magazine/index.html"
 to = "/personnes/julie-durand/magazine/"
 
@@ -981,6 +1065,10 @@ to = "/personnes/nicolas-feodoroff/"
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/emile-mold/index.html"
 to = "/personnes/emile-mold/"
+
+[[redirects]]
+from = "/agenda/jpo/index.html"
+to = "/agenda/par-type-de-projet/jpo/"
 
 [[redirects]]
 from = "/reseaux-internationaux-recherche/la-recherche/2017-hors-peindre-reseau-peinture-2017/index.html"
