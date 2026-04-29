@@ -1039,6 +1039,10 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/sabine-lacombe/index.ht
 to = "/personnes/sabine-lacombe/"
 
 [[redirects]]
+from = "/magazine/2026-04-29-campus-art-mditerranee-et-les-beaux-arts-de-marseille-sassocient-au-communique-de-landea/index.html"
+to = "/magazine/2026-04-29-campus-art-mediterranee-et-les-beaux-arts-de-marseille-s-associent-au-communique-de-l-andea/"
+
+[[redirects]]
 from = "/equipe/philippe-delahautemaison/index.html"
 to = "/personnes/philippe-delahautemaison/"
 
