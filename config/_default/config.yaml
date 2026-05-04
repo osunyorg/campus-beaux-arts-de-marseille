@@ -46,6 +46,8 @@ params:
     single:
       taxonomies:
         position: hero
+      options:
+        reading_time: false
   projects:
     index:
       layout: list
