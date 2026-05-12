@@ -28,15 +28,15 @@ items:
   descendants_targets: []
   path: "/pages/documents-utiles"
   file: content/fr/pages/documents-utiles/_index.html
-- title: 'Charte graphique '
-  slug: charte-graphique
-  target: "/charte-graphique-des-beaux-arts-de-marseille/"
+- title: Taxe d'apprentissage
+  slug: taxe-d-apprentissage
+  target: "/taxe-dapprentissage/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/charte-graphique-des-beaux-arts-de-marseille"
-  file: content/fr/pages/charte-graphique-des-beaux-arts-de-marseille/_index.html
+  path: "/pages/taxe-dapprentissage"
+  file: content/fr/pages/taxe-dapprentissage/_index.html
 - title: Délibérations des C.A.
   slug: deliberations-des-c-a
   target: https://inseamm-actes.digitechcloud.fr/webdelibplus/jsp/seances.jsp?role=usager
