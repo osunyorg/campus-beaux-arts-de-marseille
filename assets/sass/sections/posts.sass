@@ -12,6 +12,13 @@
 .posts__page
     .hero
         .taxonomies-single
+            @include list-reset
+            margin-top: var(--grid-gutter)
+            ul
+                @include list-reset
+                display: flex
+                gap: space(2)
+                flex-wrap: wrap
             .taxonomy-title
                 @extend .sr-only
             .taxonomy-children a

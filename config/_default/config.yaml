@@ -44,10 +44,9 @@ params:
         show_name: false
         layout: inline
     single:
-      taxonomies:
-        position: hero
-      options:
-        reading_time: false
+      meta:
+        options:
+          taxonomies: false # taxonomies are inside post/single/hero override
   projects:
     index:
       layout: list
