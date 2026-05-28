@@ -59,7 +59,6 @@ image:
 
 children:
   - "pages/lecole-ses-engagements/_index.html"
-  - "schools/_index.html"
   - "pages/etudes-professionnalisation/_index.html"
   - "pages/reseaux-internationaux-recherche/_index.html"
   - "pages/admissions/_index.html"
@@ -70,6 +69,7 @@ children:
   - "projects/_index.html"
   - "pages/faq/_index.html"
   - "persons/_index.html"
+  - "schools/_index.html"
   - "posts/_index.html"
   - "events/_index.html"
   - "organizations/_index.html"
@@ -82,10 +82,6 @@ child_pages:
     path: "/pages/lecole-ses-engagements"
     slug: "lecole-ses-engagements"
     file: "content/fr/pages/lecole-ses-engagements/_index.html"
-  - permalink: "/ecoles/"
-    path: "/schools"
-    slug: "ecoles"
-    file: "content/fr/schools/_index.html"
   - permalink: "/etudes-professionnalisation/"
     path: "/pages/etudes-professionnalisation"
     slug: "etudes-professionnalisation"
@@ -126,6 +122,10 @@ child_pages:
     path: "/persons"
     slug: "personnes"
     file: "content/fr/persons/_index.html"
+  - permalink: "/ecoles/"
+    path: "/schools"
+    slug: "ecoles"
+    file: "content/fr/schools/_index.html"
   - permalink: "/magazine/"
     path: "/posts"
     slug: "magazine"
@@ -251,40 +251,6 @@ contents:
 
 
   - kind: block
-    template: exhibitions
-
-
-    ranks:
-      base: 3
-      children: 3
-    top:
-      active: false
-
-    data:
-      mode: all
-      options:
-        categories: false
-        dates: true
-        image: true
-        subtitle: true
-        summary: true
-        status: false
-
-      layout: grid
-
-
-      title_link: "/expositions/"
-      exhibitions:
-        - permalink: "/expositions/2026-05-20-une-releve-mediterraneenne/"
-          path: "/exhibitions/2026-05-20-une-releve-mediterraneenne"
-          slug: "une-releve-mediterraneenne"
-          file: "content/fr/exhibitions/2026-05-20-une-releve-mediterraneenne.html"
-          name: >-
-            Une Relève Méditerranéenne
-
-      quantity: 1
-
-  - kind: block
     template: agenda
     title: >-
       Tous les événements
@@ -343,6 +309,40 @@ contents:
             Luminy Summercamp #5
 
       quantity: 3
+
+  - kind: block
+    template: exhibitions
+
+
+    ranks:
+      base: 3
+      children: 3
+    top:
+      active: false
+
+    data:
+      mode: all
+      options:
+        categories: false
+        dates: true
+        image: true
+        subtitle: true
+        summary: true
+        status: false
+
+      layout: grid
+
+
+      title_link: "/expositions/"
+      exhibitions:
+        - permalink: "/expositions/2026-05-20-une-releve-mediterraneenne/"
+          path: "/exhibitions/2026-05-20-une-releve-mediterraneenne"
+          slug: "une-releve-mediterraneenne"
+          file: "content/fr/exhibitions/2026-05-20-une-releve-mediterraneenne.html"
+          name: >-
+            Une Relève Méditerranéenne
+
+      quantity: 1
 
   - kind: block
     template: title
