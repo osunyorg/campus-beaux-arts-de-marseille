@@ -831,6 +831,10 @@ from = "/projets/offre-de-formation/option-design/option-design-cycle-2-master/i
 to = "/les-projets/offre-de-formation/option-design/option-design-cycle-2-master/"
 
 [[redirects]]
+from = "/agenda/saison-mediterranee-2026/index.html"
+to = "/agenda/par-type-de-projet/saison-mediterranee-2026/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/nina-leger/index.html"
 to = "/personnes/nina-leger/"
 
