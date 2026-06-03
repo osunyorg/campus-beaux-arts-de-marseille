@@ -807,6 +807,10 @@ from = "/la-recherche/offre-de-formation/annee-1/index.html"
 to = "/les-projets/offre-de-formation/annee-1/"
 
 [[redirects]]
+from = "/agenda/2025/cine-club-lsf-x-pisourde-deaf-president-now-1/index.html"
+to = "/agenda/2026/cine-club-lsf-x-pisourde-deaf-president-now-1/"
+
+[[redirects]]
 from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/index.html"
 to = "/personnes/categories/agentes-administratifs-ba/pole-direction-des-etudes/service-bibliotheque/"
 
