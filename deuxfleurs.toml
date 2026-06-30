@@ -159,6 +159,10 @@ from = "/projets/relations-internationales/residences-internationales-pour-les-d
 to = "/les-projets/relations-internationales/residences-internationales-pour-les-diplomees-1/"
 
 [[redirects]]
+from = "/personnes/peter-haddad-peter/index.html"
+to = "/personnes/peter-haddad/"
+
+[[redirects]]
 from = "/equipe/marion-slitine/index.html"
 to = "/personnes/marion-slitine/"
 
