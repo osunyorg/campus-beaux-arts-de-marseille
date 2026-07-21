@@ -415,6 +415,10 @@ from = "/agenda/sortie-de-residence/index.html"
 to = "/agenda/par-type-d-evenement/sortie-de-residence/"
 
 [[redirects]]
+from = "/organisations/compagnie-vol-planee/index.html"
+to = "/organisations/compagnie-vol-plane/"
+
+[[redirects]]
 from = "/personnes/categories/agentes-administratifs-ba/service-exploitation-de-site-1/responsable-2/index.html"
 to = "/personnes/categories/agentes-administratifs-ba/pole-administration-et-ressources-paratgees/service-exploitation-de-site-1/responsable-2/"
 
