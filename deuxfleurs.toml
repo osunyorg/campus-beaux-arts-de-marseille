@@ -251,6 +251,10 @@ from = "/projets/2023-programme-art-et-savoir-faire-en-mediterranee/index.html"
 to = "/les-projets/2023-programme-art-et-savoir-faire-en-mediterranee/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/feuille-de-salle-300126-web-1pdf/"
+
+[[redirects]]
 from = "/personnes/linda-chevalier/index.html"
 to = "/personnes/linda-chevallier/"
 
