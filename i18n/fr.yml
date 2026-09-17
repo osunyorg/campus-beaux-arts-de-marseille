@@ -16,7 +16,7 @@ events:
   archives:
     latest: Événements passés
   item:
-    federated: "Événement du <span>{{ . }}</span>"
+    federated: "Événement <span>{{ . }}</span>"
 exhibitions:
   item:
-    federated: "Événement du <span>{{ . }}</span>"
+    federated: "Événement <span>{{ . }}</span>"
