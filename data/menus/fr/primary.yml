@@ -85,6 +85,15 @@ items:
       descendants_targets: []
       path: "/pages/lecole-ses-engagements/nous-connaitre/partenaires"
       file: content/fr/pages/lecole-ses-engagements/nous-connaitre/partenaires/_index.html
+    - title: Le programme Pisourd·e
+      slug: le-programme-pisourd-e
+      target: "/lecole-ses-engagements/nous-connaitre/pisourde/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/lecole-ses-engagements/nous-connaitre/pisourde"
+      file: content/fr/pages/lecole-ses-engagements/nous-connaitre/pisourde/_index.html
     descendants_targets:
     - "/lecole-ses-engagements/nous-connaitre/campus-art-mediterranee/"
     - "/lecole-ses-engagements/nous-connaitre/engagements/"
@@ -93,6 +102,7 @@ items:
     - "/lecole-ses-engagements/nous-connaitre/gouvernance-de-letablissement/"
     - "/lecole-ses-engagements/nous-connaitre/histoire-patrimoine/"
     - "/lecole-ses-engagements/nous-connaitre/partenaires/"
+    - "/lecole-ses-engagements/nous-connaitre/pisourde/"
     - "/lecole-ses-engagements/nous-connaitre/presentation/"
     path: "/pages/lecole-ses-engagements/nous-connaitre"
     file: content/fr/pages/lecole-ses-engagements/nous-connaitre/_index.html
