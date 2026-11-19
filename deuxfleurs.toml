@@ -1003,6 +1003,10 @@ from = "/lecole-ses-engagements/nous-connaitre/personnes/elias-kurdy/index.html"
 to = "/personnes/elias-kurdy/"
 
 [[redirects]]
+from = "/page/larecherche/index.html"
+to = "/agenda/par-type-de-projet/recherche/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/stephanie-cherpin/index.html"
 to = "/personnes/stephanie-cherpin/"
 
