@@ -461,6 +461,15 @@ items:
       descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats"
       file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/_index.html
+    - title: Programmes et projets
+      slug: programmes-et-projets
+      target: "/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/reseaux-internationaux-recherche/la-recherche/programmes-et-projets"
+      file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/_index.html
     - title: Rencontres et publications
       slug: rencontres-et-publications
       target: "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
@@ -472,6 +481,7 @@ items:
       file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/_index.html
     descendants_targets:
     - "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
+    - "/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/"
     - "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
     - "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
     path: "/pages/reseaux-internationaux-recherche/la-recherche"
@@ -538,6 +548,7 @@ items:
   descendants_targets:
   - "/reseaux-internationaux-recherche/la-recherche/"
   - "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
+  - "/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/"
   - "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
   - "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
   - "/reseaux-internationaux-recherche/linternational/"
