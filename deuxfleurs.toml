@@ -227,6 +227,10 @@ from = "/etudes-professionnalisation/la-vie-etudiantes/se-loger-vivre-a-marseill
 to = "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
 
 [[redirects]]
+from = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/index.html"
+to = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
+
+[[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeures/professeures-ifamm/index.html"
 to = "/personnes/categories/professeures-ifamm/"
 
@@ -413,6 +417,10 @@ to = "/personnes/equipe-pedagogique/"
 [[redirects]]
 from = "/projets/2017-hors-peindre-reseau-peinture-2017/index.html"
 to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
+
+[[redirects]]
+from = "/reseaux-internationaux-recherche/la-recherche/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/index.html"
+to = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
 
 [[redirects]]
 from = "/agenda/sortie-de-residence/index.html"
