@@ -452,6 +452,15 @@ items:
       descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique"
       file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/_index.html
+    - title: Réseaux et partenariats
+      slug: reseaux-et-partenariats
+      target: "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats"
+      file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/_index.html
     - title: Rencontres et publications
       slug: rencontres-et-publications
       target: "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
@@ -464,6 +473,7 @@ items:
     descendants_targets:
     - "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
     - "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
+    - "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
     path: "/pages/reseaux-internationaux-recherche/la-recherche"
     file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/_index.html
   - title: Les relations internationales
@@ -529,6 +539,7 @@ items:
   - "/reseaux-internationaux-recherche/la-recherche/"
   - "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
   - "/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/"
+  - "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
   - "/reseaux-internationaux-recherche/linternational/"
   - "/reseaux-internationaux-recherche/linternational/charte-strategie-erasmus/"
   - "/reseaux-internationaux-recherche/linternational/ecoles-partenaires/"
