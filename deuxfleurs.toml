@@ -228,7 +228,7 @@ to = "/etudes-professionnalisation/la-vie-etudiante/se-loger-vivre-a-marseille/"
 
 [[redirects]]
 from = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/index.html"
-to = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
+to = "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/categories/professeures/professeures-ifamm/index.html"
@@ -420,7 +420,7 @@ to = "/les-projets/2017-hors-peindre-reseau-peinture-2017/"
 
 [[redirects]]
 from = "/reseaux-internationaux-recherche/la-recherche/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/index.html"
-to = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
+to = "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
 
 [[redirects]]
 from = "/agenda/sortie-de-residence/index.html"
@@ -505,6 +505,10 @@ to = "/les-projets/offre-de-formation/annee-1/"
 [[redirects]]
 from = "/agenda/2024/portes-ouvertes/index.html"
 to = "/agenda/2025/portes-ouvertes/"
+
+[[redirects]]
+from = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/index.html"
+to = "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/partenariats-universitaires/"
 
 [[redirects]]
 from = "/personnes/categories/agentes-administratifs-ba/service-bibliotheque/responsable-1/index.html"
@@ -661,6 +665,10 @@ to = "/les-projets/2022-reseau-miramar/"
 [[redirects]]
 from = "/reseaux-internationaux-recherche/la-recherche/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/index.html"
 to = "/les-projets/2022-lete-a-luminy-les-ueeh-aux-beaux-arts-de-marseille/"
+
+[[redirects]]
+from = "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/index.html"
+to = "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/partenariats-universitaires/programme-doctoral-binational-en-pratique-artistique-de-la-hochschule-fur-kunste-de-breme-avec-les-b/"
 
 [[redirects]]
 from = "/lecole-ses-engagements/nous-connaitre/personnes/lise-guehenneux/index.html"
