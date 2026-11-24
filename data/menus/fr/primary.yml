@@ -443,8 +443,8 @@ items:
     kind: page
     new_tab: false
     children:
-    - title: Programmes et projets
-      slug: programmes-et-projets
+    - title: Programmes et projets de recherche
+      slug: programmes-et-projets-de-recherche
       target: "/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/"
       kind: page
       new_tab: false
@@ -461,17 +461,8 @@ items:
       descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications"
       file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/rencontres-et-publications/_index.html
-    - title: Réseaux et partenariats
-      slug: reseaux-et-partenariats
-      target: "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
-      kind: page
-      new_tab: false
-      children: []
-      descendants_targets: []
-      path: "/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats"
-      file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/_index.html
-    - title: Doctorat et recherche par la pratique
-      slug: doctorat-et-recherche-par-la-pratique
+    - title: Doctorat par la pratique
+      slug: doctorat-par-la-pratique
       target: "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
       kind: page
       new_tab: false
@@ -479,6 +470,15 @@ items:
       descendants_targets: []
       path: "/pages/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique"
       file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/_index.html
+    - title: Partenariats de recherche
+      slug: partenariats-de-recherche
+      target: "/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/"
+      kind: page
+      new_tab: false
+      children: []
+      descendants_targets: []
+      path: "/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats"
+      file: content/fr/pages/reseaux-internationaux-recherche/la-recherche/reseaux-et-partenariats/_index.html
     descendants_targets:
     - "/reseaux-internationaux-recherche/la-recherche/doctorat-et-recherche-par-la-pratique/"
     - "/reseaux-internationaux-recherche/la-recherche/programmes-et-projets/"
